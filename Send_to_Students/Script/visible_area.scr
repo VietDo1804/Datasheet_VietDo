@@ -1,0 +1,19 @@
+# Allegro script
+#	file: E:/a_chuong/Project3/TEGOINC_Helios_test/Board/visible_area.scr
+#	start time: Thu Jul 31 09:25:58 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Areas 
+FORM cvf_main all_visible1 YES 
+FORM cvf_main all_visible2 YES 
+FORM cvf_main all_visible3 YES 
+FORM cvf_main all_visible4 YES 
+FORM cvf_main all_visible5 YES
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Thu Jul 31 09:26:19 2008

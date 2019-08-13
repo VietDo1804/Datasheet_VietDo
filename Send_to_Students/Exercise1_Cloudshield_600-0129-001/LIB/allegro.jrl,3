@@ -1,0 +1,615 @@
+\t (01:03:07) allegro 16.6 S020 (v16-6-112BH) Windows 32
+\t (01:03:07)     Journal start - Tue Nov 07 20:41:26 2017
+\t (01:03:07)         Host=TOANGUYEN87 User=01217616379 Pid=6740 CPUs=8
+\t (01:03:07) 
+\d (01:03:07) Database opened: E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/temp11122.brd
+\i (01:03:07) generaledit 
+\i (01:03:08) cmgr 
+\i (01:03:09) setwindow cmgr
+\i (01:03:09) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (01:03:09) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:03:09) setwindow pcb
+\i (01:03:09) generaledit 
+\i (01:03:19) setwindow cmgr
+\i (01:03:19) cm startUndoBlock 1
+\i (01:03:19) cm create "Physical CSet" ( Design "temp11122" ) "90OHM"
+\i (01:03:19) cm scope Design "temp11122"
+\i (01:03:19) cm copy "Physical CSet" ( Design "temp11122" ) ( "Physical CSet" "90OHM" ) ( "Physical CSet" "DEFAULT" )
+\i (01:03:20) cm endUndoBlock
+\i (01:03:32) cm startUndoBlock 1
+\i (01:03:32) cm create "Physical CSet" ( Design "temp11122" ) "50OHM"
+\i (01:03:32) cm copy "Physical CSet" ( Design "temp11122" ) ( "Physical CSet" "50OHM" ) ( "Physical CSet" "90OHM" )
+\i (01:03:32) cm endUndoBlock
+\i (01:03:38) cm startUndoBlock 1
+\i (01:03:38) cm create "Physical CSet" ( Design "temp11122" ) "PWR"
+\i (01:03:38) cm copy "Physical CSet" ( Design "temp11122" ) ( "Physical CSet" "PWR" ) ( "Physical CSet" "50OHM" )
+\i (01:03:38) cm endUndoBlock
+\i (01:03:42) cm putValue ( "Physical CSet" "PWR" ) MIN_LINE_WIDTH 12 7
+\i (01:03:42) cm endUndoBlock
+\i (01:03:45) cm putValue ( "Physical CSet" "PWR" ) MAX_LINE_WIDTH 30 7
+\i (01:03:45) cm endUndoBlock
+\i (01:07:43) setwindow pcb
+\i (01:07:43) diff pairs 
+\i (01:07:51) setwindow form.fpconsdiff
+\i (01:07:51) FORM fpconsdiff xnet1 A0 
+\i (01:07:54) fillin confirm
+\i (01:08:01) FORM fpconsdiff xnet1 fds 
+\i (01:08:04) fillin confirm
+\i (01:08:05) setwindow pcb
+\i (01:08:05) pick -2529.9 -3810.4
+\t (01:08:05) last pick:  -2529.9  -3810.4
+\i (01:08:05) zoom in 1 
+\i (01:08:05) setwindow pcb
+\i (01:08:05) zoom in -2485.1 -4763.7
+\i (01:08:05) trapsize 280
+\i (01:08:05) zoom in 1 
+\i (01:08:05) setwindow pcb
+\i (01:08:05) zoom in -2485.1 -4763.7
+\i (01:08:05) trapsize 140
+\i (01:08:06) zoom in 1 
+\i (01:08:06) setwindow pcb
+\i (01:08:06) zoom in -2353.3 -5013.2
+\i (01:08:06) trapsize 70
+\i (01:08:06) zoom in 1 
+\i (01:08:06) setwindow pcb
+\i (01:08:06) zoom in -2339.3 -5016.0
+\i (01:08:06) trapsize 35
+\i (01:08:07) roam start
+\i (01:08:07) roam x 112
+\i (01:08:07) roam y 64
+\i (01:08:07) roam x 48
+\i (01:08:07) roam y 48
+\i (01:08:07) roam x 32
+\i (01:08:07) roam y 48
+\i (01:08:07) roam x 32
+\i (01:08:07) roam y 48
+\i (01:08:07) roam x 16
+\i (01:08:07) roam y 32
+\i (01:08:07) roam end
+\i (01:08:07) zoom out 1 
+\i (01:08:07) setwindow pcb
+\i (01:08:07) zoom out -2202.0 -5189.7
+\i (01:08:07) trapsize 70
+\i (01:08:08) zoom in 1 
+\i (01:08:08) setwindow pcb
+\i (01:08:08) zoom in -2153.0 -5286.5
+\i (01:08:08) trapsize 35
+\i (01:08:09) pick -2192.9 -5248.7
+\t (01:08:09) last pick:  -2192.9  -5248.7
+\i (01:08:10) pick -2185.2 -5323.0
+\t (01:08:10) last pick:  -2185.2  -5323.0
+\i (01:08:12) setwindow form.fpconsdiff
+\i (01:08:12) FORM fpconsdiff add  
+\i (01:08:12) setwindow cmgr
+\i (01:08:12) cm expand ( row ( "Diff Pair" "DIFFPAIR0" ) )
+\i (01:08:36) setwindow form.fpconsdiff
+\i (01:08:36) FORM fpconsdiff cancel  
+\i (01:08:37) setwindow pcb
+\i (01:08:37) generaledit 
+\i (01:08:37) zoom out 1 
+\i (01:08:37) setwindow pcb
+\i (01:08:37) zoom out -2118.6 -5207.3
+\i (01:08:37) trapsize 70
+\i (01:08:37) zoom out 1 
+\i (01:08:37) setwindow pcb
+\i (01:08:37) zoom out -2134.1 -5172.2
+\i (01:08:37) trapsize 140
+\i (01:09:09) roam start
+\i (01:09:09) roam x 48
+\i (01:09:09) roam y 16
+\i (01:09:09) roam x 32
+\i (01:09:10) roam end
+\i (01:09:10) zoom out 1 
+\i (01:09:10) setwindow pcb
+\i (01:09:10) zoom out -2122.1 -4794.4
+\i (01:09:10) trapsize 280
+\i (01:11:06) setwindow cmgr
+\i (01:11:06) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:11:06) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:11:06) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:11:06) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (01:11:08) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (01:11:28) cm startUndoBlock 1
+\i (01:11:28) cm create "Spacing CSet" ( Design "temp11122" ) "6MIL"
+\i (01:11:28) cm copy "Spacing CSet" ( Design "temp11122" ) ( "Spacing CSet" "6MIL" ) ( "Spacing CSet" "DEFAULT" )
+\i (01:11:28) cm endUndoBlock
+\i (01:11:35) cm startUndoBlock 1
+\i (01:11:35) cm create "Spacing CSet" ( Design "temp11122" ) "15MIL"
+\i (01:11:35) cm copy "Spacing CSet" ( Design "temp11122" ) ( "Spacing CSet" "15MIL" ) ( "Spacing CSet" "6MIL" )
+\i (01:11:35) cm endUndoBlock
+\i (01:11:43) cm startUndoBlock 1
+\i (01:11:43) cm create "Spacing CSet" ( Design "temp11122" ) "20MIL"
+\i (01:11:43) cm copy "Spacing CSet" ( Design "temp11122" ) ( "Spacing CSet" "20MIL" ) ( "Spacing CSet" "15MIL" )
+\i (01:11:43) cm endUndoBlock
+\i (01:11:52) cm startUndoBlock 1
+\i (01:11:52) cm create "Spacing CSet" ( Design "temp11122" ) "25MIL"
+\i (01:11:52) cm copy "Spacing CSet" ( Design "temp11122" ) ( "Spacing CSet" "25MIL" ) ( "Spacing CSet" "20MIL" )
+\i (01:11:52) cm endUndoBlock
+\i (01:11:59) cm startUndoBlock 1
+\i (01:11:59) cm create "Spacing CSet" ( Design "temp11122" ) "30MIL"
+\i (01:11:59) cm copy "Spacing CSet" ( Design "temp11122" ) ( "Spacing CSet" "30MIL" ) ( "Spacing CSet" "25MIL" )
+\i (01:11:59) cm endUndoBlock
+\i (01:13:17) cm putValue ( "Spacing CSet" "6MIL" ) LINE_TO_LINE_SPACING 6 7
+\i (01:13:17) cm endUndoBlock
+\i (01:13:25) cm putValue ( "Spacing CSet" "15MIL" ) LINE_TO_LINE_SPACING 15 7
+\i (01:13:25) cm endUndoBlock
+\i (01:13:27) cm putValue ( "Spacing CSet" "20MIL" ) LINE_TO_LINE_SPACING 20 7
+\i (01:13:27) cm endUndoBlock
+\i (01:13:29) cm putValue ( "Spacing CSet" "25MIL" ) LINE_TO_LINE_SPACING 25 7
+\i (01:13:29) cm endUndoBlock
+\i (01:13:33) cm select tab 84:Shape
+\i (01:13:33) cm putValue ( "Spacing CSet" "30MIL" ) LINE_TO_LINE_SPACING 30 7
+\i (01:13:33) cm endUndoBlock
+\i (01:13:39) cm putValue ( "Spacing CSet" "6MIL" ) LINE_TO_SHAPE_SPACING 6 7
+\i (01:13:39) cm endUndoBlock
+\i (01:13:44) cm putValue ( "Spacing CSet" "15MIL" ) LINE_TO_SHAPE_SPACING 15 7
+\i (01:13:44) cm endUndoBlock
+\i (01:13:48) cm putValue ( "Spacing CSet" "20MIL" ) LINE_TO_SHAPE_SPACING 20 7
+\i (01:13:48) cm endUndoBlock
+\i (01:13:51) cm putValue ( "Spacing CSet" "25MIL" ) LINE_TO_SHAPE_SPACING 25 7
+\i (01:13:51) cm endUndoBlock
+\i (01:13:55) cm putValue ( "Spacing CSet" "30MIL" ) LINE_TO_SHAPE_SPACING 30 7
+\i (01:13:55) cm endUndoBlock
+\i (01:14:16) cm select tab 81:Line
+\i (01:14:16) cm select tab 84:Shape
+\i (01:14:17) cm select tab 81:Line
+\i (01:14:22) cm select tab 84:Shape
+\i (01:14:44) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:14:48) cm select ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (01:15:46) cm select tab "100:Bond Finger"
+\i (01:16:00) setwindow pcb
+\i (01:16:00) zoom out 1 
+\i (01:16:00) setwindow pcb
+\i (01:16:00) zoom out -1774.3 -5562.6
+\i (01:16:00) trapsize 561
+\i (01:16:00) zoom out 1 
+\i (01:16:00) setwindow pcb
+\i (01:16:00) zoom out -1774.3 -5562.7
+\i (01:16:00) trapsize 1122
+\i (01:16:01) zoom in 1 
+\i (01:16:01) setwindow pcb
+\i (01:16:01) zoom in -1707.1 -6123.4
+\i (01:16:01) trapsize 561
+\i (01:16:01) zoom in 1 
+\i (01:16:01) setwindow pcb
+\i (01:16:01) zoom in -1707.1 -6123.4
+\i (01:16:01) trapsize 280
+\i (01:16:04) roam start
+\i (01:16:04) roam x 16
+\i (01:16:04) roam y -48
+\i (01:16:04) roam y -32
+\i (01:16:04) roam end
+\i (01:16:05) roam start
+\i (01:16:05) roam y 48
+\i (01:16:05) roam y 16
+\i (01:16:05) roam y 48
+\i (01:16:05) roam end
+\i (01:16:39) setwindow cmgr
+\i (01:16:39) cm newView ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (01:16:44) cm select ( frame ( workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (01:16:59) cm startUndoBlock 1
+\i (01:16:59) cm create "Net Class" ( Design "temp11122" ) "GND_SPACING"
+\i (01:16:59) cm startUndoBlock 0
+\i (01:16:59) cm clearFlags "Net Class" ( Design "temp11122" ) "GND_SPACING" 540160
+\i (01:16:59) cm startUndoBlock 0
+\i (01:16:59) cm setFlags "Net Class" ( Design "temp11122" ) "GND_SPACING" 528384
+\i (01:16:59) cm startTransaction ( Design "temp11122" ) ( "Net Class" "GND_SPACING" ) TS_PERF
+\i (01:16:59) cm add ( Net "GND" ) to ( "Net Class" "GND_SPACING" )
+\i (01:16:59) cm commitTransaction ( Design "temp11122" ) ( "Net Class" "GND_SPACING" ) TS_PERF
+\i (01:16:59) cm endUndoBlock
+\i (01:17:43) cm startUndoBlock 1
+\i (01:17:43) cm create "Net Class" ( Design "temp11122" ) "SENSITIVE"
+\i (01:17:43) cm startUndoBlock 0
+\i (01:17:43) cm clearFlags "Net Class" ( Design "temp11122" ) "SENSITIVE" 540160
+\i (01:17:43) cm startUndoBlock 0
+\i (01:17:43) cm setFlags "Net Class" ( Design "temp11122" ) "SENSITIVE" 536576
+\i (01:17:43) cm startTransaction ( Design "temp11122" ) ( "Net Class" "SENSITIVE" ) TS_PERF
+\i (01:17:43) cm add ( Net "XTAL1" ) to ( "Net Class" "SENSITIVE" )
+\i (01:17:43) cm add ( Net "XTAL2" ) to ( "Net Class" "SENSITIVE" )
+\i (01:17:43) cm add ( Net "XTAL2_R" ) to ( "Net Class" "SENSITIVE" )
+\i (01:17:43) cm commitTransaction ( Design "temp11122" ) ( "Net Class" "SENSITIVE" ) TS_PERF
+\i (01:17:43) cm endUndoBlock
+\i (01:17:45) cm collapse ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:17:46) cm collapse ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:17:47) cm expand ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:17:47) cm expand ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:17:47) cm startTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:47) cm commitTransaction ( System "System" ) ( System "System" ) TS_XPROBE
+\i (01:17:48) setwindow pcb
+\i (01:17:48) trapsize 201
+\i (01:17:48) trapsize 201
+\i (01:18:25) setwindow cmgr
+\i (01:18:25) cm startUndoBlock 1
+\i (01:18:25) cm create "Net Class" ( Design "temp11122" ) "90OHM"
+\i (01:18:25) cm startUndoBlock 0
+\i (01:18:25) cm clearFlags "Net Class" ( Design "temp11122" ) "90OHM" 540160
+\i (01:18:25) cm startUndoBlock 0
+\i (01:18:25) cm setFlags "Net Class" ( Design "temp11122" ) "90OHM" 536576
+\i (01:18:25) cm startTransaction ( Design "temp11122" ) ( "Net Class" "90OHM" ) TS_PERF
+\i (01:18:25) cm add ( Net "USB_D1_N" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_D1_P" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_D3_N" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_D3_P" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_D4_N" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_D4_P" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_UP_N" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm add ( Net "USB_UP_P" ) to ( "Net Class" "90OHM" )
+\i (01:18:25) cm commitTransaction ( Design "temp11122" ) ( "Net Class" "90OHM" ) TS_PERF
+\i (01:18:25) cm endUndoBlock
+\i (01:18:27) cm collapse ( row ( "Net Class" "90OHM" ) )
+\i (01:18:28) cm collapse ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:18:44) cm select ( frame ( workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (01:18:47) cm expand ( row ( Design "temp11122" ) )
+\i (01:19:03) cm startUndoBlock 1
+\i (01:19:03) cm expand ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:19:03) cm expand ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:19:03) cm create ClassClass ( Design "temp11122" ) "N:GND_SPACING:N:SENSITIVE" "Net Class" "GND_SPACING" "Net Class" "SENSITIVE"
+\i (01:19:03) cm expand ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:19:03) cm expand ( row ( "Net Class" "SENSITIVE" ) )
+\i (01:19:03) cm endUndoBlock
+\i (01:19:08) cm startTransaction ( Design "temp11122" ) ( ClassClass "N:GND_SPACING:N:SENSITIVE" ) TS_DEFER
+\i (01:19:08) cm add ( ClassClass "N:GND_SPACING:N:SENSITIVE" ) to ( "Spacing CSet" "15MIL" )
+\i (01:19:08) cm commitTransaction ( Design "temp11122" ) ( ClassClass "N:GND_SPACING:N:SENSITIVE" ) TS_DEFER
+\i (01:19:08) cm endUndoBlock
+\i (01:19:25) cm startUndoBlock 1
+\i (01:19:25) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:19:25) cm create ClassClass ( Design "temp11122" ) "N:90OHM:N:GND_SPACING" "Net Class" "90OHM" "Net Class" "GND_SPACING"
+\i (01:19:25) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:19:25) cm expand ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:19:25) cm endUndoBlock
+\i (01:19:26) cm startUndoBlock 1
+\i (01:19:26) cm create ClassClass ( Design "temp11122" ) "N:90OHM:N:GND_SPACING" "Net Class" "90OHM" "Net Class" "GND_SPACING"
+\i (01:19:26) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:19:26) cm expand ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:19:26) cm endUndoBlock
+\i (01:19:29) cm startTransaction ( Design "temp11122" ) ( ClassClass "N:90OHM:N:GND_SPACING" ) TS_DEFER
+\i (01:19:29) cm add ( ClassClass "N:90OHM:N:GND_SPACING" ) to ( "Spacing CSet" "20MIL" )
+\i (01:19:29) cm commitTransaction ( Design "temp11122" ) ( ClassClass "N:90OHM:N:GND_SPACING" ) TS_DEFER
+\i (01:19:29) cm endUndoBlock
+\i (01:19:42) setwindow pcb
+\i (01:19:42) roam start
+\i (01:19:42) roam x -16
+\i (01:19:42) roam y 64
+\i (01:19:43) roam x -64
+\i (01:19:43) roam y 144
+\i (01:19:43) roam x -16
+\i (01:19:43) roam end
+\i (01:19:43) roam start
+\i (01:19:43) roam x -16
+\i (01:19:43) roam y 64
+\i (01:19:43) roam x -16
+\i (01:19:43) roam y 160
+\i (01:19:43) roam x -16
+\i (01:19:43) roam y 80
+\i (01:19:43) roam y 16
+\i (01:19:43) roam end
+\i (01:19:45) shape add rect 
+\i (01:19:50) setwindow form.mini
+\i (01:19:50) FORM mini class ETCH 
+\i (01:19:52) FORM mini subclass TOP 
+\i (01:19:55) setwindow pcb
+\i (01:19:55) pick grid -2099.1 -5645.0
+\t (01:19:55) last pick:  -2100.0  -5650.0
+\i (01:19:57) pick grid -1709.6 -6187.1
+\t (01:19:57) last pick:  -1700.0  -6175.0
+\i (01:19:59) replay change_net 
+\i (01:19:59) version 16.3 
+\t (01:19:59) Script version: 16.3
+\i (01:19:59) setwindow pcb 
+\i (01:19:59) trapsize 39120 
+\i (01:19:59) placementedit 
+\i (01:20:00) netassign 
+\i (01:20:00) pick -1918.4 -6006.4
+\t (01:20:00) last pick:  -1918.4  -6006.4
+   (01:20:00) 1 objects selected
+\i (01:20:01) roam start
+\i (01:20:01) roam y -64
+\i (01:20:01) roam x -16
+\i (01:20:01) roam y -80
+\i (01:20:01) roam y -16
+\i (01:20:01) roam y -16
+\i (01:20:01) roam end
+\i (01:20:01) roam start
+\i (01:20:01) roam x 32
+\i (01:20:01) roam y -32
+\i (01:20:01) roam x 64
+\i (01:20:01) roam y -96
+\i (01:20:01) roam x 32
+\i (01:20:01) roam y -64
+\i (01:20:01) roam x 16
+\i (01:20:01) roam end
+\i (01:20:02) pick -1552.9 -3894.0
+\t (01:20:02) last pick:  -1552.9  -3894.0
+\t (01:20:02) New net "XTAL2_R"
+\i (01:20:04) prepopup -1464.6 -3970.3
+\i (01:20:04) pop Done 
+\i (01:20:04) trapsize 201
+\i (01:20:05) roam start
+\i (01:20:05) roam x 16
+\i (01:20:05) roam y -64
+\i (01:20:05) roam x 16
+\i (01:20:05) roam y -64
+\i (01:20:05) roam end
+\i (01:20:07) roam start
+\i (01:20:07) roam y 80
+\i (01:20:07) roam x -32
+\i (01:20:07) roam y 176
+\i (01:20:07) roam y 80
+\i (01:20:07) roam x -16
+\i (01:20:07) roam y 48
+\i (01:20:07) roam x -16
+\i (01:20:07) roam y 16
+\i (01:20:07) roam x -16
+\i (01:20:07) roam y 32
+\i (01:20:07) roam end
+\i (01:20:08) zoom in 1 
+\i (01:20:08) setwindow pcb
+\i (01:20:08) zoom in -1697.5 -5323.7
+\i (01:20:08) trapsize 100
+\i (01:20:10) add connect 
+\t (01:20:10) Pick first element.
+\i (01:20:10) pick grid -1801.9 -5337.7
+\t (01:20:10) last pick:  -1800.0  -5350.0
+\t (01:20:10) last pick:  -1795.8  -5328.0
+\i (01:20:10) setwindow cmgr
+\i (01:20:10) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:10) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:10) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:20:10) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:10) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:10) cm expand ( row ( "Net Class" "90OHM" ) )
+\t (01:20:10) Target Symbol Pin is defined on TOP.
+\t (01:20:10) last pick:  -1795.8  -5328.0
+\i (01:20:11) setwindow pcb
+\i (01:20:11) add connect 
+\t (01:20:12) Pick first element.
+\i (01:20:12) drag_start grid -1832.0 -5225.3
+\i (01:20:12) drag_stop -1773.8 -5327.7
+\i (01:20:12) setwindow cmgr
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( "Net Class" "90OHM" ) )
+\t (01:20:12) Target Symbol Pin is defined on TOP.
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( "Net Class" "90OHM" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( Design "temp11122" ) )
+\i (01:20:12) cm expand ( row ( "Net Class" "90OHM" ) )
+\t (01:20:12) Target Symbol Pin is defined on TOP.
+\t (01:20:12) last pick:  -1795.8  -5328.0
+\i (01:20:13) setwindow pcb
+\i (01:20:13) pick grid -1962.5 -5371.9
+\t (01:20:13) last pick:  -1950.0  -5375.0
+\t (01:20:13) No DRC errors detected.
+\i (01:20:14) pick grid -1906.3 -5586.7
+\t (01:20:14) last pick:  -1900.0  -5575.0
+\t (01:20:14) No DRC errors detected.
+\i (01:20:15) pick grid -1908.3 -5789.5
+\t (01:20:15) last pick:  -1900.0  -5800.0
+\t (01:20:15) No DRC errors detected.
+\i (01:20:15) zoom in 1 
+\i (01:20:15) setwindow pcb
+\i (01:20:15) zoom in -1914.3 -5755.4
+\i (01:20:15) trapsize 50
+\i (01:20:16) zoom in 1 
+\i (01:20:16) setwindow pcb
+\i (01:20:16) zoom in -1914.3 -5755.4
+\i (01:20:16) trapsize 25
+\i (01:20:23) zoom out 1 
+\i (01:20:23) setwindow pcb
+\i (01:20:23) zoom out -1894.7 -5737.8
+\i (01:20:23) trapsize 50
+\i (01:23:38) mouse_pos -1817.3 -5329.2
+\i (01:23:38) mouse_pos -1820.3 -5311.1
+\i (01:23:43) dbdoctor 
+\i (01:23:50) setwindow form.dbdoctor_allegro
+\i (01:23:50) FORM dbdoctor_allegro close  
+\i (01:23:50) setwindow pcb
+\i (01:23:50) generaledit 
+\i (01:23:51) prepopup -1985.0 -5280.0
+\i (01:23:52) pick grid -2031.2 -5259.9
+\t (01:23:52) last pick:  -2025.0  -5250.0
+\i (01:23:53) about 
+\w (01:26:31) Save Pending
+\i (01:27:20) zoom out 1 
+\i (01:27:20) setwindow pcb
+\i (01:27:20) zoom out -1904.7 -5735.8
+\i (01:27:20) trapsize 100
+\i (01:27:20) zoom out 1 
+\i (01:27:20) setwindow pcb
+\i (01:27:20) zoom out -1902.6 -5727.8
+\i (01:27:20) trapsize 201
+\i (01:27:20) zoom out 1 
+\i (01:27:20) setwindow pcb
+\i (01:27:20) zoom out -1842.3 -5695.7
+\i (01:27:20) trapsize 402
+\i (01:27:20) zoom out 1 
+\i (01:27:20) setwindow pcb
+\i (01:27:20) zoom out -1842.2 -5695.7
+\i (01:27:20) trapsize 803
+\i (01:27:21) zoom out 1 
+\i (01:27:21) setwindow pcb
+\i (01:27:21) zoom out -1231.8 -5261.8
+\i (01:27:21) trapsize 1607
+\i (01:27:21) zoom in 1 
+\i (01:27:21) setwindow pcb
+\i (01:27:21) zoom in -2420.6 -3237.3
+\i (01:27:21) trapsize 803
+\i (01:27:21) zoom in 1 
+\i (01:27:21) setwindow pcb
+\i (01:27:21) zoom in -2404.6 -3205.1
+\i (01:27:21) trapsize 402
+\i (01:27:21) zoom in 1 
+\i (01:27:21) setwindow pcb
+\i (01:27:21) zoom in -2019.0 -3076.5
+\i (01:27:21) trapsize 201
+\i (01:27:21) zoom in 1 
+\i (01:27:21) setwindow pcb
+\i (01:27:21) zoom in -1998.9 -3040.3
+\i (01:27:21) trapsize 100
+\i (01:28:02) zoom out 1 
+\i (01:28:02) setwindow pcb
+\i (01:28:02) zoom out -2241.9 -3202.9
+\i (01:28:02) trapsize 201
+\i (01:28:02) zoom out 1 
+\i (01:28:02) setwindow pcb
+\i (01:28:02) zoom out -2241.9 -3182.9
+\i (01:28:02) trapsize 402
+\i (01:28:03) zoom in 1 
+\i (01:28:03) setwindow pcb
+\i (01:28:03) zoom in -2185.6 -3134.7
+\i (01:28:03) trapsize 201
+\i (01:28:05) move 
+\t (01:28:05) Select element(s) to move.
+\i (01:28:10) list symbol t 
+\i (01:28:12) fillin confirm
+\i (01:28:16) list symbol toa 
+\i (01:28:17) fillin confirm
+\i (01:28:21) save_as 
+\i (01:28:26) fillin "E:\Document\Allegro_trainning\Exercise1_Cloudshield_600-0129-001\temp11122.brd"
+\i (01:28:26) cd "E:\Document\Allegro_trainning\Exercise1_Cloudshield_600-0129-001"
+\i (01:28:26) generaledit 
+\i (01:28:27) pick grid -1522.8 -3536.4
+\t (01:28:27) last pick:  -1525.0  -3525.0
+\i (01:28:28) move 
+\t (01:28:28) Select element(s) to move.
+\i (01:28:30) list symbol t 
+\i (01:28:31) fillin confirm
+\i (01:28:34) list symbol toa 
+\i (01:28:36) fillin confirm
+\i (01:29:07) setwindow form.find
+\i (01:29:07) FORM find name_type Symbol (or Pin) 
+\i (01:29:09) FORM find find_list List 
+\i (01:29:09) FORM find find_by_name  
+\i (01:29:17) fillin "E:\Document\Allegro_trainning\123.lst"
+\i (01:29:17) setwindow pcb
+\i (01:29:17) trapsize 201
+\i (01:29:19) pick grid -2237.1 -3206.5
+\t (01:29:19) last pick:  -2225.0  -3200.0
+\t (01:29:19) Moving C29 / C_100UF_1210_6V3_20P_1500-1194_ / 1210C.
+\t (01:29:19) Moving U4 / IC_TPS74801_SON10_3X3_ADJ_REG_T / TI_SON_10.
+\t (01:29:19) Moving C31 / C_10UF_0603_6V3_20P_1500-1141_0 / 0603C.
+\t (01:29:19) Moving C30 / C_10UF_0603_6V3_20P_1500-1141_0 / 0603C.
+\t (01:29:19) Moving R23 / R_10K_0402_1P_1000-1234_0402R_1 / 0402R.
+\t (01:29:19) Moving R22 / R_1K15_0402_1P_1000-1345_0402R_ / 0402R.
+\t (01:29:19) Moving C32 / C_0402_16V_20P_X7R_1N0F_0402C_D / 0402C.
+\t (01:29:19) Moving C28 / C_1UF_0402_6V3_10P_1500-1146_04 / 0402C.
+\t (01:29:19) Moving R21 / R_3K57_0402_1P_1000-1344_0402R_ / 0402R.
+\t (01:29:19) Pick new location for the element(s).
+\i (01:29:20) zoom out 1 
+\i (01:29:20) setwindow pcb
+\i (01:29:20) zoom out -2000.1 -3198.4
+\i (01:29:20) trapsize 402
+\i (01:29:24) setwindow form.find
+\i (01:29:24) FORM find name_type Symbol (or Pin) 
+\i (01:29:27) FORM find find_by_name  
+\i (01:29:29) fillin "E:\Document\Allegro_trainning\toa.lst"
+\i (01:29:31) setwindow pcb
+\i (01:29:31) roam start
+\i (01:29:31) roam x 48
+\i (01:29:31) roam y 16
+\i (01:29:31) roam x 64
+\i (01:29:31) roam x 48
+\i (01:29:31) roam x 144
+\i (01:29:31) roam end
+\i (01:29:31) zoom out 1 
+\i (01:29:31) setwindow pcb
+\i (01:29:31) zoom out 1826.2 -2912.0
+\i (01:29:31) trapsize 803
+\i (01:29:31) zoom out 1 
+\i (01:29:31) setwindow pcb
+\i (01:29:31) zoom out 1713.7 -2831.7
+\i (01:29:31) trapsize 1606
+\i (01:29:32) zoom in 1 
+\i (01:29:32) setwindow pcb
+\i (01:29:32) zoom in 396.3 -1867.9
+\i (01:29:32) trapsize 803
+\i (01:29:33) pick grid 348.1 -2173.1
+\t (01:29:33) last pick:  350.0  -2175.0
+\i (01:29:33) setwindow cmgr
+\i (01:29:33) cm expand ( row ( Design "temp11122" ) )
+\i (01:29:33) cm expand ( row ( Design "temp11122" ) )
+\i (01:29:33) cm expand ( row ( Design "temp11122" ) )
+\i (01:29:33) cm expand ( row ( "Net Class" "GND_SPACING" ) )
+\i (01:29:33) setwindow pcb
+\i (01:29:33) zoom in 1 
+\i (01:29:33) setwindow pcb
+\i (01:29:33) zoom in 749.7 -2687.2
+\i (01:29:33) trapsize 402
+\i (01:29:34) pick grid 291.9 -3514.4
+\t (01:29:34) last pick:  300.0  -3525.0
+\t (01:29:34) last pick:  236.1  -3620.1
+\t (01:29:34) Moving U4 / IC_TPS74801_SON10_3X3_ADJ_REG_T / TI_SON_10.
+\t (01:29:34) Pick new location for the element(s).
+\i (01:29:34) pick grid 307.9 -1867.9
+\t (01:29:34) last pick:  300.0  -1875.0
+\i (01:29:35) pick grid -358.7 -1819.7
+\t (01:29:35) last pick:  -350.0  -1825.0
+\i (01:29:35) pick grid -190.0 -1859.8
+\t (01:29:35) last pick:  -200.0  -1850.0
+\t (01:29:35) last pick:  -212.8  -1867.9
+\t (01:29:35) Moving C29 / C_100UF_1210_6V3_20P_1500-1194_ / 1210C.
+\t (01:29:35) Pick new location for the element(s).
+\i (01:29:36) pick grid 532.8 -1932.1
+\t (01:29:36) last pick:  525.0  -1925.0
+\i (01:29:36) pick grid -230.2 -1787.5
+\t (01:29:36) last pick:  -225.0  -1775.0
+\t (01:29:36) last pick:  -186.8  -1768.9
+\t (01:29:36) Moving C30 / C_10UF_0603_6V3_20P_1500-1141_0 / 0603C.
+\t (01:29:36) Pick new location for the element(s).
+\i (01:29:58) prepopup 910.4 -3193.2
+\i (01:29:59) done 
+\i (01:29:59) generaledit 
+\i (01:29:59) pick grid 886.3 -3040.6
+\t (01:29:59) last pick:  875.0  -3050.0
+\i (01:30:00) move 
+\t (01:30:01) Select element(s) to move.
+\i (01:30:05) setwindow form.find
+\i (01:30:05) FORM find find_by_name  
+\i (01:30:20) fillin "E:\Document\Allegro_trainning\234567.lst"
+\i (01:30:20) setwindow pcb
+\i (01:30:20) trapsize 201
+\i (01:30:21) pick grid -1974.8 -2910.3
+\t (01:30:21) last pick:  -1975.0  -2900.0
+\t (01:30:21) Moving C13 / C_22UF_1206_6V3_10P_1500-1097_1 / 1206C.
+\t (01:30:21) Moving C23 / C_0U1F_0402_16V_10P_1500-1135_0 / 0402C.
+\t (01:30:21) Moving C17 / C_1UF_0402_6V3_10P_1500-1146_04 / 0402C.
+\t (01:30:21) Moving R12 / R_10K_0402_1P_1000-1234_0402R_1 / 0402R.
+\t (01:30:21) Moving C15 / C_4U7F_0603_6V3_15P_1500-1207_0 / 0603C.
+\t (01:30:21) Moving R11 / R_2K43_0402_1P_1000-1503_0402R_ / 0402R.
+\t (01:30:21) Moving FB2 / FB_0603_60OHM_1A_2100-1019_0603 / 0603L.
+\t (01:30:21) Moving C21 / C_0U1F_0402_16V_10P_1500-1135_0 / 0402C.
+\t (01:30:21) Moving C22 / C_0U1F_0402_16V_10P_1500-1135_0 / 0402C.
+\t (01:30:21) Moving C16 / C_1UF_0402_6V3_10P_1500-1146_04 / 0402C.
+\t (01:30:21) Moving C14 / C_4U7F_0603_6V3_15P_1500-1207_0 / 0603C.
+\t (01:30:21) Moving FB1 / FB_0603_60OHM_1A_2100-1019_0603 / 0603L.
+\t (01:30:21) Pick new location for the element(s).
+\i (01:30:39) pick grid -1870.4 -2215.6
+\t (01:30:39) last pick:  -1875.0  -2225.0
+\i (01:30:40) prepopup -1649.5 -2038.9
+\i (01:30:40) done 
+\i (01:30:40) generaledit 
+\i (01:34:29) helpcmd 
+\i (01:34:33) setwindow form.helpcmd
+\i (01:34:33) FORM helpcmd done  
+\i (01:44:24) setwindow pcb
+\i (01:44:24) exit 
+\e (01:44:24) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/temp11122.brd?
+\i (01:44:24) fillin menu_cancel 
+\i (01:44:25) generaledit 
+\i (01:44:25) exit 
+\e (01:44:25) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/temp11122.brd?
+\i (01:44:25) fillin menu_cancel 
+\i (01:44:25) generaledit 
+\i (01:44:25) exit 
+\e (01:44:25) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/temp11122.brd?
+\i (01:44:25) fillin menu_cancel 
+\i (01:44:25) generaledit 
+\i (01:44:26) exit 
+\e (01:44:26) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/temp11122.brd?
+\i (01:44:28) fillin no 
+\t (01:44:28)     Journal end - Tue Nov 07 21:22:47 2017

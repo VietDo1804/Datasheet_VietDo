@@ -1,0 +1,26 @@
+setwindow pcb
+# Allegro script
+#	file: E:\Working\Cisco_8PORTS\09Sep05\at.scr
+#	start time: Thu Sep 08 20:33:18 2005
+#	Version: 15.2 s086 (v15-2-51CV) i86
+version 15.2
+
+trapsize 133305
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main global_vis All Invisible 
+fillin yes 
+FORM cvf_main class_list Geometry 
+FORM cvf_main board_geometry/outline/visible YES
+FORM cvf_main board_geometry/note2/visible YES 
+FORM cvf_main package_geometry/assembly_bottom/visible YES 
+FORM cvf_main package_geometry/assembly_bottom/visible NO 
+FORM cvf_main package_geometry/assembly_top/visible YES 
+FORM cvf_main class_list Stack-Up 
+FORM cvf_main pin/top/visible YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Thu Sep 08 20:34:05 2005

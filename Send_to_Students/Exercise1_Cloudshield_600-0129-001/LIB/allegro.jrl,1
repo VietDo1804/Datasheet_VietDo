@@ -1,0 +1,279 @@
+\t (00:00:31) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:31)     Journal start - Sun Jan 20 13:17:24 2019
+\t (00:00:31)         Host=THINHPHAM-PC User=ThinhPham Pid=8240 CPUs=8
+\t (00:00:31) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:31) 
+\d (00:00:31) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/0402r.dra
+\i (00:00:31) generaledit 
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -402.4 97.0
+\i (00:00:32) trapsize 119
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -1068.3 97.0
+\i (00:00:32) trapsize 59
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 70.8 -36.2
+\i (00:00:33) trapsize 30
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 70.8 -37.4
+\i (00:00:33) trapsize 15
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3.6 -7.9
+\i (00:00:34) trapsize 7
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3.6 -7.9
+\i (00:00:34) trapsize 4
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out -23.2 -9.3
+\i (00:00:42) trapsize 7
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out -23.2 -9.3
+\i (00:00:43) trapsize 15
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 2.9 -13.5
+\i (00:00:49) trapsize 7
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in -8.2 -19.0
+\i (00:00:49) trapsize 4
+\i (00:01:09) zoom out 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom out -4.0 -9.7
+\i (00:01:09) trapsize 7
+\i (00:01:09) zoom out 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom out -4.0 -9.7
+\i (00:01:09) trapsize 15
+\i (13:05:17) zoom out 1 
+\i (13:05:17) setwindow pcb
+\i (13:05:17) zoom out 27.0 -37.1
+\i (13:05:17) trapsize 30
+\i (13:05:17) zoom out 1 
+\i (13:05:17) setwindow pcb
+\i (13:05:17) zoom out 27.0 -37.1
+\i (13:05:17) trapsize 59
+\i (13:05:17) zoom out 1 
+\i (13:05:17) setwindow pcb
+\i (13:05:17) zoom out 26.9 -37.1
+\i (13:05:17) trapsize 119
+\i (13:05:17) zoom out 1 
+\i (13:05:17) setwindow pcb
+\i (13:05:17) zoom out 225.7 -37.1
+\i (13:05:17) trapsize 238
+\i (13:05:17) zoom out 1 
+\i (13:05:17) setwindow pcb
+\i (13:05:17) zoom out 2185.0 -150.3
+\i (13:05:17) trapsize 238
+\i (13:05:28) trapsize 294
+\t (13:59:49) last pick:  996.0 -2110.8
+\w (13:59:49) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (13:59:54) pick grid -957.5 -710.4
+\t (13:59:54) last pick:  -1000.0 -700.0
+\i (14:04:37) zoom in 1 
+\i (14:04:37) setwindow pcb
+\i (14:04:37) zoom in 154.6 101.6
+\i (14:04:37) trapsize 147
+\i (14:04:38) zoom in 1 
+\i (14:04:38) setwindow pcb
+\i (14:04:38) zoom in -72.0 -22.0
+\i (14:04:38) trapsize 74
+\i (14:04:38) zoom in 1 
+\i (14:04:38) setwindow pcb
+\i (14:04:38) zoom in -11.7 -27.9
+\i (14:04:38) trapsize 37
+\i (14:04:38) zoom in 1 
+\i (14:04:38) setwindow pcb
+\i (14:04:38) zoom in 83.2 12.5
+\i (14:04:38) trapsize 18
+\i (14:04:39) zoom in 1 
+\i (14:04:39) setwindow pcb
+\i (14:04:39) zoom in -6.9 9.9
+\i (14:04:39) trapsize 9
+\i (14:04:39) zoom in 1 
+\i (14:04:39) setwindow pcb
+\i (14:04:39) zoom in -6.8 8.9
+\i (14:04:39) trapsize 5
+\i (14:04:40) zoom out 1 
+\i (14:04:40) setwindow pcb
+\i (14:04:40) zoom out 14.3 4.0
+\i (14:04:40) trapsize 9
+\i (14:05:03) zoom in 1 
+\i (14:05:03) setwindow pcb
+\i (14:05:03) zoom in -26.2 -30.7
+\i (14:05:03) trapsize 5
+\i (14:05:04) setwindow form.find
+\i (14:05:04) FORM find all_off  
+\i (14:05:05) FORM find shapes YES 
+\i (14:05:13) setwindow pcb
+\i (14:05:13) zoom out 1 
+\i (14:05:13) setwindow pcb
+\i (14:05:13) zoom out -28.9 -13.6
+\i (14:05:13) trapsize 9
+\i (14:05:27) setwindow form.find
+\i (14:05:27) FORM find shapes NO 
+\i (14:05:27) FORM find shapes YES 
+\i (14:05:28) FORM find shapes NO 
+\i (14:05:29) FORM find lines YES 
+\i (14:05:35) setwindow pcb
+\i (14:05:35) zoom in 1 
+\i (14:05:35) setwindow pcb
+\i (14:05:35) zoom in 7.0 -8.4
+\i (14:05:35) trapsize 5
+\i (14:05:46) zoom out 1 
+\i (14:05:46) setwindow pcb
+\i (14:05:46) zoom out -2.3 -20.8
+\i (14:05:46) trapsize 9
+\i (14:15:53) pick grid -10.8 52.4
+\t (14:15:53) last pick:  0.0 100.0
+\i (14:15:55) pick grid -10.8 52.4
+\t (14:15:55) last pick:  0.0 100.0
+\i (14:15:57) pick grid 15.8 7.9
+\t (14:15:57) last pick:  0.0 0.0
+\i (14:15:58) zoom out 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom out 16.4 9.4
+\i (14:15:58) trapsize 18
+\i (14:15:58) zoom out 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom out 16.3 4.6
+\i (14:15:58) trapsize 37
+\i (14:15:58) zoom out 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom out 16.4 4.5
+\i (14:15:58) trapsize 74
+\i (14:15:58) zoom out 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom out 16.4 4.5
+\i (14:15:58) trapsize 147
+\i (14:15:58) zoom in 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom in 28.2 -63.1
+\i (14:15:58) trapsize 74
+\i (14:15:58) zoom in 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom in 28.2 -63.1
+\i (14:15:58) trapsize 37
+\i (14:15:58) zoom in 1 
+\i (14:15:58) setwindow pcb
+\i (14:15:58) zoom in 29.0 -55.8
+\i (14:15:58) trapsize 18
+\i (14:15:59) pick grid 8.4 -47.6
+\t (14:15:59) last pick:  0.0 0.0
+\i (14:16:00) prepopup 6.9 -46.9
+\i (14:16:01) pop dyn_option_select 'Quick Utilities@:@Grids...' 
+\i (14:16:01) define grid 
+\t (14:16:01) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (14:16:01) generaledit 
+\i (14:16:02) setwindow form.grid
+\i (14:16:02) FORM grid display YES 
+\i (14:16:04) FORM grid done  
+\i (14:16:04) setwindow pcb
+\i (14:16:04) zoom in 1 
+\i (14:16:04) setwindow pcb
+\i (14:16:04) zoom in -19.2 16.4
+\i (14:16:04) trapsize 9
+\i (14:16:04) zoom out 1 
+\i (14:16:05) setwindow pcb
+\i (14:16:05) zoom out -19.2 13.7
+\i (14:16:05) trapsize 18
+\i (14:16:05) zoom out 1 
+\i (14:16:05) setwindow pcb
+\i (14:16:05) zoom out -16.6 1.5
+\i (14:16:05) trapsize 37
+\i (14:16:05) zoom in 1 
+\i (14:16:05) setwindow pcb
+\i (14:16:05) zoom in 11.3 5.9
+\i (14:16:05) trapsize 18
+\i (14:16:06) zoom in 1 
+\i (14:16:06) setwindow pcb
+\i (14:16:06) zoom in 11.4 5.9
+\i (14:16:06) trapsize 9
+\i (14:16:06) zoom out 1 
+\i (14:16:06) setwindow pcb
+\i (14:16:06) zoom out 11.4 17.5
+\i (14:16:06) trapsize 18
+\i (14:16:07) zoom in 1 
+\i (14:16:07) setwindow pcb
+\i (14:16:07) zoom in -1.9 49.1
+\i (14:16:07) trapsize 9
+\i (14:16:09) zoom out 1 
+\i (14:16:09) setwindow pcb
+\i (14:16:09) zoom out 16.7 -36.2
+\i (14:16:09) trapsize 18
+\i (14:16:09) zoom out 1 
+\i (14:16:09) setwindow pcb
+\i (14:16:09) zoom out 16.8 -36.2
+\i (14:16:09) trapsize 37
+\i (14:21:45) pick grid -22.3 257.9
+\t (14:21:45) last pick:  0.0 300.0
+\i (14:21:46) zoom in 1 
+\i (14:21:46) setwindow pcb
+\i (14:21:46) zoom in -35.5 -8.3
+\i (14:21:46) trapsize 18
+\i (14:21:46) zoom in 1 
+\i (14:21:46) setwindow pcb
+\i (14:21:46) zoom in -17.1 -8.3
+\i (14:21:46) trapsize 9
+\i (14:21:51) zoom in 1 
+\i (14:21:51) setwindow pcb
+\i (14:21:51) zoom in 45.1 -8.8
+\i (14:21:51) trapsize 5
+\i (14:21:59) setwindow form.mini
+\i (14:21:59) FORM mini class MANUFACTURING 
+\i (14:22:01) FORM mini class PACKAGE GEOMETRY 
+\i (14:22:06) FORM mini subclass DFA_BOUND_TOP 
+\i (14:22:09) setwindow form.find
+\i (14:22:09) FORM find lines NO 
+\i (14:22:10) FORM find shapes YES 
+\i (14:22:20) setwindow pcb
+\i (14:22:20) zoom in 1 
+\i (14:22:20) setwindow pcb
+\i (14:22:20) zoom in 16.2 0.5
+\i (14:22:20) trapsize 2
+\i (14:23:35) pick grid 16.4 1.6
+\t (14:23:35) last pick:  0.0 0.0
+\i (14:23:35) zoom out 1 
+\i (14:23:35) setwindow pcb
+\i (14:23:35) zoom out 16.4 1.6
+\i (14:23:35) trapsize 5
+\i (14:23:36) zoom out 1 
+\i (14:23:36) setwindow pcb
+\i (14:23:36) zoom out 16.4 1.7
+\i (14:23:36) trapsize 9
+\i (14:23:36) zoom out 1 
+\i (14:23:36) setwindow pcb
+\i (14:23:36) zoom out 16.4 1.6
+\i (14:23:36) trapsize 18
+\i (14:23:36) zoom in 1 
+\i (14:23:36) setwindow pcb
+\i (14:23:36) zoom in 15.9 1.7
+\i (14:23:36) trapsize 9
+\i (14:23:40) zoom in 1 
+\i (14:23:40) setwindow pcb
+\i (14:23:40) zoom in 15.6 -2.7
+\i (14:23:40) trapsize 5
+\i (14:23:40) zoom in 1 
+\i (14:23:40) setwindow pcb
+\i (14:23:40) zoom in 15.6 -2.6
+\i (14:23:40) trapsize 2
+\i (26:54:30) zoom out 1 
+\i (26:54:30) setwindow pcb
+\i (26:54:30) zoom out 29.8 1.4
+\i (26:54:30) trapsize 5
+\i (26:54:30) zoom out 1 
+\i (26:54:30) setwindow pcb
+\i (26:54:30) zoom out 31.2 4.7
+\i (26:54:30) trapsize 9
+\i (26:54:31) exit 
+\e (26:54:31) Do you want to save the changes you made to 0402r.dra?
+\i (26:54:32) fillin no 
+\t (26:54:33)     Journal end - Mon Jan 21 16:11:27 2019

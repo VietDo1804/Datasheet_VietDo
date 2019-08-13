@@ -1,0 +1,33 @@
+# Allegro script
+#	file: E:/A_CHUONG/Training/project_ECTM/part_ECTM/MINI_DIN_RA_4P_PTH/gkgukguy.scr
+#	start time: Tue Feb 03 01:29:38 2009
+#	Version: 16.0 p005 (v16-0-87F) i86
+version 16.0
+
+#setwindow pcb
+#prmed 
+#setwindow form.prmedit
+#FORM prmedit done
+#setwindow pcb
+#prmed 
+#setwindow form.prmedit
+#FORM prmedit units Inch
+#FORM prmedit accuracy 3
+#FORM prmedit done  
+#fillin yes
+#setwindow pcb
+
+setwindow pcb
+status 
+setwindow form.status
+FORM status done
+setwindow pcb
+status 
+setwindow form.status
+FORM status units Inch 
+FORM status accuracy 3
+FORM status done  
+fillin yes
+setwindow pcb
+
+#	stop time: Tue Feb 03 01:30:08 2009

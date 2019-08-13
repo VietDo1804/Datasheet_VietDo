@@ -1,0 +1,42 @@
+# Allegro script
+#   file: D:/data/acronics/terrayon/projects/SERGEY_DS1RQ/release/02jun01/gen_artwork.scr
+#   start time: Sat Jun 02 09:50:20 2001
+#   Modified: 19MAR03: NC: Changed format_dec_places from 4 to 5.
+
+setwindow pcb
+version 15.2
+
+setwindow pcb
+ncdrill param 
+setwindow form.nc_parameters
+FORM nc_parameters parameter_filename NC_PARAM.txt 
+FORM nc_parameters decimal_places 4 
+FORM nc_parameters done  
+setwindow pcb
+
+artwork 
+setwindow form.film_control
+setwindow form.film_control done
+FORM film_control filmtree  general_parameters 
+FORM film_control general_parameters  
+FORM film_control gerber_rs274x YES 
+FORM film_control format_dec_places 5 
+FORM film_control apertures  
+setwindow form.apt_wheels
+FORM apt_wheels 1 delete  
+FORM apt_wheels add_wheel  
+FORM apt_wheels 1 edit  
+setwindow form.apt_stations
+FORM apt_stations auto With Rotation 
+FORM apt_stations apt_done  
+setwindow form.apt_wheels
+FORM apt_wheels done  
+setwindow form.film_control
+FORM film_control film_control  
+FORM film_control select_all  
+FORM film_control create  
+FORM film_control ok  
+setwindow pcb
+
+#	stop time: Wed Nov 24 11:08:12 2004
+

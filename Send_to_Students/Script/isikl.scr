@@ -1,0 +1,20 @@
+# Allegro script
+#	file: F:/TOA/UVNetworks_DAVINCI_REVB_22Sep11_1615/isikl.scr
+#	start time: Thu Sep 22 19:29:12 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 10870
+generaledit
+pick grid 5133.166 4744.602
+color192 
+generaledit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Package Geometry'
+cvf layers_visible package_geometry/silkscreen_bottom FALSE
+cvf layers_visible package_geometry/silkscreen_top FALSE
+cvf okay
+setwindow pcb
+
+#	stop time: Thu Sep 22 19:29:31 2011

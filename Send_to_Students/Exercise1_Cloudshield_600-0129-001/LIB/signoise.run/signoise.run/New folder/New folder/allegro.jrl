@@ -1,0 +1,679 @@
+\t (00:00:01) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:01)     Journal start - Fri Dec 28 23:51:08 2018
+\t (00:00:01)         Host=THINHPHAM-PC User=ThinhPham Pid=12112 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:03) Opening existing design...
+\i (00:00:08) fillin yes 
+\d (00:00:08) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/signoise.run/signoise.run/New folder/New folder/TNSP_USBHUB3.brd
+\t (00:00:08) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:00:08) trapsize 924
+\i (00:00:08) trapsize 908
+\i (00:00:08) trapsize 927
+\t (00:00:09) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:00:09) trapsize 927
+\i (00:00:10) generaledit 
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 624.03 1516.03
+\i (00:00:11) trapsize 464
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 624.04 1516.03
+\i (00:00:11) trapsize 927
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 774.24 1239.73
+\i (00:00:12) trapsize 464
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 771.46 1242.51
+\i (00:00:12) trapsize 232
+\i (00:00:21) status 
+\i (00:00:21) generaledit 
+\i (00:00:22) setwindow form.status
+\i (00:00:22) FORM status fill_update  
+\t (00:00:23) Updating dynamic shape (1 of 1) Vfil3_5V0, Boundary/Bottom @ (400.00 1875.00) ...
+\w (00:00:23) 1 dynamic shape is still out of date or empty. Run Out of date shapes Report from status dialog to identify them.
+\i (00:00:27) fillin confirm
+\i (00:00:38) setwindow pcb
+\i (00:00:38) trapsize 576
+\i (00:00:39) setwindow form.status
+\i (00:00:39) FORM status done  
+\i (00:00:40) setwindow pcb
+\i (00:00:40) trapsize 232
+\i (00:00:41) setwindow form.mini
+\i (00:00:41) FORM mini subcolor 0 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick grid 1126.58 1382.52
+\t (00:00:45) last pick:  1125.00 1385.00
+\i (00:00:45) subclass -+ 
+\i (00:00:46) setwindow form.mini
+\i (00:00:46) FORM mini subcolor 0 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) pick grid 1148.37 1370.00
+\t (00:00:48) last pick:  1150.00 1370.00
+\i (00:00:48) subclass -+ 
+\i (00:00:49) setwindow form.mini
+\i (00:00:49) FORM mini subcolor 0 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 1032.47 1342.19
+\i (00:00:50) trapsize 464
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 1031.54 1342.19
+\i (00:00:50) trapsize 927
+\i (00:00:51) pick grid 1157.65 1384.84
+\t (00:00:51) last pick:  1160.00 1385.00
+\i (00:00:51) subclass -+ 
+\i (00:00:54) pick grid 1493.30 1425.64
+\t (00:00:54) last pick:  1495.00 1425.00
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 1304.15 1484.98
+\t (00:00:55) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:00:55) trapsize 1854
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 1304.15 1436.76
+\t (00:00:55) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:00:55) trapsize 3709
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 287.93 2141.44
+\t (00:00:55) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:00:55) trapsize 1854
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 287.93 2141.44
+\t (00:00:56) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:00:56) trapsize 927
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 350.98 2184.09
+\i (00:00:56) trapsize 464
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -19.90 1969.90
+\i (00:00:57) trapsize 927
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 671.80 1964.35
+\i (00:00:58) trapsize 464
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 681.99 1960.64
+\i (00:00:58) trapsize 232
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 699.61 1910.11
+\i (00:00:59) trapsize 116
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 699.61 1910.12
+\i (00:01:00) trapsize 232
+\i (00:01:05) zoom in 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom in 379.27 1879.05
+\i (00:01:05) trapsize 116
+\i (00:01:08) shape edit boundary 
+\i (00:01:09) pick grid 388.77 1885.55
+\t (00:01:09) last pick:  390.00 1885.00
+\t (00:01:10) Pick the edit starting point on the shape boundary.
+\i (00:01:10) pick grid 389.00 1885.55
+\t (00:01:10) last pick:  390.00 1885.00
+\t (00:01:10) Pick the next vertex or the closing point on the shape.
+\i (00:01:11) pick grid 390.16 1877.43
+\t (00:01:11) last pick:  390.00 1875.00
+\t (00:01:11) Pick the next vertex or the closing point on the shape.
+\i (00:01:12) pick grid 382.28 1873.49
+\t (00:01:12) last pick:  380.00 1875.00
+\t (00:01:12) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:13) pick grid 459.93 1880.22
+\t (00:01:13) last pick:  460.00 1880.00
+\i (00:01:13) shape edit boundary 
+\t (00:01:14) Pick the edit starting point on the shape or void boundary.
+\t (00:01:14) Pick the edit starting point on the shape boundary.
+\t (00:01:14) Pick the next vertex or the closing point on the shape.
+\i (00:01:14) pick grid 459.93 1877.20
+\t (00:01:14) last pick:  460.00 1875.00
+\t (00:01:14) Pick the next vertex or the closing point on the shape.
+\i (00:01:15) pick grid 463.41 1875.35
+\t (00:01:15) last pick:  465.00 1875.00
+\t (00:01:15) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:16) pick grid 570.73 1884.85
+\t (00:01:16) last pick:  570.00 1885.00
+\i (00:01:16) shape edit boundary 
+\t (00:01:16) Pick the edit starting point on the shape or void boundary.
+\t (00:01:16) Pick the edit starting point on the shape boundary.
+\t (00:01:16) Pick the next vertex or the closing point on the shape.
+\i (00:01:16) pick grid 571.43 1877.20
+\t (00:01:16) last pick:  570.00 1875.00
+\t (00:01:16) Pick the next vertex or the closing point on the shape.
+\i (00:01:17) pick grid 562.39 1874.88
+\t (00:01:17) last pick:  560.00 1875.00
+\t (00:01:17) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 537.36 1874.42
+\i (00:01:17) trapsize 232
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 519.73 1874.42
+\i (00:01:17) trapsize 464
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 16.27 1941.18
+\i (00:01:18) trapsize 232
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 382.98 1915.22
+\i (00:01:19) trapsize 116
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 383.22 1914.52
+\i (00:01:19) trapsize 58
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 290.62 1910.12
+\i (00:01:19) trapsize 116
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 220.85 1909.20
+\i (00:01:19) trapsize 232
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 220.38 1909.20
+\i (00:01:19) trapsize 464
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 696.96 1907.34
+\i (00:01:19) trapsize 232
+\i (00:01:19) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 697.88 1905.02
+\i (00:01:20) trapsize 116
+\i (00:01:21) pick grid 749.57 1885.79
+\t (00:01:21) last pick:  750.00 1885.00
+\i (00:01:21) shape edit boundary 
+\t (00:01:21) Pick the edit starting point on the shape or void boundary.
+\t (00:01:21) Pick the edit starting point on the shape boundary.
+\t (00:01:21) Pick the next vertex or the closing point on the shape.
+\i (00:01:21) pick grid 749.11 1884.40
+\t (00:01:21) last pick:  750.00 1885.00
+\e (00:01:21) ERROR(SPMHGE-107): Line(s) cross the item being edited, pick again.
+\t (00:01:21) Pick the next vertex or the closing point on the shape.
+\e (00:01:21) ERROR(SPMHGE-105): Line(s) cross edit lines, pick again.
+\i (00:01:22) pick grid 749.11 1877.21
+\t (00:01:22) last pick:  750.00 1875.00
+\t (00:01:22) Pick the next vertex or the closing point on the shape.
+\i (00:01:23) pick grid 737.29 1875.36
+\t (00:01:23) last pick:  735.00 1875.00
+\e (00:01:23) ERROR(SPMHGE-107): Line(s) cross the item being edited, pick again.
+\t (00:01:23) Pick the next vertex or the closing point on the shape.
+\e (00:01:23) ERROR(SPMHGE-107): Line(s) cross the item being edited, pick again.
+\i (00:01:24) pick grid 737.75 1874.89
+\t (00:01:24) last pick:  740.00 1875.00
+\t (00:01:24) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out 738.22 1877.21
+\i (00:01:24) trapsize 232
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in 766.49 1848.00
+\i (00:01:26) trapsize 116
+\i (00:01:27) pick grid 740.53 1874.66
+\t (00:01:27) last pick:  740.00 1875.00
+\i (00:01:27) shape edit boundary 
+\t (00:01:27) Pick the edit starting point on the shape or void boundary.
+\t (00:01:28) Pick the edit starting point on the shape boundary.
+\t (00:01:28) Pick the next vertex or the closing point on the shape.
+\i (00:01:28) pick grid 748.88 1882.55
+\t (00:01:28) last pick:  750.00 1885.00
+\t (00:01:28) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:29) prepopup 752.12 1897.84
+\i (00:01:30) done 
+\i (00:01:30) generaledit 
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out 773.68 1933.31
+\i (00:01:30) trapsize 232
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out 774.61 1934.24
+\i (00:01:30) trapsize 464
+\i (00:01:31) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out 775.54 1936.08
+\i (00:01:31) trapsize 927
+\i (00:01:37) status 
+\i (00:01:37) generaledit 
+\i (00:01:39) setwindow form.status
+\i (00:01:39) FORM status fill_update  
+\t (00:01:39) Updating dynamic shape (1 of 1) Vfil3_5V0, Boundary/Bottom @ (400.00 1875.00) ...
+\w (00:01:39) 1 dynamic shape is still out of date or empty. Run Out of date shapes Report from status dialog to identify them.
+\i (00:01:45) fillin confirm
+\i (00:01:47) FORM status done  
+\i (00:01:51) setwindow pcb
+\i (00:01:51) status 
+\i (00:01:51) generaledit 
+\i (00:01:56) setwindow form.status
+\i (00:01:56) FORM status done  
+\i (00:02:02) setwindow pcb
+\i (00:02:02) show property 
+\i (00:02:02) generaledit 
+\i (00:02:03) setwindow form.show_prop
+\i (00:02:03) FORM show_prop proplist Aligned 
+\i (00:02:10) FORM show_prop done  
+\i (00:02:14) setwindow pcb
+\i (00:02:14) status 
+\i (00:02:15) generaledit 
+\i (00:02:20) setwindow form.status
+\i (00:02:20) FORM status done  
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -728.38 1784.03
+\t (00:02:21) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:02:21) trapsize 1854
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -735.80 1784.03
+\t (00:02:21) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:02:21) trapsize 3709
+\i (00:02:21) zoom in 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom in 413.93 827.17
+\t (00:02:21) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:02:21) trapsize 1854
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in 814.48 1368.65
+\t (00:02:22) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:02:22) trapsize 927
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in 762.56 1350.11
+\i (00:02:22) trapsize 464
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 771.83 1397.40
+\i (00:02:23) trapsize 232
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 766.27 1397.87
+\i (00:02:23) trapsize 116
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 667.76 1390.69
+\i (00:02:25) trapsize 232
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 667.76 1390.69
+\i (00:02:25) trapsize 464
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 667.75 1390.69
+\i (00:02:25) trapsize 927
+\i (00:02:27) zoom in 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom in 521.26 1288.69
+\i (00:02:27) trapsize 464
+\i (00:02:27) zoom in 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom in 521.26 1288.69
+\i (00:02:27) trapsize 232
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 521.26 1288.69
+\i (00:02:28) trapsize 464
+\i (00:02:30) setwindow form.mini
+\i (00:02:30) FORM mini subcolor 0 
+\i (00:02:31) FORM mini subclass TOP 
+\i (00:02:33) FORM mini subcolor 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out 944.99 1484.33
+\i (00:02:34) trapsize 927
+\i (00:02:34) zoom in 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom in 622.33 1319.29
+\i (00:02:34) trapsize 464
+\i (00:02:34) zoom in 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom in 622.33 1319.29
+\i (00:02:35) trapsize 232
+\i (00:02:37) cmgr 
+\i (00:02:38) setwindow cmgr
+\i (00:02:38) cm newView ( worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (00:02:38) setwindow pcb
+\i (00:02:38) generaledit 
+\i (00:02:41) setwindow cmgr
+\i (00:02:41) cm scope Design "TNSP_USBHUB3"
+\i (00:02:41) cm collapse ( row ( "Net Class" "POWER" ) )
+\i (00:02:43) cm newView ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:02:54) cm startUndoBlock 1
+\i (00:02:54) cm create Region ( Design "TNSP_USBHUB3" ) "MCU"
+\i (00:02:54) cm endUndoBlock
+\i (00:02:56) cm expand ( row ( Design "TNSP_USBHUB3" ) )
+\i (00:03:12) cm putValue ( Region "MCU" ) PHYSICAL_CONSTRAINT_SET 0
+\i (00:03:12) cm putValue ( Region "MCU" ) MIN_LINE_WIDTH 7
+\i (00:03:12) cm putValue ( Region "MCU" ) MAX_LINE_WIDTH 7
+\i (00:03:12) cm putValue ( Region "MCU" ) MIN_NECK_WIDTH 7
+\i (00:03:12) cm putValue ( Region "MCU" ) MAXIMUM_NECK_LENGTH 7
+\i (00:03:12) cm putValue ( Region "MCU" ) DIFFP_MIN_SPACE 7
+\i (00:03:12) cm putValue ( Region "MCU" ) DIFFP_PRIMARY_GAP 7
+\i (00:03:12) cm putValue ( Region "MCU" ) DIFFP_NECK_GAP 7
+\i (00:03:12) cm putValue ( Region "MCU" ) DIFFP_COUPLED_PLUS 7
+\i (00:03:12) cm putValue ( Region "MCU" ) DIFFP_COUPLED_MINUS 7
+\i (00:03:12) cm putValue ( Region "MCU" ) VIA_LIST 0
+\i (00:03:12) cm putValue ( Region "MCU" ) MIN_BVIA_STAGGER 7
+\i (00:03:12) cm putValue ( Region "MCU" ) MAX_BVIA_STAGGER 7
+\i (00:03:12) cm putValue ( Region "MCU" ) PAD_PAD_DIRECT_CONNECT 7
+\i (00:03:12) cm putValue ( Region "MCU" ) TS_ALLOWED 7
+\i (00:03:12) cm delete ( Region "MCU" )
+\i (00:03:12) cm endUndoBlock
+\i (00:03:13) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:13) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:13) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:13) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:15) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:24) cm startUndoBlock 1
+\i (00:03:24) cm create Region ( Design "TNSP_USBHUB3" ) "MCU"
+\i (00:03:24) cm endUndoBlock
+\i (00:03:27) cm expand ( row ( Design "TNSP_USBHUB3" ) )
+\i (00:03:31) cm putValue ( Region "MCU" ) PHYSICAL_CONSTRAINT_SET 0
+\i (00:03:31) cm putValue ( Region "MCU" ) MIN_LINE_WIDTH 7
+\i (00:03:31) cm putValue ( Region "MCU" ) MAX_LINE_WIDTH 7
+\i (00:03:31) cm putValue ( Region "MCU" ) MIN_NECK_WIDTH 7
+\i (00:03:31) cm putValue ( Region "MCU" ) MAXIMUM_NECK_LENGTH 7
+\i (00:03:31) cm putValue ( Region "MCU" ) DIFFP_MIN_SPACE 7
+\i (00:03:31) cm putValue ( Region "MCU" ) DIFFP_PRIMARY_GAP 7
+\i (00:03:31) cm putValue ( Region "MCU" ) DIFFP_NECK_GAP 7
+\i (00:03:31) cm putValue ( Region "MCU" ) DIFFP_COUPLED_PLUS 7
+\i (00:03:31) cm putValue ( Region "MCU" ) DIFFP_COUPLED_MINUS 7
+\i (00:03:31) cm putValue ( Region "MCU" ) VIA_LIST 0
+\i (00:03:31) cm putValue ( Region "MCU" ) MIN_BVIA_STAGGER 7
+\i (00:03:31) cm putValue ( Region "MCU" ) MAX_BVIA_STAGGER 7
+\i (00:03:31) cm putValue ( Region "MCU" ) PAD_PAD_DIRECT_CONNECT 7
+\i (00:03:31) cm putValue ( Region "MCU" ) TS_ALLOWED 7
+\i (00:03:31) cm delete ( Region "MCU" )
+\i (00:03:31) cm endUndoBlock
+\i (00:03:32) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:32) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:32) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:32) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:32) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:03:34) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:03:42) cm startUndoBlock 1
+\i (00:03:42) cm create Region ( Design "TNSP_USBHUB3" ) "MCU"
+\i (00:03:42) cm endUndoBlock
+\i (00:03:44) cm expand ( row ( Design "TNSP_USBHUB3" ) )
+\i (00:04:04) cm putValue ( Region "MCU" ) SPACING_CONSTRAINT_SET 0
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_LINE_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_THRUPIN_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_SMDPIN_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_TESTPIN_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_THRUVIA_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) BBV_TO_LINE_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_TESTVIA_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) LINE_TO_SHAPE_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) BONDPAD_TO_LINE_SPACING 7
+\i (00:04:04) cm putValue ( Region "MCU" ) HOLE_TO_LINE_SPACING 7
+\i (00:04:04) cm delete ( Region "MCU" )
+\i (00:04:04) cm endUndoBlock
+\i (00:04:05) cm exit
+\i (00:04:08) setwindow pcb
+\i (00:04:08) zoom in 1 
+\i (00:04:08) setwindow pcb
+\i (00:04:08) zoom in 773.00 1275.71
+\i (00:04:08) trapsize 116
+\i (00:04:08) pick grid 767.44 1344.09
+\t (00:04:08) last pick:  765.00 1345.00
+\i (00:04:08) zoom in 1 
+\i (00:04:08) setwindow pcb
+\i (00:04:08) zoom in 766.05 1329.72
+\i (00:04:08) trapsize 58
+\i (00:04:09) zoom out 1 
+\i (00:04:09) setwindow pcb
+\i (00:04:09) zoom out 764.78 1313.26
+\i (00:04:09) trapsize 116
+\i (00:04:09) zoom out 1 
+\i (00:04:09) setwindow pcb
+\i (00:04:09) zoom out 764.31 1310.48
+\i (00:04:09) trapsize 232
+\i (00:04:10) zoom in 1 
+\i (00:04:10) setwindow pcb
+\i (00:04:10) zoom in 711.93 1376.78
+\i (00:04:10) trapsize 116
+\i (00:04:18) waive drc 
+\i (00:04:21) setwindow form.waivedrc_comment
+\i (00:04:21) FORM waivedrc_comment done  
+\i (00:04:21) setwindow pcb
+\i (00:04:21) generaledit 
+\i (00:04:22) zoom out 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom out 704.74 1334.13
+\i (00:04:22) trapsize 232
+\i (00:04:22) zoom out 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom out 708.92 1329.03
+\i (00:04:22) trapsize 464
+\i (00:04:22) zoom in 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom in 612.49 1412.47
+\i (00:04:22) trapsize 232
+\i (00:04:23) drag_start grid 565.21 1445.85
+\i (00:04:26) drag_stop 814.62 1322.07
+\i (00:04:27) pick grid 784.03 1434.26
+\t (00:04:27) last pick:  785.00 1435.00
+\i (00:04:28) zoom out 1 
+\i (00:04:28) setwindow pcb
+\i (00:04:28) zoom out 784.03 1434.26
+\i (00:04:28) trapsize 464
+\i (00:04:30) zoom out 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom out 853.56 1460.22
+\i (00:04:30) trapsize 927
+\i (00:04:30) zoom in 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom in 853.57 1460.23
+\i (00:04:30) trapsize 464
+\i (00:04:33) zoom in 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom in 699.66 1429.64
+\i (00:04:33) trapsize 232
+\i (00:04:33) zoom in 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom in 698.27 1430.11
+\i (00:04:33) trapsize 116
+\i (00:04:34) zoom out 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) zoom out 698.04 1430.34
+\i (00:04:34) trapsize 232
+\i (00:04:34) zoom out 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) zoom out 694.33 1441.00
+\i (00:04:34) trapsize 464
+\i (00:04:34) zoom out 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) zoom out 690.61 1503.13
+\i (00:04:34) trapsize 927
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 722.15 1195.30
+\i (00:04:35) trapsize 464
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 742.54 1301.00
+\i (00:04:35) trapsize 232
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 742.54 1301.01
+\i (00:04:36) trapsize 464
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in 733.27 1392.80
+\i (00:04:36) trapsize 232
+\i (00:04:37) zoom out 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom out 732.35 1392.80
+\i (00:04:37) trapsize 464
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in 708.24 1326.05
+\i (00:04:38) trapsize 232
+\i (00:04:39) zoom out 1 
+\i (00:04:39) setwindow pcb
+\i (00:04:39) zoom out 708.25 1326.52
+\i (00:04:39) trapsize 464
+\i (00:04:40) zoom in 1 
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom in 708.24 1326.52
+\i (00:04:40) trapsize 232
+\i (00:04:40) zoom out 1 
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom out 708.25 1326.52
+\i (00:04:40) trapsize 464
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 724.93 1116.04
+\i (00:04:52) trapsize 927
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1157.01 1219.89
+\t (00:04:52) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:04:52) trapsize 1854
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1053.16 1197.64
+\t (00:04:52) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:04:52) trapsize 3709
+\i (00:04:53) exit 
+\e (00:04:53) Do you want to save the changes you made to TNSP_USBHUB3.brd?
+\i (00:04:55) fillin yes 
+\e (00:04:55) File "TNSP_USBHUB3.brd" is being edited by user "ThinhPham" on date "Fri Dec 28 23:50:39 2018" on system "THINHPHAM-PC".  Save design to another name or contact user to remove their lock.
+\i (00:04:57) fillin confirm
+\i (00:04:57) generaledit 
+\i (00:04:58) zoom in 1 
+\i (00:04:58) setwindow pcb
+\i (00:04:58) zoom in 1016.08 886.11
+\t (00:04:58) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:04:58) trapsize 1854
+\i (00:04:58) zoom in 1 
+\i (00:04:58) setwindow pcb
+\i (00:04:58) zoom in 1012.37 926.91
+\t (00:04:58) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:04:58) trapsize 927
+\i (00:04:58) prepopup 1004.95 954.73
+\i (00:05:01) save_as 
+\i (00:05:10) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB\signoise.run\signoise.run\New folder\New folder\New folder\TNSP_USBHUB3.brd"
+\i (00:05:10) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB\signoise.run\signoise.run\New folder\New folder\New folder"
+\i (00:05:11) generaledit 
+\i (00:05:13) setwindow form.vf_vis
+\i (00:05:13) FORM vf_vis all_all_visible YES 
+\i (00:05:13) FORM vf_vis all_all_visible_pln YES 
+\i (00:05:16) setwindow form.mini
+\i (00:05:16) FORM mini subclass L2_GND 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) pick grid 1991.49 1227.32
+\t (00:05:20) last pick:  1990.00 1225.00
+\i (00:05:20) subclass -+ 
+\i (00:05:20) pick grid 1991.49 1227.32
+\t (00:05:20) last pick:  1990.00 1225.00
+\i (00:05:20) subclass -+ 
+\i (00:05:21) pick grid 1991.49 1227.32
+\t (00:05:21) last pick:  1990.00 1225.00
+\i (00:05:21) subclass -+ 
+\i (00:05:21) pick grid 1991.49 1227.32
+\t (00:05:21) last pick:  1990.00 1225.00
+\i (00:05:21) subclass -+ 
+\i (00:05:22) subclass -+ 
+\i (00:05:22) pick grid 1991.49 1227.32
+\t (00:05:22) last pick:  1990.00 1225.00
+\i (00:05:22) subclass -+ 
+\i (00:05:23) pick grid 1991.49 1227.32
+\t (00:05:23) last pick:  1990.00 1225.00
+\i (00:05:23) subclass -+ 
+\i (00:05:24) zoom out 1 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) zoom out 2060.11 1182.82
+\t (00:05:24) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:05:24) trapsize 1854
+\i (00:05:25) zoom out 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom out 921.50 1108.64
+\t (00:05:25) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:05:25) trapsize 3709
+\i (00:05:26) zoom in 1 
+\i (00:05:26) setwindow pcb
+\i (00:05:26) zoom in 973.42 2110.02
+\t (00:05:26) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:05:26) trapsize 1854
+\i (00:05:31) setwindow form.vf_vis
+\i (00:05:31) FORM vf_vis colorview_list Film: TOP 
+\i (00:05:34) setwindow pcb
+\i (00:05:34) pick grid 1956.26 148.06
+\t (00:05:34) last pick:  1955.00 150.00
+\i (00:05:35) zoom out 1 
+\i (00:05:35) setwindow pcb
+\i (00:05:35) zoom out 1574.25 893.53
+\t (00:05:35) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:05:35) trapsize 3709
+\i (00:05:37) setwindow form.vf_vis
+\i (00:05:37) FORM vf_vis all_drc_visible YES 
+\i (00:05:38) FORM vf_vis all_all_visible_pln YES 
+\i (00:05:38) FORM vf_vis all_all_visible YES 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) pick grid 2449.52 1672.38
+\t (00:05:40) last pick:  2450.00 1670.00
+\i (00:05:54) zoom in 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom in 1077.27 1353.42
+\t (00:05:54) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:05:54) trapsize 1854
+\i (00:05:54) zoom in 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom in 1077.27 1353.43
+\t (00:05:54) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:05:54) trapsize 927
+\i (00:05:54) zoom in 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom in 886.27 1244.02
+\i (00:05:54) trapsize 464
+\i (00:05:54) zoom out 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom out 882.56 1242.17
+\i (00:05:54) trapsize 927
+\i (00:05:55) zoom out 1 
+\i (00:05:55) setwindow pcb
+\i (00:05:55) zoom out 875.16 1242.16
+\t (00:05:55) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:05:55) trapsize 1854
+\t (00:05:59) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:05:59) trapsize 3816
+\i (00:06:05) zoom fit 
+\t (00:06:05) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:06:05) trapsize 954
+\i (00:06:07) grid toggle 
+\i (00:06:07) generaledit 
+\i (00:06:10) zoom in 
+\i (00:06:10) setwindow pcb
+\i (00:06:10) zoom in 774.30 1344.08
+\i (00:06:10) trapsize 477
+\i (00:06:10) zoom out 
+\i (00:06:10) setwindow pcb
+\i (00:06:10) zoom out 774.30 1344.09
+\i (00:06:10) trapsize 954
+\i (00:06:12) zoom fit 
+\i (00:06:12) trapsize 954
+\i (00:06:48) save 
+\i (00:06:49) fillin yes 
+\i (00:06:50) generaledit 
+\i (00:06:56) trapsize 464
+\i (00:07:10) exit 
+\t (00:07:12)     Journal end - Fri Dec 28 23:58:18 2018

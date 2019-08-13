@@ -1,0 +1,666 @@
+CRITICAL NETS - Helios Test	
+
+10/10/18
+_______________________________________________
+
+
+General Routing Rules:
+
+**********************************************************
+1) Power and GND connections (***Ignore this rule***)
+**********************************************************
+
+
+Min 2 VIAs / PAD for 0805 and bigger 0805 package
+distance PAD to VIA min 2.5 mils
+Min trace width 8 mils
+Use shape for main power nets
+Use shape for input/output power nets
+
+**********************************************************
+2) General trace rules unless otherwise noted
+**********************************************************
+
+5 mil trace
+5 mil spacing
+
+
+**********************************************************
+3) Clock rules, Single ended, unless otherwise noted
+**********************************************************
+Routing layer 1 or 12
+
+7  mil trace
+20 mil spacing
+
+Routing layer 3, 4, 9, 10
+
+5.5  mil trace
+20 mil spacing
+
+
+
+**********************************************************
+4) Clock Differential rules, unless otherwise noted
+**********************************************************
+
+(all differencial Names End With "_P" or "_N")
+
+Layers 1 & 12
+
+6 mil trace / 9 mil space / 6 mil trace
+Length Matched to 10 mils (_p to _n)
+20 mil spacing
+
+Routing layer 3, 4, 9, 10
+
+4.8 mil trace / 10.2 mil space / 4.8 mil trace
+Length Matched to 10 mils (_p to _n)
+20 mil spacing
+
+**********************************************************
+5) Controlled Impedance (50 ohm), Single ended, unless otherwise noted
+**********************************************************
+
+Routing layer 1 or 12
+6
+7  mil trace
+20 mil spacing
+
+Routing layer 3, 4, 9, 10
+
+5.5  mil trace
+20 mil spacing
+
+**********************************************************
+6) Controlled Impedance (100 ohm), Differencial, unless otherwise noted
+**********************************************************
+
+Routing layer 1 or 12
+
+6 mil trace / 9 mil space / 6 mil trace
+Length Matched to 10 mils (_p to _n)
+20 mil spacing
+
+Routing layer 3, 4, 9, 10
+
+4.8 mil trace / 10.2 mil space / 4.8 mil trace
+Length Matched to 10 mils (_p to _n)
+20 mil spacing
+
+
+**********************************************************
+
+**********************************************************
+Clocks
+**********************************************************
+Rout per rule #3
+
+    CLK_50MHZ
+    CLK_50MHZ_R
+
+    HELIOS_CLK_BYP
+
+    HELIOS_CLK_MON
+
+    HELIOS_OTP_CLK_BYP
+
+    HELIOS_OTP_CLK_EN
+
+    SMA1
+    SMA1_R
+
+    SMA2
+    SMA2_R
+
+**************************
+DDR DRAM
+**************************
+Single ended signals: trace to trace 16mils Spacing for the same bus/group
+**************************
+All DDR differential clock pairs (CK and CK# and DQS) must be routed on the same layer. Routing the clock signals on an internal layer minimizes the noise (EMI).
+
+Place a differential termination resistor (RT) of 100–200O between CK# and CK near the DDR component input pins.
+
+For DDR systems, match CK trace length to CK# trace length ±10 mil, CK/CK# trace lengths to DQS trace length ±500 mil.
+
+Match clock traces DQS to data group traces within ±500 mil.
+
+match clock traces CK to each signal trace in the address and command groups to within ±400 mil. If clock traces cannot be matched to the trace lengths of these groups within 400 mil, then all clock trace lengths must be increased as a group. The longest-to-shortest trace-length difference must be =800 mil
+
+Keep traces as short as possible. Trace length (from controller pad to DRAM pad) is <2.5inch 
+
+Treat total net length through resistor as one. For example the total net lengh a net is DDR1_A_R0 + DDR1_A0.
+
+All nets have a seriers term resistor.
+
+Use routing rule 5 for all signals (except Clk/CLKn)
+
+Use routing rule 4 for Clk/CLKn and DQS
+
+**************************
+DDR Bank 1 U8
+
+Clock
+
+    DDR1_CK_N
+    DDR1_CK_P
+
+    DDR1_CK_R_N
+    DDR1_CK_R_P
+
+Address
+
+    DDR1_A[12..0]
+    DDR1_A_R0
+    DDR1_A_R1
+    DDR1_A_R2
+    DDR1_A_R3
+    DDR1_A_R4
+    DDR1_A_R5
+    DDR1_A_R6
+    DDR1_A_R7
+    DDR1_A_R8
+    DDR1_A_R9
+    DDR1_A_R10
+    DDR1_A_R11
+    DDR1_A_R12
+    
+    DDR1_A0
+    DDR1_A1
+    DDR1_A2
+    DDR1_A3
+    DDR1_A4
+    DDR1_A5
+    DDR1_A6
+    DDR1_A7
+    DDR1_A8
+    DDR1_A9
+    DDR1_A10
+    DDR1_A11
+    DDR1_A12
+Command
+
+    DDR1_BA0
+    DDR1_BA0_R
+    DDR1_BA1
+    DDR1_BA1_R
+
+    DDR1_CASN
+    DDR1_CASN_R
+
+    DDR1_CKE
+    DDR1_CKE_R
+
+    DDR1_CSN
+    DDR1_CSN_R
+
+    DDR1_LDM
+    DDR1_LDM_R
+
+    DDR1_LDQS
+    DDR1_LDQS_R
+
+    DDR1_RASN
+    DDR1_RASN_R
+
+    DDR1_UDM
+    DDR1_UDM_R
+
+    DDR1_UDQS
+    DDR1_UDQS_R
+
+    DDR1_WEN
+    DDR1_WEN_R
+
+Data
+
+    DDR1_DQ[15..0]
+    DDR1_DQ_R0
+    DDR1_DQ_R1							      
+    DDR1_DQ_R2							      
+    DDR1_DQ_R3							      
+    DDR1_DQ_R4							      
+    DDR1_DQ_R5							      
+    DDR1_DQ_R6							      
+    DDR1_DQ_R7
+    DDR1_DQ_R8
+    DDR1_DQ_R9
+    DDR1_DQ_R10
+    DDR1_DQ_R11
+    DDR1_DQ_R12
+    DDR1_DQ_R13
+    DDR1_DQ_R14
+    DDR1_DQ_R15
+
+    DDR1_DQ0
+    DDR1_DQ1
+    DDR1_DQ2
+    DDR1_DQ3
+    DDR1_DQ4
+    DDR1_DQ5
+    DDR1_DQ6
+    DDR1_DQ7
+    DDR1_DQ8
+    DDR1_DQ9
+    DDR1_DQ10
+    DDR1_DQ11
+    DDR1_DQ12
+    DDR1_DQ13
+    DDR1_DQ14
+    DDR1_DQ15
+
+**************************
+DDR Bank 2 U9
+
+Clock
+
+    DDR2_CK_N
+    DDR2_CK_P
+
+    DDR2_CK_R_N
+    DDR2_CK_R_P
+
+Address
+
+    DDR2_A[12..0]
+
+    DDR2_A_R0
+    DDR2_A_R1
+    DDR2_A_R2
+    DDR2_A_R3
+    DDR2_A_R4
+    DDR2_A_R5
+    DDR2_A_R6
+    DDR2_A_R7
+    DDR2_A_R8
+    DDR2_A_R9
+    DDR2_A_R10
+    DDR2_A_R11
+    DDR2_A_R12
+
+    DDR2_A0
+    DDR2_A1
+    DDR2_A2
+    DDR2_A3
+    DDR2_A4
+    DDR2_A5
+    DDR2_A6
+    DDR2_A7
+    DDR2_A8
+    DDR2_A9
+    DDR2_A10
+    DDR2_A11
+    DDR2_A12
+
+Command
+
+    DDR2_BA0
+    DDR2_BA0_R
+
+    DDR2_BA1
+    DDR2_BA1_R
+
+    DDR2_CASN
+    DDR2_CASN_R
+
+    DDR2_CKE
+    DDR2_CKE_R
+
+    DDR2_CSN
+    DDR2_CSN_R
+
+    DDR2_LDM
+    DDR2_LDM_R
+
+    DDR2_LDQS
+    DDR2_LDQS_R
+
+    DDR2_RASN
+    DDR2_RASN_R
+
+    DDR2_UDM
+    DDR2_UDM_R
+
+    DDR2_UDQS
+    DDR2_UDQS_R
+
+    DDR2_WEN
+    DDR2_WEN_R
+
+Data
+
+    DDR2_DQ[15..0]
+    DDR2_DQ_R0
+    DDR2_DQ_R1    
+    DDR2_DQ_R2
+    DDR2_DQ_R3
+    DDR2_DQ_R4
+    DDR2_DQ_R5
+    DDR2_DQ_R6
+    DDR2_DQ_R7
+    DDR2_DQ_R8
+    DDR2_DQ_R9
+    DDR2_DQ_R10
+    DDR2_DQ_R11
+    DDR2_DQ_R12
+    DDR2_DQ_R13
+    DDR2_DQ_R14
+    DDR2_DQ_R15
+    
+    DDR2_DQ0
+    DDR2_DQ1 
+    DDR2_DQ2
+    DDR2_DQ3
+    DDR2_DQ4
+    DDR2_DQ5
+    DDR2_DQ6
+    DDR2_DQ7
+    DDR2_DQ8
+    DDR2_DQ9
+    DDR2_DQ10
+    DDR2_DQ11
+    DDR2_DQ12
+    DDR2_DQ13
+    DDR2_DQ14
+    DDR2_DQ15
+**************************
+Helios Anntena_in SKU1
+**************************
+
+Refer to SMA_ANT_place&route_V1.doc
+
+    HELIOS_RF_IN1
+    HELIOS_RF_IN1_SMA
+
+
+**************************
+Helios Emulation Bus SKU1
+**************************
+
+match clock traces to each signal trace in the address and command groups to within ±400 mil. If clock traces cannot be matched to the trace lengths of these groups within 400 mil, then all clock trace lengths must be increased as a group. The longest-to-shortest trace-length difference must be =800 mil
+
+Use routing rule 5 for all signals except Clk
+
+Use routing rule 3 for clk
+
+CLK
+
+    HELIOS_EMU_CLK
+
+Adress
+
+    HELIOS_EMU_AD[15..0]
+
+    HELIOS_EMU_AD0
+    HELIOS_EMU_AD1
+    HELIOS_EMU_AD10
+    HELIOS_EMU_AD11
+    HELIOS_EMU_AD12
+    HELIOS_EMU_AD13
+    HELIOS_EMU_AD14
+    HELIOS_EMU_AD15
+    HELIOS_EMU_AD2
+    HELIOS_EMU_AD3
+    HELIOS_EMU_AD4
+    HELIOS_EMU_AD5
+    HELIOS_EMU_AD6
+    HELIOS_EMU_AD7
+    HELIOS_EMU_AD8
+    HELIOS_EMU_AD9
+
+Command
+
+    HELIOS_EMU_R
+    HELIOS_EMU_RESET_N
+    HELIOS_EMU_W
+
+**************************
+Helios JTAG port SKU1
+**************************
+
+Match trace length to 500 mil
+
+Use routing rule 2
+
+    HELIOS_DB_TCK
+    HELIOS_DB_TDI
+    HELIOS_DB_TDO
+    HELIOS_DB_TMS
+    HELIOS_DB_TRS
+
+**************************
+Helios I2C port SKU1
+**************************
+
+Match trace length between SDA and SLC to 500 mil
+
+Use routing rule 2
+
+    HELIOS_SDA
+    HELIOS_SDA_HDR
+
+    HELIOS_SLC
+    HELIOS_SLC_HDR
+
+**************************
+
+Match trace length between SDA and SLC to 500 mil
+
+Use routing rule 2
+
+    HELIOS_SDA_IN
+    HELIOS_SDA_OUT
+
+    HELIOS_SLC_IN
+    HELIOS_SLC_OUT
+
+**************************
+Strata Flash U4
+**************************
+
+Match clock traces to data group traces within ±500 mil.
+
+match clock traces to each signal trace in the address and command groups to within ±400 mil. If clock traces cannot be matched to the trace lengths of these groups within 400 mil, then all clock trace lengths must be increased as a group. The longest-to-shortest trace-length difference must be =800 mil
+
+Keep traces as short as possible. Trace length (from controller pad to Flask) is < 2.5in
+
+Use routing rule 5 for all signals except Clk/CLKn
+
+Use routing rule 3 for Clk
+
+Clock
+    SF_CLK
+
+Address
+
+    SF_A[25..1]
+    SF_A1
+    SF_A10
+    SF_A11
+    SF_A12
+    SF_A13
+    SF_A14
+    SF_A15
+    SF_A16
+    SF_A17
+    SF_A18
+    SF_A19
+    SF_A2
+    SF_A20
+    SF_A21
+    SF_A22
+    SF_A23
+    SF_A24
+    SF_A25
+    SF_A3
+    SF_A4
+    SF_A5
+    SF_A6
+    SF_A7
+    SF_A8
+    SF_A9
+
+Command
+
+    SF_ADVN
+    SF_CEN
+    SF_OEN
+    SF_RSTN
+    SF_WAIT
+    SF_WEN
+
+Data
+
+    SF_DQ[15..0]
+    SF_DQ0
+    SF_DQ1
+    SF_DQ10
+    SF_DQ11
+    SF_DQ12
+    SF_DQ13
+    SF_DQ14
+    SF_DQ15
+    SF_DQ2
+    SF_DQ3
+    SF_DQ4
+    SF_DQ5
+    SF_DQ6
+    SF_DQ7
+    SF_DQ8
+    SF_DQ9
+
+**************************
+10/100 I/F U4
+**************************
+Match clock traces to data group traces within ±500 mil.
+
+match clock traces to each signal trace in the address and command groups to within ±400 mil. If clock traces cannot be matched to the trace lengths of these groups within 400 mil, then all clock trace lengths must be increased as a group. The longest-to-shortest trace-length difference must be =800 mil
+
+Keep traces as short as possible. Trace length (from controller pad to Flask) is < 2.5in
+
+Use routing rule 5 for all signals except Clk/CLKn
+
+Use routing rule 3 for Clk
+
+Control Bus
+
+Clock
+
+    SMSC_LCLK
+
+Address
+
+    SMSC_A[15..1]
+    SMSC_A1
+    SMSC_A10
+    SMSC_A11
+    SMSC_A12
+    SMSC_A13
+    SMSC_A14
+    SMSC_A15
+    SMSC_A2
+    SMSC_A3
+    SMSC_A4
+    SMSC_A5
+    SMSC_A6
+    SMSC_A7
+    SMSC_A8
+    SMSC_A9
+
+Command
+
+    SMSC_INTR0
+    SMSC_RESET
+
+    SMSC_NADS
+    SMSC_NCYCLE
+    SMSC_NDATACS
+    SMSC_NLDEV
+    SMSC_NRD
+    SMSC_NRDYRTN
+    SMSC_NSRDY
+    SMSC_NVLBUS
+    SMSC_NWR
+    SMSC_W_NR
+    SMSC_AEN
+    SMSC_ARDY
+
+Data
+
+    SMSC_D[31..0]
+    SMSC_D0
+    SMSC_D1
+    SMSC_D10
+    SMSC_D11
+    SMSC_D12
+    SMSC_D13
+    SMSC_D14
+    SMSC_D15
+    SMSC_D16
+    SMSC_D17
+    SMSC_D18
+    SMSC_D19
+    SMSC_D2
+    SMSC_D20
+    SMSC_D21
+    SMSC_D22
+    SMSC_D23
+    SMSC_D24
+    SMSC_D25
+    SMSC_D26
+    SMSC_D27
+    SMSC_D28
+    SMSC_D29
+    SMSC_D3
+    SMSC_D30
+    SMSC_D31
+    SMSC_D4
+    SMSC_D5
+    SMSC_D6
+    SMSC_D7
+    SMSC_D8
+    SMSC_D9
+
+
+**************************
+10/100 I/F U4 - T1 - J3
+**************************
+Use routing rule 6
+
+    SMSC_TPI_R_N
+    SMSC_TPI_R_P
+
+    SMSC_TPI_N
+    SMSC_TPI_P
+
+    SMSC_RX_N
+    SMSC_RX_P
+
+
+    SMSC_TPO_N
+    SMSC_TPO_P
+
+    SMSC_TX_N
+    SMSC_TX_P
+
+ 
+**************************
+10/100 I/F U4 XTAL Y1
+**************************
+Rout only on layer one
+All associated components on Layer one
+No Vias
+Routing length < 0.5 in
+
+
+    SMSC_XTAL1
+    SMSC_XTAL1_R
+    SMSC_XTAL2
+
+
+
+
+
+END
+

@@ -1,0 +1,16 @@
+# Allegro script
+#	file: E:/a_chuong/Project3/TEGOINC_Helios_test/Board/invisble_package.scr
+#	start time: Thu Jul 31 09:31:55 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main package_geometry/place_bound_top/visible NO 
+FORM cvf_main package_geometry/place_bound_bottom/visible NO 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Thu Jul 31 09:38:15 2008

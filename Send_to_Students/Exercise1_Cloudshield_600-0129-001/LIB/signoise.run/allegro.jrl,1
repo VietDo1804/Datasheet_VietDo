@@ -1,0 +1,30 @@
+\t (00:00:01) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:01)     Journal start - Thu Dec 27 21:00:33 2018
+\t (00:00:01)         Host=THINHPHAM-PC User=ThinhPham Pid=7212 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:04) Opening existing design...
+\i (00:00:09) fillin yes 
+\d (00:00:10) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/signoise.run/TNSP_USBHUB3.brd
+\i (00:00:10) trapsize 282
+\i (00:00:10) trapsize 277
+\i (00:00:10) trapsize 283
+\i (00:00:11) trapsize 283
+\i (00:00:12) generaledit 
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 466.69 1319.00
+\i (00:00:13) trapsize 567
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 466.68 1319.01
+\t (00:00:13) Grids are drawn 10.00, 10.00 apart for enhanced viewability.
+\i (00:00:13) trapsize 1133
+\i (00:00:19) open 
+\i (00:00:21) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB\signoise.run\signoise.run\TNSP_USBHUB3.brd"
+\i (00:00:21) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB\signoise.run\signoise.run"
+\t (00:00:21) Opening existing design...
+\i (00:00:23) fillin yes 
+\t (00:00:23) Grids are drawn 50.00, 50.00 apart for enhanced viewability.
+\i (00:00:23) trapsize 567
+\t (00:00:23)     Journal end - Thu Dec 27 21:00:55 2018

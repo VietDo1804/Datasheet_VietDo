@@ -1,0 +1,15 @@
+setwindow pcb
+# Allegro script
+#	file: D:\CHUONG\SOFT\Cadence\Acronics\Project2\width60.scr
+#	start time: Sat Jun 14 17:36:44 2008
+#	Version: 15.2 p003 (v15-2-51C) i86
+version 15.2
+
+trapsize 4226
+add connect 
+setwindow form.mini
+FORM mini line_width 60.000 
+setwindow pcb
+pick grid 9194.887 6192.367
+
+#	stop time: Sat Jun 14 17:37:07 2008

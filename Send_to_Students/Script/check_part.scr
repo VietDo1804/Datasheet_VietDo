@@ -1,0 +1,22 @@
+# Allegro script
+#	file: F:/TOA/check/check_part.scr
+#	start time: Tue Aug 30 20:35:02 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 4339
+generaledit
+show property 
+generaledit 
+setwindow form.show_prop
+FORM show_prop proplist Dfa_Dev_Class 
+FORM show_prop show  
+FORM show_prop proplist Package_Height_Max 
+FORM show_prop show  
+FORM show_prop proplist Package_Height_Min 
+FORM show_prop show  
+FORM show_prop done  
+setwindow pcb
+
+#	stop time: Tue Aug 30 20:36:15 2011

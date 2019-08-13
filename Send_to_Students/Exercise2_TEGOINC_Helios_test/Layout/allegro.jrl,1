@@ -1,0 +1,244 @@
+\t (00:00:01) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:01)     Journal start - Wed Jan 23 20:42:52 2019
+\t (00:00:01)         Host=THINHPHAM-PC User=ThinhPham Pid=9788 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise2_TEGOINC_Helios_test/Layout/Helios_24Oct18.brd
+\i (00:00:04) trapsize 16239
+\i (00:00:04) trapsize 15536
+\i (00:00:04) trapsize 16363
+\i (00:00:04) trapsize 16718
+\i (00:00:06) trapsize 26133
+\i (00:00:06) trapsize 26133
+\i (00:00:07) trapsize 7757
+\i (00:00:07) generaledit 
+\i (00:01:29) prepopup -606.949 -1550.308
+\i (00:01:30) pick grid -535.586 -1499.112
+\t (00:01:30) last pick:  -536.000 -1499.000
+\i (00:01:34) pop dyn_option_select 'Application Mode@:@Placement Edit' 
+\i (00:01:34) placementedit 
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 297.507 -1969.182
+\i (00:01:35) trapsize 3878
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 297.508 -1969.181
+\i (00:01:35) trapsize 1939
+\i (00:01:36) pick grid 313.410 -1956.770
+\t (00:01:36) last pick:  313.000 -1957.000
+\i (00:01:36) move 
+\t (00:01:36) last pick:  297.303 -1955.799
+\t (00:01:36) Moving R5 / RESISTOR_0603R_100R_1%_0603 / 0603R.
+\t (00:01:36) Pick new location for the element(s).
+\i (00:01:38) prepopup 294.018 -1971.896
+\i (00:01:41) prepopup 323.882 -1964.914
+\i (00:01:41) cancel 
+\i (00:01:42) placementedit 
+\i (00:01:42) cancel 
+\i (00:01:42) placementedit 
+\i (00:01:42) prepopup 323.882 -1964.914
+\i (00:01:51) cancel 
+\i (00:01:51) placementedit 
+\i (00:01:51) cancel 
+\i (00:01:51) placementedit 
+\i (00:02:19) zoom out 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom out 263.766 -1823.351
+\i (00:02:19) trapsize 3878
+\i (00:02:19) drag_start grid 248.252 -1853.602
+\i (00:02:20) drag_stop 339.783 -2195.682
+\i (00:02:20) prepopup 308.756 -1970.732
+\i (00:02:22) pop dyn_option_select '@:@Align components' 
+\i (00:02:22) align components 
+\i (00:02:24) pick grid 244.373 -1881.527
+\t (00:02:24) last pick:  244.000 -1882.000
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 342.110 -1922.639
+\i (00:02:24) trapsize 1939
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 342.110 -1922.639
+\i (00:02:24) trapsize 970
+\i (00:02:26) prepopup 276.758 -1904.992
+\i (00:02:27) done 
+\i (00:02:27) placementedit 
+\i (00:02:28) pick grid 244.955 -1924.966
+\t (00:02:28) last pick:  245.000 -1925.000
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out 254.263 -1917.403
+\i (00:02:29) trapsize 1939
+\i (00:02:30) drag_start grid 233.319 -1868.147
+\i (00:02:30) drag_stop 347.346 -2115.592
+\i (00:02:31) prepopup 316.318 -1967.047
+\i (00:02:52) pop dyn_option_select '@:@Align components' 
+\i (00:02:52) align components 
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 437.326 -2136.536
+\i (00:04:21) trapsize 3878
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 437.326 -2136.536
+\i (00:04:21) trapsize 7757
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 437.327 -2134.984
+\i (00:04:21) trapsize 15514
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 437.327 -2134.985
+\i (00:04:21) trapsize 31028
+\i (00:04:22) zoom in 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom in 536.615 -87.158
+\i (00:04:22) trapsize 15514
+\i (00:04:24) zoom in 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom in 570.745 -772.869
+\i (00:04:24) trapsize 7757
+\i (00:04:24) zoom in 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom in 570.745 -772.869
+\i (00:04:24) trapsize 3878
+\i (00:04:24) zoom in 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom in 570.745 -772.869
+\i (00:04:24) trapsize 1939
+\i (00:04:24) zoom out 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom out 570.745 -772.869
+\i (00:04:24) trapsize 3878
+\i (00:04:24) zoom out 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom out 570.745 -772.869
+\i (00:04:24) trapsize 7757
+\i (00:04:25) zoom in 1 
+\i (00:04:25) setwindow pcb
+\i (00:04:25) zoom in 676.239 -363.303
+\i (00:04:25) trapsize 3878
+\i (00:04:25) zoom in 1 
+\i (00:04:25) setwindow pcb
+\i (00:04:25) zoom in 676.239 -363.303
+\i (00:04:25) trapsize 1939
+\i (00:04:25) zoom out 1 
+\i (00:04:25) setwindow pcb
+\i (00:04:25) zoom out 676.240 -362.915
+\i (00:04:25) trapsize 3878
+\i (00:04:25) zoom out 1 
+\i (00:04:25) setwindow pcb
+\i (00:04:25) zoom out 676.239 -362.915
+\i (00:04:25) trapsize 7757
+\i (00:04:26) zoom out 1 
+\i (00:04:26) setwindow pcb
+\i (00:04:26) zoom out -609.858 -583.210
+\i (00:04:26) trapsize 15514
+\i (00:04:26) zoom out 1 
+\i (00:04:26) setwindow pcb
+\i (00:04:26) zoom out -609.857 -583.211
+\i (00:04:26) trapsize 31028
+\i (00:04:26) zoom out 1 
+\i (00:04:26) setwindow pcb
+\i (00:04:26) zoom out -609.857 -583.211
+\i (00:04:26) trapsize 62055
+\i (00:04:27) zoom in 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom in 1351.091 484.141
+\i (00:04:27) trapsize 31028
+\i (00:04:27) zoom in 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom in 1351.091 484.141
+\i (00:04:27) trapsize 15514
+\i (00:04:27) zoom out 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom out 1906.486 750.979
+\i (00:04:27) trapsize 31028
+\i (00:04:28) zoom out 1 
+\i (00:04:28) setwindow pcb
+\i (00:04:28) zoom out 2415.340 1011.611
+\i (00:04:28) trapsize 62055
+\i (00:04:29) skill_tool 
+\i (00:04:29) placementedit 
+\i (00:04:32) setwindow form.sk_tool_form
+\i (00:04:32) FORM sk_tool_form sklist check_silk_v6.eil 
+\i (00:04:33) FORM sk_tool_form sklist set_pin_delay_v2.eil 
+\i (00:04:38) FORM sk_tool_form sklist silktool.eil 
+\i (00:04:39) FORM sk_tool_form loadcmd  
+\i (00:04:39) skill 'load "silktool.eil" "password"' 
+   (00:04:39) t
+\i (00:04:39) SilkTool 
+\i (00:04:39) setwindow pcb
+\i (00:04:39) placementedit 
+\i (00:06:02) setwindow form.SilkTool
+\i (00:06:02) FORM SilkTool st_star NO 
+\i (00:06:03) FORM SilkTool st_plus NO 
+\i (00:06:13) FORM SilkTool st_pinno NO 
+\i (00:06:34) FORM SilkTool st_tbkcheck NO 
+\i (00:06:34) FORM SilkTool st_tbkcheck YES 
+\i (00:06:36) FORM SilkTool st_pintbkcheck NO 
+\i (00:06:36) FORM SilkTool st_statbkcheck NO 
+\i (00:06:37) FORM SilkTool st_nottbkcheck NO 
+\i (00:06:37) FORM SilkTool st_plutbkcheck NO 
+\i (00:06:38) FORM SilkTool st_alicheck NO 
+\i (00:06:38) FORM SilkTool st_alicheck YES 
+\i (00:06:39) FORM SilkTool st_pinalicheck NO 
+\i (00:06:40) FORM SilkTool st_staalicheck NO 
+\i (00:06:41) FORM SilkTool st_notalicheck NO 
+\i (00:06:42) FORM SilkTool st_plualicheck NO 
+\i (00:07:04) FORM SilkTool st_refalipop C 
+\i (00:11:09) FORM SilkTool auto  
+\i (00:14:17) setwindow pcb
+\i (00:14:17) pick grid 3557.159 626.869
+\t (00:14:17) last pick:  3557.000 627.000
+\i (00:14:17) move 
+\t (00:14:17) last pick:  3610.000 534.000
+\t (00:14:17) Moving JP23 / HDRSMT1X2_HDRSMT1X2_HDRSMT1X2 / HDRSMT1X2.
+\t (00:14:17) Pick new location for the element(s).
+\i (00:15:41) setwindow form.sk_tool_form
+\i (00:15:41) FORM sk_tool_form sklist sovsinareas.eil 
+\i (00:15:47) FORM sk_tool_form sklist soldermaskcheck.eil 
+\i (00:15:47) FORM sk_tool_form sklist silktool.eil 
+\i (00:15:48) FORM sk_tool_form loadcmd  
+\i (00:15:48) SilkTool 
+\i (00:15:49) setwindow form.SilkTool
+\i (00:15:49) FORM SilkTool ex/import  
+\i (00:19:35) setwindow pcb
+\i (00:19:35) done 
+\i (00:19:35) placementedit 
+\i (00:19:37) pick grid 4922.376 -2748.941
+\t (00:19:37) last pick:  4922.000 -2749.000
+\i (00:19:38) zoom in 1 
+\i (00:19:38) setwindow pcb
+\i (00:19:38) zoom in 4922.376 -2761.352
+\i (00:19:38) trapsize 31028
+\i (00:19:38) zoom in 1 
+\i (00:19:38) setwindow pcb
+\i (00:19:38) zoom in 4922.376 -2761.352
+\i (00:19:38) trapsize 15514
+\i (00:19:38) zoom out 1 
+\i (00:19:38) setwindow pcb
+\i (00:19:38) zoom out 4922.376 -2761.352
+\i (00:19:38) trapsize 31028
+\i (00:19:38) zoom out 1 
+\i (00:19:38) setwindow pcb
+\i (00:19:38) zoom out 4922.376 -2761.352
+\i (00:19:38) trapsize 62055
+\i (00:19:39) zoom out 1 
+\i (00:19:39) setwindow pcb
+\i (00:19:39) zoom out 4922.376 -2761.351
+\i (00:19:39) trapsize 124111
+\i (00:19:40) zoom fit 
+\i (00:19:40) trapsize 31027
+\i (00:20:49) setwindow form.sk_tool_form
+\i (00:20:49) FORM sk_tool_form sklist soldermaskcheck.eil 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) create plot 
+\i (00:24:38) fillin "menu_cancel"
+\i (00:35:58) exit 
+\e (00:35:58) Do you want to save the changes you made to Helios_24Oct18.brd?
+\i (00:35:59) fillin no 
+\t (00:36:01)     Journal end - Wed Jan 23 21:18:52 2019

@@ -1,0 +1,12 @@
+# Allegro script
+#	file: E:/A_CHUONG/working/CISCO_27Aug08/check_pinvia_silk.scr
+#	start time: Tue Aug 26 23:55:44 2008
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+setwindow pcb
+trapsize 132178
+skill 'load "check_pinvia_silk.il"' 
+check_pinvia_silk 
+
+#	stop time: Tue Aug 26 23:56:45 2008

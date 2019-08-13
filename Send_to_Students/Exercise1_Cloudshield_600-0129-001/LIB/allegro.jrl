@@ -1,0 +1,20 @@
+\t (00:00:01) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:01)     Journal start - Mon Jan 21 16:11:30 2019
+\t (00:00:01)         Host=THINHPHAM-PC User=ThinhPham Pid=18184 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/TNSP_USBHUB3.brd
+\i (00:00:03) trapsize 1195
+\i (00:00:03) trapsize 1143
+\i (00:00:04) trapsize 1204
+\i (00:00:04) trapsize 1230
+\i (00:00:05) trapsize 1922
+\i (00:00:05) trapsize 1922
+\i (00:00:06) generaledit 
+\i (00:00:08) open 
+\i (00:00:14) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout\Helios_24Oct18.brd"
+\i (00:00:14) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout"
+\t (00:00:14) Opening existing design...
+\i (00:00:14) trapsize 26133
+\t (00:00:14)     Journal end - Mon Jan 21 16:11:42 2019

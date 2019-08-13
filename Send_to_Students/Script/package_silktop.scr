@@ -1,0 +1,17 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project3/TEGOINC_Helios_test/Board/package_silktop.scr
+#	start time: Wed Jul 30 20:04:43 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 249663
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Geometry 
+FORM cvf_main package_geometry/silkscreen_top/visible YES 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Wed Jul 30 20:05:00 2008

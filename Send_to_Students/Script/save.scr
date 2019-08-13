@@ -1,0 +1,10 @@
+# Allegro script
+#	file: E:/A_CHUONG/training/Project2/done_save.scr
+#	start time: Sun Oct 05 08:58:41 2008
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+setwindow pcb
+save 
+fillin yes 
+#	stop time: Sun Oct 05 08:59:19 2008

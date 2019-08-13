@@ -1,0 +1,12 @@
+# Allegro script
+#	file: F:/Working/work/trainning/Mimosa/toggle.scr
+#	start time: Tue Dec 27 18:28:47 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 53963
+placementedit
+shadow toggle 
+
+#	stop time: Tue Dec 27 18:29:00 2011

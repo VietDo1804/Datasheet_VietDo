@@ -1,0 +1,27 @@
+setwindow pcb
+# Allegro script
+#	file: E:\Working\Cisco_8PORTS\09Sep05\no_probe_bot.scr
+#	start time: Thu Sep 08 20:34:55 2005
+#	Version: 15.2 s086 (v15-2-51CV) i86
+version 15.2
+
+trapsize 133305
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Geometry 
+FORM cvf_main board_geometry/outline/visible YES 
+FORM cvf_main board_geometry/note2/visible YES 
+FORM cvf_main board_geometry/note/visible YES 
+FORM cvf_main board_geometry/note/visible NO 
+FORM cvf_main class_list Manufacturing 
+FORM cvf_main manufacturing/no_probe_bottom/visible YES 
+FORM cvf_main class_list Stack-Up 
+FORM cvf_main pin/bottom/visible NO 
+FORM cvf_main pin/bottom/visible YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+
+#	stop time: Thu Sep 08 20:35:54 2005

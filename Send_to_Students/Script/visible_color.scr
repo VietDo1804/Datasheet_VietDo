@@ -1,0 +1,16 @@
+# Allegro script
+#	file: E:/a_chuong/Project3/TEGOINC_Helios_test/Board/visible_color.scr
+#	start time: Thu Jul 31 09:14:33 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 758604
+color 
+setwindow form.cvf_main
+FORM cvf_main global_vis All Visible 
+fillin yes 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Thu Jul 31 09:15:00 2008

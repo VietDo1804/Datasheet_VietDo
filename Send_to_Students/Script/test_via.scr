@@ -1,0 +1,15 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/CISCO/Cisco_28-9274-01/08Jun09/test_via.scr
+#	start time: Sun Jun 07 20:01:22 2009
+#	Version: 15.7 s104 (v15-7-42EQ) i86
+version 15.7
+
+setwindow pcb
+testprep manual 
+setwindow form.mini
+FORM mini parameters  
+setwindow form.testprep_parameters
+FORM testprep_parameters padstack_selections  
+setwindow pcb
+
+#	stop time: Sun Jun 07 20:02:02 2009

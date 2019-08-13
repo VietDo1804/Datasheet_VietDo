@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 380x165GND.dra                                )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Wed Dec 05 19:40:05 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB
+    Name      = 380x165gnd.ssm
+    User      = ThinhPham
+    Machine   = THINHPHAM-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

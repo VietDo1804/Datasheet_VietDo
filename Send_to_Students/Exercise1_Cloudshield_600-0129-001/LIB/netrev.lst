@@ -1,0 +1,89 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : temp.brd                                      )
+(    Software Version : 16.6S020                                      )
+(    Date/Time        : Tue Oct 31 23:22:47 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'E:/Document/Allegro_trainning/LIB/temp.brd';
+NEW_BOARD_NAME 'E:/Document/Allegro_trainning/LIB/temp.brd';
+
+CmdLine: netrev -$ -i E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic -y 1 -q netrev_constraint_report.xml E:/Document/Allegro_trainning/LIB/#Taaaabp11952.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstchip.dat 
+   Finished reading E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstchip.dat (00:00:00.03)
+Starting to read E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstxprt.dat 
+   Finished reading E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstxprt.dat (00:00:00.00)
+Starting to read E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstxnet.dat 
+   Finished reading E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/Schematic/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'MOLEX_672983091 {RefDes CN2}' for device '3000-1394_USB_A_VERT_RECP_MOLEX' not found in PSMPATH or must be "dbdoctor"ed.
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'NEC_TQFP_48 {RefDes U1}' for device '4000-1384_UPD720114_TQFP48_NEC_' not found in PSMPATH or must be "dbdoctor"ed.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'TI_SON_10 {RefDes U4}' for device 'IC_TPS74801_SON10_3X3_ADJ_REG_T' not found in PSMPATH or must be "dbdoctor"ed.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+
+PADPATH =  . 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Oct 31 23:22:47 2017
+   DESIGN NAME : 'TNSP_USBHUB3'
+   PACKAGING ON May 28 2006 22:05:31
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  3 warnings detected
+
+cpu time      0:00:35
+elapsed time  0:00:01
+

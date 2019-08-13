@@ -1,0 +1,980 @@
+<HTML><META HTTP-EQUIV="content-type" CONTENT="text/html;charset=utf-8">
+<PRE>LISTING: 9 element(s)
+
+Item 1       &lt; SYMBOL &gt;
+
+  RefDes:         JP5
+  Symbol name:    HDRSMT1X3
+  origin-xy:    <A href="xprobe:xy:3680.00 3955.00">(3680.00 3955.00)</A> 
+  rotation:       180.000  degrees
+  not_mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_TOP
+   value      = JP5
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_TOP
+   value      = JP5
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = SILKSCREEN_TOP
+   value      = 3
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/hdrsmt1x3.psm
+
+
+  -------Component Instance JP5-------
+
+  Component Class:      IC
+  Device Type:          HDRSMT1X3_HDRSMT1X3_HDRSMT1X3
+    Value:              HDRSMT1X3
+
+  Function(s):
+    Designator: F313
+    Type:       HDRSMT1X3_HDRSMT1X3_HDRSMT1X3
+    Pin(s):     1, 2, 3
+
+  Properties attached to component definition
+    VALUE             = HDRSMT1X3
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC18_HDR
+    2       UNSPEC                            VCC_1_8
+    3       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 2       &lt; SYMBOL &gt;
+
+  RefDes:         C158
+  Symbol name:    0402C
+  origin-xy:    <A href="xprobe:xy:3730.00 4265.00">(3730.00 4265.00)</A> 
+  rotation:       0.000  degrees
+  not_mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_TOP
+   value      = C158
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_TOP
+   value      = C158
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.508
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0200
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.016
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0400
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.372
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0540
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.838
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0330
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = BODY_CENTER
+   value      = CENTER
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = SPEC.:Capacitor.xls
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = P/N:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = MANUFACTURE: AVX
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CHECKED BY XXXX - DDMMMYY
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CREATED BY XUAN - 02OCT07
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = PROP
+   value      = WWW.ACRONICS.COM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = SYMBOL : C0402_I_0M56
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = PADSTACK(S): 021X020SM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = COMP HEIGHT: 22.040 MIL [0.5598 MM]
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = DFA_DEV_CLASS: CHIP-0402
+
+  Properties attached to symbol
+    SYM_REV           = D0
+    CREATED_DATE      = 012202
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/0402c.psm
+    CREATED_DATE      = 012202
+    SYM_REV           = D0
+    DFA_DEV_CLASS     = CHIP-0402
+
+
+  -------Component Instance C158-------
+
+  Component Class:      IC
+  Device Type:          CAP NP_0402C_0.1UF_0402
+    Value:              0.1uF_0402
+
+  Function(s):
+    Designator: F550
+    Type:       CAP NP_0402C_0.1UF_0402
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 0.1uF_0402
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC18_HDR
+    2       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 3       &lt; SYMBOL &gt;
+
+  RefDes:         C157
+  Symbol name:    6032P
+  origin-xy:    <A href="xprobe:xy:3725.00 4250.00">(3725.00 4250.00)</A> 
+  rotation:       180.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = C157
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = C157
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/6032p.psm
+
+
+  -------Component Instance C157-------
+
+  Component Class:      IC
+  Device Type:          CAP POL_6032P_10UF_TAN_LOWESR_C
+    Value:              10uF_TAN_LOWESR_C
+
+  Function(s):
+    Designator: F448
+    Type:       CAP POL_6032P_10UF_TAN_LOWESR_C
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 10uF_TAN_LOWESR_C
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC18_HDR
+    2       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 4       &lt; SYMBOL &gt;
+
+  RefDes:         R152
+  Symbol name:    0603R
+  origin-xy:    <A href="xprobe:xy:3775.00 4360.00">(3775.00 4360.00)</A> 
+  rotation:       0.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = R152
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = R152
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.762
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0300
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.524
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0600
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 2.134
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0840
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.346
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0530
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = BODY_CENTER
+   value      = CENTER
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = SPEC.resistor.XLS
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = P/N:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = MANUFACTURE:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CHECKED BY XXXX - DDMMMYY
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CREATED BY NGOC - 24OCT07
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = PROP
+   value      = WWW.ACRONICS.COM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = SYMBOL : R0603_I_0M46
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = PADSTACK(S): 030X032SM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = COMP HEIGHT: 18.110 MIL [0.4600 MM]
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = DFA_DEV_CLASS: CHIP-0603
+
+  Properties attached to symbol
+    SYM_REV           = E0
+    CREATED_DATE      = 033006
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/0603r.psm
+    CREATED_DATE      = 033006
+    SYM_REV           = E0
+    DFA_DEV_CLASS     = CHIP-0603
+
+
+  -------Component Instance R152-------
+
+  Component Class:      IC
+  Device Type:          RESISTOR_0603R_1K_1%_0603
+    Value:              1K_1%_0603
+
+  Function(s):
+    Designator: F161
+    Type:       RESISTOR_0603R_1K_1%_0603
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 1K_1%_0603
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            GND
+    2       UNSPEC                            VCC18_FB
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 5       &lt; SYMBOL &gt;
+
+  RefDes:         R151
+  Symbol name:    0603R
+  origin-xy:    <A href="xprobe:xy:3665.00 4360.00">(3665.00 4360.00)</A> 
+  rotation:       0.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = R151
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = R151
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.762
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0300
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.524
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0600
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 2.134
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0840
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.346
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0530
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = BODY_CENTER
+   value      = CENTER
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = SPEC.resistor.XLS
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = P/N:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = MANUFACTURE:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CHECKED BY XXXX - DDMMMYY
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CREATED BY NGOC - 24OCT07
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = PROP
+   value      = WWW.ACRONICS.COM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = SYMBOL : R0603_I_0M46
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = PADSTACK(S): 030X032SM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = COMP HEIGHT: 18.110 MIL [0.4600 MM]
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = DFA_DEV_CLASS: CHIP-0603
+
+  Properties attached to symbol
+    SYM_REV           = E0
+    CREATED_DATE      = 033006
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/0603r.psm
+    CREATED_DATE      = 033006
+    SYM_REV           = E0
+    DFA_DEV_CLASS     = CHIP-0603
+
+
+  -------Component Instance R151-------
+
+  Component Class:      IC
+  Device Type:          RESISTOR_0603R_2.61K_1%_0603
+    Value:              2.61K_1%_0603
+
+  Function(s):
+    Designator: F78
+    Type:       RESISTOR_0603R_2.61K_1%_0603
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 2.61K_1%_0603
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC18_FB
+    2       UNSPEC                            VCC18_HDR
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 6       &lt; SYMBOL &gt;
+
+  RefDes:         C155
+  Symbol name:    0805C
+  origin-xy:    <A href="xprobe:xy:3735.00 4575.00">(3735.00 4575.00)</A> 
+  rotation:       90.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = C155
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = C155
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.27
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0500
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 2.032
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0800
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 3.048
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .1200
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.905
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0750
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = BODY_CENTER
+   value      = CENTER
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = SPEC.:Capacitor.xls
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = P/N:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = MANUFACTURE: AVX
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CHECKED BY XXXX - DDMMMYY
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CREATED BY XUAN - 02OCT07
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = PROP
+   value      = WWW.ACRONICS.COM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = SYMBOL : C0805_I_1M4
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = PADSTACK(S): 050X045SM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = COMP HEIGHT: 55.000 MIL [1.3970 MM]
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = DFA_DEV_CLASS: CHIP-0805
+
+  Properties attached to symbol
+    SYM_REV           = D0
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/0805c.psm
+    SYM_REV           = D0
+    DFA_DEV_CLASS     = CHIP-0805
+
+
+  -------Component Instance C155-------
+
+  Component Class:      IC
+  Device Type:          CAP NP_0805C_4.7UF_0805
+    Value:              4.7uF_0805
+
+  Function(s):
+    Designator: F428
+    Type:       CAP NP_0805C_4.7UF_0805
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 4.7uF_0805
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC_5_0
+    2       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 7       &lt; SYMBOL &gt;
+
+  RefDes:         C156
+  Symbol name:    0402C
+  origin-xy:    <A href="xprobe:xy:3820.00 4605.00">(3820.00 4605.00)</A> 
+  rotation:       90.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = C156
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = C156
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.508
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0200
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.016
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0400
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 1.372
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0540
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = 0.838
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = .0330
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = BODY_CENTER
+   value      = CENTER
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = SPEC.:Capacitor.xls
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = P/N:
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = MANUFACTURE: AVX
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CHECKED BY XXXX - DDMMMYY
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = REV
+   value      = CREATED BY XUAN - 02OCT07
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = PROP
+   value      = WWW.ACRONICS.COM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = SYMBOL : C0402_I_0M56
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = PADSTACK(S): 021X020SM
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = COMP HEIGHT: 22.040 MIL [0.5598 MM]
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = COMP_DIM
+   value      = DFA_DEV_CLASS: CHIP-0402
+
+  Properties attached to symbol
+    SYM_REV           = D0
+    CREATED_DATE      = 012202
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/0402c.psm
+    CREATED_DATE      = 012202
+    SYM_REV           = D0
+    DFA_DEV_CLASS     = CHIP-0402
+
+
+  -------Component Instance C156-------
+
+  Component Class:      IC
+  Device Type:          CAP NP_0402C_0.1UF_0402
+    Value:              0.1uF_0402
+
+  Function(s):
+    Designator: F551
+    Type:       CAP NP_0402C_0.1UF_0402
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 0.1uF_0402
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC_5_0
+    2       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 8       &lt; SYMBOL &gt;
+
+  RefDes:         U13
+  Symbol name:    SOIC8_EPD2
+  origin-xy:    <A href="xprobe:xy:3710.00 4490.00">(3710.00 4490.00)</A> 
+  rotation:       180.000  degrees
+  not_mirrored
+
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = SILKSCREEN_TOP
+   value      = 8
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = SILKSCREEN_TOP
+   value      = 5
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = SILKSCREEN_TOP
+   value      = 4
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = SILKSCREEN_TOP
+   value      = 1
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_TOP
+   value      = U13
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_TOP
+   value      = U13
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/soic8_epd2.psm
+
+
+  -------Component Instance U13-------
+
+  Component Class:      IC
+  Device Type:          SC4211_SOIC8_EPD2_SC4211
+    Value:              SC4211
+
+  Function(s):
+    Designator: F30
+    Type:       SC4211_SOIC8_EPD2_SC4211
+    Pin(s):     2, 7, 8, 1, 4...
+
+  Properties attached to component definition
+    VALUE             = SC4211
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            
+    2       IN        CDSDefaultInput_2p5v    VCC_5_0
+    3       UNSPEC                            VCC_5_0
+    4       UNSPEC                            
+    5       UNSPEC                            
+    6       UNSPEC                            VCC18_HDR
+    7       UNSPEC                            VCC18_FB
+    8       UNSPEC                            GND
+    9       UNSPEC                            GND
+    10      UNSPEC                            GND
+    11      UNSPEC                            GND
+    12      UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Item 9       &lt; SYMBOL &gt;
+
+  RefDes:         C154
+  Symbol name:    6032P
+  origin-xy:    <A href="xprobe:xy:3610.00 4525.00">(3610.00 4525.00)</A> 
+  rotation:       90.000  degrees
+  mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_BOTTOM
+   value      = C154
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = C154
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = D:/Hi_tech/highspeed/Class2/Exercise2_TEGOINC_
+                        Helios_test/Standard_Footprint/6032p.psm
+
+
+  -------Component Instance C154-------
+
+  Component Class:      IC
+  Device Type:          CAP POL_6032P_10UF_TAN_LOWESR_C
+    Value:              10uF_TAN_LOWESR_C
+
+  Function(s):
+    Designator: F449
+    Type:       CAP POL_6032P_10UF_TAN_LOWESR_C
+    Pin(s):     1, 2
+
+  Properties attached to component definition
+    VALUE             = 10uF_TAN_LOWESR_C
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       UNSPEC                            VCC_5_0
+    2       UNSPEC                            GND
+
+  Member of Groups:
+    MODULE          : CR_UNNAMED_4
+
+  ~ ~ ~ ~ ~ ~ ~end-of-file~ ~ ~ ~ ~ ~ ~
+</PRE>

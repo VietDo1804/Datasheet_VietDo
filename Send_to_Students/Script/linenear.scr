@@ -1,0 +1,13 @@
+# Allegro script
+#	file: D:\Allegro\3M_929_lib\linenear.scr
+#	start time: Sun Sep 29 19:08:21 2002
+version 14.2
+
+setwindow pcb
+trapsize 3912
+dimension linear 
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY 
+FORM mini subclass COMP_DIM 
+
+#	stop time: Sun Sep 29 19:08:40 2002

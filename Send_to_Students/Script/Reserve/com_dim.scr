@@ -1,0 +1,15 @@
+# Allegro script
+#	file: E:/Working/Xuan/Regulators/com_dim.scr
+#	start time: Wed Dec 19 23:12:39 2007
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 1231
+dimension linear 
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY 
+FORM mini subclass COMP_DIM 
+setwindow pcb
+
+#	stop time: Wed Dec 19 23:12:57 2007

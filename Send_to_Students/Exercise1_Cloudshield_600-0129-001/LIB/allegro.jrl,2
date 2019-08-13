@@ -1,0 +1,39 @@
+\t (00:00:15) allegro 16.6 S020 (v16-6-112BH) Windows 32
+\t (00:00:15)     Journal start - Tue Nov 07 19:55:07 2017
+\t (00:00:15)         Host=TOANGUYEN87 User=01217616379 Pid=9120 CPUs=8
+\t (00:00:15) 
+\d (00:00:15) Database opened: E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/xtal_vxm5.dra
+\i (00:00:15) generaledit 
+\i (00:00:17) grid toggle 
+\i (00:00:17) generaledit 
+\i (00:00:18) pick grid -110.6 -336.8
+\t (00:00:18) last pick:  -100.0  -300.0
+\i (00:00:20) grid toggle 
+\i (00:00:20) generaledit 
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out -97.5 -263.5
+\i (00:00:20) trapsize 81
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -24.3 -144.7
+\i (00:00:21) trapsize 81
+\i (00:00:24) open 
+\e (00:00:24) Do you want to save the changes you made to xtal_vxm5.dra?
+\i (00:00:26) fillin no 
+\i (00:00:29) fillin "menu_cancel"
+\i (00:00:29) generaledit 
+\i (00:00:38) toolswap 
+\i (00:00:41) fillin 
+\t (00:00:41) Opening existing design...
+\i (00:00:41) trapsize 81
+\i (00:00:42) generaledit 
+\i (00:00:43) open 
+\e (00:00:43) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/xtal_vxm5.dra?
+\i (00:00:45) fillin no 
+\i (00:00:46) fillin "menu_cancel"
+\i (00:00:46) generaledit 
+\i (00:00:51) exit 
+\e (00:00:51) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/xtal_vxm5.dra?
+\i (00:01:00) fillin no 
+\t (00:01:01)     Journal end - Tue Nov 07 19:55:53 2017

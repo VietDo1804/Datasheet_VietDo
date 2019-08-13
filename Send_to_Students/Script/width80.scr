@@ -1,0 +1,17 @@
+setwindow pcb
+# Allegro script
+#	file: D:\CHUONG\SOFT\Cadence\Acronics\Project2\width80.scr
+#	start time: Sat Jun 14 17:37:41 2008
+#	Version: 15.2 p003 (v15-2-51C) i86
+version 15.2
+
+trapsize 4226
+mouse_pos 8938.770 6131.507
+mouse_pos 9017.380 6149.258
+mouse_pos 9046.964 6140.805
+mouse_pos 9067.251 6135.734
+setwindow form.mini
+FORM mini line_width 80.000 
+setwindow pcb
+
+#	stop time: Sat Jun 14 17:37:55 2008

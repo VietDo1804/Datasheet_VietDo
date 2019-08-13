@@ -1,0 +1,165 @@
+#   Allegro script
+#   ACRONICS SYSTEMS, INC.
+#   PROPRIETARY INFORMATION
+#   Copyright 2001.
+#   start time: Thu May 24 16:59:28 2001
+#   Description: This scripts will generates all the reports
+#                needed for the release.
+#   Modified: 23NOV04: FOR 15.2 Version. Changed to HTML formatted For
+#		       BOM, Properties on Nets, Un-placed Comp, Un-connectted pins, and Summary Drawing.	
+#   Modified: 19MAR03: NC: Added the update DRCs.
+#   Modified: 28JUN02: CN: Removed the ipc section.
+#   Modified: 17JUL02: CNG: Removed the rpt Placed Component
+#                           Add the report XY_data section.
+setwindow pcb
+
+# Macro file: coordinates are relative to pick on replay.
+status
+setwindow form.status
+FORM status drc_update  
+FORM status done  
+
+
+# Macro file: coordinates are relative to pick on replay.
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up 
+FORM cvf_main all_visible1 YES 
+FORM cvf_main all_visible2 YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+
+#Set 4 Decimals
+ncdrill param 
+setwindow form.nc_parameters
+FORM nc_parameters decimal_places 4 
+FORM nc_parameters done  
+setwindow pcb
+
+#NC_DRILL
+nctape_full 
+setwindow form.nc_drill
+FORM nc_drill execute  
+FORM nc_drill close  
+
+#NC_ROUTE
+ncroute 
+setwindow form.nc_route
+FORM nc_route execute  
+FORM nc_route close  
+setwindow pcb
+
+#Bill of Material Report 
+setwindow pcb
+reports "Bill of Material Report"
+setwindow text
+save
+fillin "BOM.html"
+setwindow text
+close 
+setwindow pcb
+
+#UNCONNECTED_PINS
+setwindow pcb
+reports "Unconnected Pins Report"
+setwindow text
+save
+fillin "UNCONNECTED_PINS.html"
+setwindow text
+close 
+setwindow pcb
+
+#UNPLACED_PARTS
+setwindow pcb
+reports "Unplaced Components Report"
+setwindow text
+save
+fillin "UNPLACED_PARTS.html"
+setwindow text
+close 
+setwindow pcb
+
+#CONSTRAINTS_REPORT
+setwindow pcb
+reports "Constraints Report"
+setwindow text
+save
+fillin "CONSTRAINTS_REPORT.txt"
+setwindow text
+close 
+setwindow pcb
+
+#DRC_REPORT
+setwindow pcb
+reports "Design Rules Check Report"
+setwindow text
+save
+fillin "DRC_REPORT.txt"
+setwindow text
+close 
+setwindow pcb
+
+#PROPERTIES_ON_NETS_REPORT
+setwindow pcb
+reports "Properties on Nets Report" 
+setwindow text
+save
+fillin "PROPERTIES_ON_NETS_REPORT.html"
+setwindow text
+close 
+setwindow pcb
+
+#SUMMARY_DRAWING_REPORT.html
+setwindow pcb
+reports "Summary Drawing Report" 
+setwindow text
+save
+fillin "SUMMARY_DRAWING_REPORT.html"
+setwindow text
+close 
+setwindow pcb
+
+#DANGLING_REPORT.txt
+setwindow pcb
+reports "Dangling Lines Report"
+setwindow text
+save
+fillin "DANGLING_REPORT.txt"
+setwindow text
+close 
+setwindow pcb
+
+
+#IPC_356
+#setwindow pcb
+#ipc356 out 
+#setwindow form.ipc356
+#FORM ipc356 version IPC-D-356 
+#FORM ipc356 outfilename IPC_356.ipc 
+#FORM ipc356 run  
+#FORM ipc356 close  
+#setwindow pcb
+
+
+#XY_DATA
+setwindow pcb
+plctxt out 
+setwindow form.plctxt
+FORM plctxt body_center YES 
+FORM plctxt filename XY_DATA.txt
+
+#FOR INFINERA
+FORM plctxt execute  
+FORM plctxt body_center YES 
+FORM plctxt filename VEN_CTR.PLC 
+FORM plctxt execute  
+FORM plctxt pin_1 YES 
+FORM plctxt filename VEN_PIN1.PLC 
+FORM plctxt execute  
+FORM plctxt cancel  
+setwindow pcb
+
+
+
+
+

@@ -1,0 +1,119 @@
+\t (00:04:57) allegro 16.6 S020 (v16-6-112BH) Windows 32
+\t (00:04:57)     Journal start - Tue Nov 07 22:19:51 2017
+\t (00:04:57)         Host=TOANGUYEN87 User=01217616379 Pid=6720 CPUs=8
+\t (00:04:57) 
+\t (00:04:57) Starting new design...
+\i (00:04:57) trapsize 203
+\i (00:04:57) trapsize 203
+\i (00:04:57) package symbol wizard 
+\i (00:04:57) generaledit 
+\i (00:05:00) setwindow form.sym_wizard
+\i (00:05:00) FORM sym_wizard soic YES 
+\i (00:05:00) FORM sym_wizard plcc YES 
+\i (00:05:01) FORM sym_wizard wiz_next  
+\i (00:05:03) FORM sym_wizard load_template  
+\t (00:05:03) Opening existing design...
+\i (00:05:04) fillin yes 
+\t (00:05:05) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:05:05) setwindow pcb
+\i (00:05:05) trapsize 203
+\d (00:05:05) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:05:07) setwindow form.sym_wizard
+\i (00:05:07) FORM sym_wizard wiz_next  
+\i (00:05:10) FORM sym_wizard pack_units Millimeter 
+\i (00:05:11) FORM sym_wizard pack_units_create Micron 
+\i (00:05:12) FORM sym_wizard pack_units_create Millimeter 
+\i (00:05:14) FORM sym_wizard wiz_next  
+\i (00:05:15) FORM sym_wizard qfp_pin1_corner YES 
+\i (00:05:17) FORM sym_wizard qfp_pin_count_v 12 
+\i (00:05:21) FORM sym_wizard qfp_pin_count_v 10 
+\i (00:05:23) FORM sym_wizard qfp_pin_count_h 10 
+\i (00:05:23) FORM sym_wizard wiz_next  
+\i (00:05:25) FORM sym_wizard wiz_back  
+\i (00:05:29) FORM sym_wizard qfp_e 1.000 
+\i (00:05:29) FORM sym_wizard wiz_next  
+\i (00:05:33) FORM sym_wizard qfp_e1 11.000 
+\i (00:05:34) FORM sym_wizard qfp_e2 1.000 
+\i (00:05:36) FORM sym_wizard qfp_e2 11.000 
+\i (00:05:37) FORM sym_wizard qfp_width 11.000 
+\i (00:05:40) FORM sym_wizard qfp_len 11.000 
+\i (00:05:40) FORM sym_wizard wiz_next  
+\i (00:05:41) FORM sym_wizard default_pad_browse  
+\i (00:05:47) fillin "050X012sm"
+\i (00:05:49) FORM sym_wizard wiz_next  
+\i (00:06:01) FORM sym_wizard wiz_next  
+\i (00:06:02) FORM sym_wizard wiz_finish  
+\w (00:06:02) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:02) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:06:02) setwindow pcb
+\i (00:06:02) trapsize 5159
+\t (00:06:02) Performing DRC...
+\t (00:06:02) No DRC errors detected.
+\w (00:06:02) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:06:02) trapsize 5159
+\i (00:06:02) trapsize 728
+\i (00:06:02) trapsize 146
+\i (00:06:02) trapsize 146
+\t (00:06:02) Creating package symbol 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/111.psm'.
+\t (00:06:02) Starting Create symbol...
+\i (00:06:02) generaledit 
+\i (00:06:05) zoom in 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom in -5.049 3.836
+\i (00:06:05) trapsize 73
+\i (00:06:06) zoom out 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) zoom out -5.049 3.763
+\i (00:06:06) trapsize 146
+\i (00:06:06) zoom in 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) zoom in -3.679 -6.258
+\i (00:06:06) trapsize 73
+\i (00:06:09) zoom out 1 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) zoom out 5.935 -4.437
+\i (00:06:09) trapsize 146
+\i (00:06:10) zoom in 1 
+\i (00:06:10) setwindow pcb
+\i (00:06:10) zoom in 3.750 3.924
+\i (00:06:10) trapsize 73
+\i (00:06:12) zoom out 1 
+\i (00:06:13) setwindow pcb
+\i (00:06:13) zoom out 7.500 5.061
+\i (00:06:13) trapsize 146
+\i (00:06:13) zoom in 1 
+\i (00:06:13) setwindow pcb
+\i (00:06:13) zoom in -7.204 0.341
+\i (00:06:13) trapsize 73
+\i (00:06:18) zoom out 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom out -2.877 0.676
+\i (00:06:18) trapsize 146
+\i (00:06:20) zoom in 1 
+\i (00:06:20) setwindow pcb
+\i (00:06:20) zoom in -2.426 1.463
+\i (00:06:20) trapsize 73
+\i (00:06:29) zoom out 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom out 7.436 -1.450
+\i (00:06:29) trapsize 146
+\i (00:06:30) zoom out 1 
+\i (00:06:30) setwindow pcb
+\i (00:06:30) zoom out 1.769 -0.605
+\i (00:06:30) trapsize 252
+\i (00:06:31) zoom in 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom in -5.330 0.754
+\i (00:06:31) trapsize 126
+\i (00:06:50) zoom out 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom out 8.549 -0.558
+\i (00:06:50) trapsize 252
+\i (00:06:50) zoom out 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom out 36.358 -1.971
+\i (00:06:50) trapsize 252
+\i (00:06:53) exit 
+\e (00:06:53) Do you want to save the changes you made to E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/111.dra?
+\i (00:06:54) fillin no 
+\t (00:06:54)     Journal end - Tue Nov 07 22:21:48 2017

@@ -1,0 +1,11 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project3/TEGOINC_Helios_test/Board/spin_180.scr
+#	start time: Thu Jul 31 02:51:28 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 124832
+spin 
+
+#	stop time: Thu Jul 31 02:51:48 2008

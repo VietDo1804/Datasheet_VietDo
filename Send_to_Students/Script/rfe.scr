@@ -1,0 +1,17 @@
+# Allegro script
+#	file: F:/WORK/Temp/Receive/30Mar11/rfe.scr
+#	start time: Wed Mar 30 18:27:53 2011
+#	Version: 16.3 p006 (v16-3-85F) i86
+version 16.3
+
+setwindow pcb
+trapsize 84035
+generaledit
+rfe 
+generaledit 
+setwindow form.mini
+FORM mini rfe_report  
+setwindow pcb
+generaledit 
+
+#	stop time: Wed Mar 30 18:28:06 2011

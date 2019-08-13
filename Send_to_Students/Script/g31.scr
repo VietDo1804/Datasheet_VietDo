@@ -1,0 +1,16 @@
+# Allegro script
+#	file: D:\Aneo\Allegro\temp\tbtb1.scr
+#	start time: Fri Feb 07 01:38:41 2003
+version 14.1
+
+setwindow pcb
+trapsize 59199
+define grid 
+setwindow form.grid
+FORM grid all_etch all_etch_x_grids 4 4 4 3.75 3.75 4 4 4
+FORM grid all_etch all_etch_y_grids 4 4 4 3.75 3.75 4 4 4
+FORM grid done  
+skill load("SetOffset.il")
+ooo
+
+#	stop time: Fri Feb 07 01:39:08 2003

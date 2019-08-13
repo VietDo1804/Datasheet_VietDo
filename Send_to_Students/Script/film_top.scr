@@ -1,0 +1,20 @@
+# Allegro script
+#	file: F:/Working/work/28-10608-01_1108/film_top.scr
+#	start time: Wed Dec 07 08:54:37 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 6396
+setwindow form.vf_vis
+FORM vf_vis colorview_list Film: TOP 
+setwindow form.mini
+FORM mini class BOARD GEOMETRY 
+FORM mini subclass OUTLINE 
+FORM mini subcolor 1 
+setwindow pcb
+prepopup 9103.490 14593.246
+done 
+placementedit 
+
+#	stop time: Wed Dec 07 08:55:10 2011

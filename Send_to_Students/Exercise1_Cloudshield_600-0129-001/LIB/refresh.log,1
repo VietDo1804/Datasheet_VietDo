@@ -1,0 +1,85 @@
+Sat Dec 15 01:32:01 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Sat Dec 15 01:32:01 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : TNSP_USBHUB3.brd                              )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Sat Dec 15 01:32:02 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Dec 15 01:32:02 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/TNSP_USBHUB3.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaah03156.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+
+'MOLEX_672983091'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'MOLEX_672983091': 'ERROR(SPMHDB-243): Cannot modify element; the object or a paren~
+     t has the FIXED property. [help]'.
+     
+
+'TI_SON_10'  symbol starting to refresh:
+     ERROR(SPMHNI-270): 7 pins found in the symbol in the physical design, but missing from library symbol. They are:
+            9,8,7,4,3,2,1
+
+'NEC_TQFP_48'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 3
+    Design updated.
+

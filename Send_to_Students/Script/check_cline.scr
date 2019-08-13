@@ -1,0 +1,11 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project2/check_cline.scr
+#	start time: Fri Jul 11 23:18:15 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 97431
+check cline 
+
+#	stop time: Fri Jul 11 23:18:28 2008

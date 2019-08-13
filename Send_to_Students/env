@@ -1,0 +1,520 @@
+#
+# ALLEGRO GLOBAL Environment file
+#
+# $Header: /fobs/psd_backend_data/data/environment/env /main/182 12-Aug-03.17:39:05 fxf $
+
+# The following variables are set by the software if not preset by user:
+#     CDS_SITE, ALLEGRO_SITE, TELENV, ALLEGRO_INSTALL_DIR, 
+#     ALLEGRO_INSTALL_TOOLS, ALLEGRO_INSTALL_ROOT, ALLEGRO_TYPE,
+#     __UNIX (if UNIX), _PROGRAM, HOME, LOCALPATH, LOCALENV
+# Variable names are case insensitive
+
+#--------------------------------------------------------------------
+# System Variables
+set GLOBAL = $ALLEGRO_INSTALL_DIR/text
+
+# change from LIBPATH because it conflicts with IBM's shared library
+# environment variable
+set ALIBPATH = $ALLEGRO_INSTALL_DIR/pcb_lib
+
+set COMPLIBPATH = $ALLEGRO_INSTALL_DIR/allegrolib
+
+set GLOBALPATH = . $GLOBAL
+
+# Allegro Data Services Variable
+set ADSPATH = $GLOBALPATH
+
+# Present for compatiblity with older versions of Allegro.
+ifnvar ALLEGRO_SITE "set ALLEGRO_SITE ."
+
+#--------------------------------------------------------------------
+# Configuration variables (Don't change)
+set BMPPATH = . $ALLEGRO_SITE/icons $GLOBAL/icons
+set FORMPATH = . $ALLEGRO_SITE/forms $GLOBAL/forms
+set MENUPATH = . $ALLEGRO_SITE/menus $GLOBAL/cuimenus
+
+set UNITS = $GLOBAL/units.dat
+set MATERIALPATH = . $LOCALENV $ALLEGRO_SITE $GLOBAL
+
+#Configuration paths
+set PRFEDITPATH = . configure/prfedit $LOCALENV/configure/prfedit $ALLEGRO_INSTALL_DIR/configure/prfedit
+set BATCHHELPPATH = . $ALLEGRO_INSTALL_DIR/batchhelp
+set SPROUTEPATH = $ALLEGRO_INSTALL_DIR/configure/sproute
+
+set HELPPATH = . $ALLEGRO_INSTALL_DIR/help $GLOBAL/help
+set PDFPATH = . $ALLEGRO_INSTALL_DIR/help/pdf
+
+# Graphics demo env
+set IMAGEPATH = . $ALLEGRO_INSTALL_DIR/examples/image
+
+#--------------------------------------------------------------------
+# Drawing font
+set VECTORFONTPATH = . $GLOBAL
+set ANSIFONT = ansifont
+set KANJIFONTPATH = . $GLOBAL/fonts/kanji
+set KANJIFONT1 = kanjifont1
+set KANJIFONT2 = kanjifont2
+
+#--------------------------------------------------------------------
+# Display Variables
+
+set display_backingstore  on
+
+# disable repair under ratsnests 
+set display_norepair rats 
+set display_shapefill_analysis 1
+
+#--------------------------------------------------------------------
+#--------------------------------------------------------------------
+set compalib = $ALIBPATH/symbols $COMPLIBPATH/symbols
+set topfilelib = $ALIBPATH/templates $COMPLIBPATH/templates
+set signal_install_dir = $ALLEGRO_INSTALL_DIR/signal
+set signal_optlib_dir = $signal_install_dir/optlib
+
+# HDL Supported Design Library Search Path Variables
+set MODULEPATH = . $ALLEGRO_SITE/modules
+set TILEPATH = . $ALLEGRO_SITE/modules
+set PADPATH = .
+set PSMPATH = .
+set TECHPATH = . $ALLEGRO_SITE/tech $GLOBAL/tech
+set TOPOLOGY_TEMPLATE_PATH = . templates .. ../templates $ALLEGRO_SITE/topology $topfilelib
+
+# SigNoise data installation directory
+set SIGNOISEPATH = . $LOCALENV $ALLEGRO_SITE/signal $signal_install_dir $signal_optlib_dir $GLOBAL
+
+#--------------------------------------------------------------------
+# Non-HDL Supported Design Search Path Variables
+set ARTPATH = . ..
+set APTPATH = . ..
+set CLIPPATH = .
+set DCLPATH = . .. $ALIBPATH $COMPLIBPATH
+set DEVPATH = . devices .. ../devices $ALLEGRO_SITE/devices $ALIBPATH/devices $COMPLIBPATH/devices
+set DFAAUDITPATH = . $ALLEGRO_SITE/assembly $ALLEGRO_INSTALL_DIR/assembly
+set NCDPATH = . .. $ALLEGRO_SITE/nclegend $GLOBAL/nclegend
+set SCRIPTPATH = . C:/SPB_Data/Script
+set TEXTPATH = . $ALLEGRO_SITE/extracta $GLOBAL/views
+set VIEWPATH = . $ALLEGRO_SITE/views
+set XTALK_TABLE_PATH = . xtalk_tables .. ../xtalk_tables $ALLEGRO_SITE/xtalk $ALIBPATH/xtalk_tables
+set WIZARD_TEMPLATE_PATH = . .. $ALLEGRO_INSTALL_DIR/pcb_lib/symbols/template 
+
+# System Configuration .scf file search path
+set SCFPATH = . scfs .. ../scfs 
+
+# diff pair overide variable set for 14.2 so etch edit uses the diff
+#  pair primary separation for line to line space between two nets of the
+#  same diff pair.  Remove this for 15.0.
+set drc_diff_pair_overide 0
+
+# Display the headsup meter in a fixed position in the control panel.
+set allegro_dynam_timing_fixedpos
+
+
+#--------------------------------------------------------------------
+#--------------------------------------------------------------------
+# alias
+# May use function keys F2-F12, most Alpha-numberic keys with control 
+# modifier (although Control - C, V and X are reserved for copy, paste and cut)
+# and Navigation Keys (Home, Up arrow, Esc, etc.) These items may be modifed
+# by the following:
+#     Modifier 		Indicator		Example
+#       Shift		   S			 SF2	
+#	Control  	   C (function keys)	 CF2
+#	Control 	   ~ (alpha-numbic)	 ~N
+#	Meta		   A			 AF2
+# Modifiers may be combined. Some examples: 
+#	CSF2		  Control-Shift F2
+#	ASF2		  Meta-Shift F2
+#	CAF2		  Control-Meta F2
+#       CASF2		  Control-Meta-Shift F2
+#	~SZ		  Control-Shift Z
+#	SUp		  Shift-Up Arrow
+#	CUp		  Control-Up Arrow
+#
+# funckey
+#  use the funckey when you wish to have alphanumeric keys operate
+#  like the Function keys when the cursor is in the Allegro canvas.
+# 
+#  Example -- following starts the move command without a Enter key
+#     funckey m move
+
+#--------------------------------------------------------------------
+# Bind roam operations to function keys
+set roamInc = 96
+alias Up        "roam y -$roamInc"
+alias Down      "roam y $roamInc"
+alias Left      "roam x -$roamInc"
+alias Right     "roam x $roamInc"
+alias x		pick
+alias ix	ipick
+alias y		pick 0
+alias iy	ipick 0
+funckey 7	iangle -90
+#----------------------TOA --------------------------------------------
+alias a_t 	replay dfa_top_on
+alias a_b 	replay dfa_bot_on
+alias a_t_	replay dfa_top_off
+alias a_b_ 	replay dfa_bot_off
+alias a_all 	replay dfa_all_on
+alias a_all_ 	replay dfa_all_off
+
+funckey S	replay spin
+funckey t 	replay toggle
+funckey da	replay dhl
+alias ft	film_top
+alias ~\	replay change_net
+funckey dh	replay dehlight
+alias dp	replay dif_space
+funckey pack  	replay packet_keepout
+funckey ga	replay gbga
+alias Insert	slide
+alias Home	add connect	
+funckey 0     	toggle
+alias End	oops
+funckey -	siv
+funckey =	svb
+alias sat	sat
+alias F11	assign color
+alias F12	move
+alias p		replay place
+#alias Done	]	
+funckey k	replay via_keepout
+alias F7 	dehilight
+alias F10 	show measure
+funckey ] 	replay visible_place_bound_bot
+funckey [	replay visible_place_bound_top
+alias c      	change
+alias r     	replay route_keepout
+alias ~[     	replay visible_place_bound
+alias ~]    	replay invisible_place_bound
+
+alias ~0  	unrats all
+alias ~9   	rats all
+alias ~1	rats net
+alias ~2	unrats net
+alias ~3	rats component
+alias ~4	unrats component
+funckey np	replay noprobe_bot
+funckey sc	replay net_schedule
+#funckey check 	replay check_part
+funckey g31	replay g31
+alias  st	replay st
+alias  sb	replay sb
+funckey  silk	replay vsikl
+#----------------------TOA_Rev01  ------------------------------------------
+
+funckey a	aicc
+funckey ~D		replay Linear_dimension
+
+#---funckey-----------------------------------------------------------------
+# F1 is normally reserved by the system for Help so we don't use it
+# ====Windown command=========
+alias		~N	new
+alias 		~O 	open
+alias	 	~S 	save_as
+alias 		~U    	undo
+alias 		~Y     	redo
+alias		~F	find
+
+# ===Common command ========
+
+alias F5 	show element
+alias dx	define xsection
+alias ~N	next
+alias Esc 	cancel
+alias ~E 	vertex
+#alias Home	zoom fit
+alias Pgup	zoom in 
+alias Pgdown	zoom out 
+alias F6 	property edit
+alias SF6	show property
+#alias F10 	show measure
+alias SF5	color
+alias ns	net schedule
+alias Del 	delete
+alias SF1	setup advisor
+alias CF1 	diff pairs
+alias F3	testprep manual
+alias ~L 	clpcopy
+alias ~K 	clppaste
+alias xf	dxf in
+alias d		drc update
+#funckey +	pop bbdrill		;add via
+#funckey S	shape add
+alias ~B	shape edit boundary
+alias SF10  	shape void delete
+alias CF10  	shape void copy
+alias SF9 	shape void move
+alias ~Z	zcopy shape
+alias ~M	shape merge shapes
+funckey W	waive drc
+funckey	/	reject
+
+#======Routing========
+
+#alias F12 	add connect
+#alias F11	slide
+alias pk	replay pick_any
+#alias Insert 	oops
+alias l		add line
+#funckey 8       toggle
+funckey O	add circle
+alias ~SC	draft chamfer
+alias ~SF	draft fillet
+funckey u	delay tune
+alias F8 	assign color
+alias CF8	hilight
+#
+alias ~SS	custom smooth
+funckey 4	pop neck
+funckey 1	pop singletrace
+#funckey =  	r route_off
+#funckey ]  	r route_hug
+funckey m	midp
+alias pc	pcopy
+
+#====== Placement=======
+funckey M    mirror
+alias sp     spin
+alias F9     move
+alias ~I     copy
+#alias ep     export place
+alias pi     plctxt in
+alias CF12   replay save
+alias F2     swap components
+alias CF2    swap pins
+alias SF2    place manual
+funckey      q quickplace
+funckey h    package_height	
+alias ~8     refresh symbol
+funckey *    refresh padstack
+
+
+#========Dimension 16.3========
+#alias ~SD	leader diametral
+#alias ~D	dimension linear
+#alias ~ASD	leader radial
+#alias ~AD	dimension angular
+#funckey D	dimension datum
+
+#========DISPLAY========
+
+funckey de 	settoggle allegro_etch_length_on
+funckey df 	settoggle display_nohilitefont
+funckey dd 	settoggle display_drcfill
+funckey dw 	settoggle Display_nolinewidth
+funckey dc 	settoggle pcb_cursor infinite cross
+alias 20	replay drc_20
+alias 200	replay drc_200
+alias 50	replay drc_50
+alias 500	replay drc_500
+alias 01	replay drc_10
+alias 001	replay drc_100
+alias 0001	replay drc_1000
+#funckey _	replay drc_off
+#funckey -	replay drc_on
+#============ foot print =================================
+alias vc     	replay visible_color
+alias ic     	replay invisible_color
+#alias vp     	replay visible_place_bound
+#alias pb     	replay visible_place_bound_bot
+#alias pt     	replay visible_place_bound_top
+#alias ip     	replay invisible_place_bound
+alias va5     	replay visible_area_15
+alias ia5     	replay invisible_area_15
+alias ia	replay invisible_area_16
+alias va	replay visible_area_16
+alias vr     	replay visible_refdes
+alias ir     	replay invisible_refdes
+#alias st     	replay visible_silk_top
+#alias sb     	replay visible_silk_bottom
+alias ast    	replay assembly_top
+alias asb    	replay assembly_bottom
+alias vl     	replay visible_layer
+alias vn     	replay visible_note
+alias in     	replay invisible_note
+alias ds     	replay silk
+alias is     	replay invisible_silk
+alias vd     	replay visible_dfa
+alias id     	replay invisible_dfa
+alias tv    	replay visible_no_probe
+alias isp    	replay invisible_no_probe
+alias ih	replay no_dis_hole
+alias vh	replay dis_hole
+funckey F	replay fill_pad
+funckey f	replay no_fill_pad
+
+funckey L1	replay L01
+funckey L2	replay L02
+funckey L3	replay L03
+funckey L4	replay L04
+funckey L5	replay L05
+funckey L6	replay L06
+funckey L7	replay L07
+funckey L8	replay L08
+funckey L9	replay L09
+funckey L10     replay L10
+funckey L11     replay L11
+funckey L12     replay L12
+funckey L13     replay L13
+funckey L14     replay L14
+funckey L15     replay L15
+funckey L16     replay L16
+funckey L17     replay L17
+alias L18      	replay L18
+alias L19      	replay L19
+alias L20      	replay L20
+alias L21      	replay L21
+alias L22      	replay L22
+alias L23      	replay L23
+alias L24      	replay L24
+alias L25      	replay L25
+alias L26      	replay L26
+alias L27      	replay L27
+alias L28      	replay L28
+alias L29      	replay L29
+alias L30      	replay L30
+
+
+#=========================
+#funckey + subclass -+
+#funckey - subclass --
+
+set buttonfactor = 1
+
+button wheel_up "zoom in $buttonfactor"
+button wheel_down "zoom out $buttonfactor"
+button Cwheel_up "zoom in $buttonfactor"
+button Cwheel_down "zoom out $buttonfactor"
+
+
+#==== define for grids =====
+
+funckey gt     grid toggle
+funckey g01    replay g01
+funckey g05    replay g05
+funckey g001   replay g001
+funckey g0001  replay g0001
+alias g1       replay g1
+alias g5       replay g5
+alias g10      replay g10
+alias g20      replay g20
+alias g25      replay g25
+alias g50      replay g50
+alias g100     replay g100
+alias g200     replay g200
+alias g250     replay g250
+alias g500     replay g500
+alias g525     replay g525
+alias gp25     replay gp25
+alias gp31     replay gp31
+alias g39      replay g39
+alias g392     replay g392
+
+
+# --used for creating part------
+ 
+alias ~T     add text
+alias F4     padeditdb
+funckey T    text edit
+alias ~P     add pin
+alias rp     replace padstack
+alias mm     replay unit_millimeter	
+alias ml     replay unit_mil
+#alias in     replay unit_inch	
+
+# define for width ( from 4 to 50 )
+
+#alias e      change
+alias e4     replay change4
+alias e5     replay change5
+alias e6     replay change6
+alias e7     replay change7
+alias e8     replay change8
+alias e9     replay change9
+alias e10    replay change10
+alias e11    replay change11
+alias e12    replay change12
+alias e13    replay change13
+alias e14    replay change14
+alias e15    replay change15
+alias e16    replay change16
+alias e17    replay change17
+alias e18    replay change18
+alias e19    replay change19
+alias e20    replay change20
+alias e25    replay change25
+alias e30    replay change30
+alias e35    replay change35
+alias e40    replay change40
+alias e45    replay change45
+alias e50    replay change50
+alias e60    replay change60
+alias e70    replay change70
+alias e80    replay change80
+alias e90    replay change90
+alias e100   replay change100
+
+
+#define for cleanning up silkscreen
+
+alias at     adding text
+alias af     artwork film
+alias al     FORM SilkTool st_alignselect
+alias es     export silk
+alias cs     check silk
+alias cc     check cline
+alias cv     checkvia
+alias cp     checkpin
+alias ~home    changenvs
+alias ct     checktext
+
+alias rv     replace via
+
+
+# OTHER ALIASES	
+
+#alias r replay
+alias n net
+alias ne out ne
+alias nn list net
+alias s symbol
+alias sy out sy
+alias ss list symbol
+
+source -q $ALLEGRO_SITE/site.env
+
+set autosave
+set autosave_time = 20
+
+set no_dynamic_zoom
+
+alias pa replay package
+
+
+
+
+
+
+
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+set acon_offnet_snap = 
+set slide_no_snap
+set acon_oldhlt = all
+set disable_opengl
+unset sov_active_only
+set sov_spacing = 0.000000
+set showmeasure_altunits = millimeters
+set draft_retain_class_subclass
+set display_nohilitefont
+set highlight_shape_net
+set logic_edit_enabled
+set autosave_time = 30
+set allegro_new_units = millimeters
+set pad_designer_new_units = millimeters
+set new_units = mils
+set apd_new_units = millimeters
+set cdnsip_new_units = millimeters

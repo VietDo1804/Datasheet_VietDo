@@ -1,0 +1,90 @@
+\t (00:00:03) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:03)     Journal start - Sat Dec 29 21:38:35 2018
+\t (00:00:03)         Host=THINHPHAM-PC User=ThinhPham Pid=6208 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/signoise.run/signoise.run/New folder/New folder/New folder/TNSP_USBHUB3.brd
+\i (00:00:05) trapsize 462
+\i (00:00:05) trapsize 454
+\i (00:00:05) trapsize 464
+\i (00:00:06) trapsize 1939
+\i (00:00:07) generaledit 
+\i (03:09:34) pick grid 2065.75 2147.00
+\t (03:09:34) last pick:  2065.00 2145.00
+\i (03:09:34) zoom in 1 
+\i (03:09:34) setwindow pcb
+\i (03:09:34) zoom in 72.78 599.93
+\i (03:09:34) trapsize 969
+\i (03:09:34) zoom in 1 
+\i (03:09:34) setwindow pcb
+\i (03:09:34) zoom in 111.56 617.38
+\i (03:09:34) trapsize 485
+\i (03:09:34) zoom in 1 
+\i (03:09:34) setwindow pcb
+\i (03:09:34) zoom in 145.49 630.95
+\i (03:09:34) trapsize 242
+\i (03:09:34) zoom out 1 
+\i (03:09:34) setwindow pcb
+\i (03:09:34) zoom out 225.47 714.32
+\i (03:09:34) trapsize 485
+\i (03:09:35) zoom out 1 
+\i (03:09:35) setwindow pcb
+\i (03:09:35) zoom out 225.46 714.32
+\i (03:09:35) trapsize 969
+\i (03:09:35) zoom out 1 
+\i (03:09:35) setwindow pcb
+\i (03:09:35) zoom out 237.09 745.33
+\i (03:09:35) trapsize 1939
+\i (03:16:09) zoom in 1 
+\i (03:16:09) setwindow pcb
+\i (03:16:09) zoom in 582.18 532.08
+\i (03:16:09) trapsize 969
+\i (03:16:09) zoom in 1 
+\i (03:16:09) setwindow pcb
+\i (03:16:09) zoom in 576.37 530.14
+\i (03:16:09) trapsize 485
+\i (03:16:09) zoom in 1 
+\i (03:16:09) setwindow pcb
+\i (03:16:09) zoom in 575.40 509.79
+\i (03:16:09) trapsize 242
+\i (03:16:10) zoom out 1 
+\i (03:16:10) setwindow pcb
+\i (03:16:10) zoom out 760.54 683.30
+\i (03:16:10) trapsize 485
+\i (03:16:10) zoom out 1 
+\i (03:16:10) setwindow pcb
+\i (03:16:10) zoom out 619.99 685.25
+\i (03:16:10) trapsize 969
+\i (03:16:10) zoom in 1 
+\i (03:16:10) setwindow pcb
+\i (03:16:10) zoom in 1352.82 357.61
+\i (03:16:10) trapsize 485
+\i (03:16:10) zoom in 1 
+\i (03:16:10) setwindow pcb
+\i (03:16:10) zoom in 1284.00 359.55
+\i (03:16:10) trapsize 242
+\i (03:16:11) zoom in 1 
+\i (03:16:11) setwindow pcb
+\i (03:16:11) zoom in 1130.36 320.78
+\i (03:16:11) trapsize 121
+\i (03:16:11) zoom in 1 
+\i (03:16:11) setwindow pcb
+\i (03:16:11) zoom in 1130.36 320.78
+\i (03:16:11) trapsize 61
+\i (03:16:13) setwindow form.find
+\i (03:16:13) FORM find vias YES 
+\i (03:16:14) FORM find drc_errors NO 
+\i (03:16:15) FORM find shapes NO 
+\i (03:16:32) setwindow pcb
+\i (03:16:32) open 
+\e (03:16:32) Do you want to save the changes you made to TNSP_USBHUB3.brd?
+\i (03:16:37) fillin yes 
+\i (03:16:49) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB\TI_SON_10.dra"
+\i (03:16:49) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise1_Cloudshield_600-0129-001\LIB"
+\t (03:16:49) Opening existing design...
+\i (03:16:50) trapsize 486
+\i (03:16:50) trapsize 476
+\i (03:16:50) trapsize 486
+\i (03:16:51) trapsize 486
+\t (03:16:51)     Journal end - Sun Dec 30 00:55:23 2018

@@ -1,0 +1,21 @@
+# Allegro script
+#	file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/Creating Gerber.scr
+#	start time: Fri Dec 14 14:50:24 2018
+#	Version: 16.6-2015 S071 (v16-6-112FT) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 1595745
+ifp
+# Macro file: coordinates are relative to pick on replay.
+artwork 
+setwindow form.film_control
+FORM film_control filmtree popup Add BOTTOM 
+fillin "SPT"
+FORM film_control filmtree popup 'Add Manual' BOTTOM 
+fillin "menu_cancel"
+FORM film_control cancel  
+setwindow pcb
+ifp 
+
+#	stop time: Fri Dec 14 14:51:13 2018

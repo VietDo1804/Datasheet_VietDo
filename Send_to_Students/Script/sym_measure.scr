@@ -1,0 +1,30 @@
+# Allegro script
+#	file: F:/WORK/Temp/Send/18Mar11/sym_measure.scr
+#	start time: Sun Mar 20 23:22:48 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 15476
+generaledit
+draft param 
+generaledit 
+setwindow form.draft_main
+FORM draft_main dim_text  
+setwindow form.draft_dimtext
+FORM draft_dimtext text_block 3 
+FORM draft_dimtext units Millimeters 
+FORM draft_dimtext dual_dimensions YES 
+FORM draft_dimtext second_units Mils 
+FORM draft_dimtext second_accuracy 3 
+FORM draft_dimtext done  
+setwindow form.draft_main
+FORM draft_main done  
+setwindow pcb
+dimension linear 
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY 
+FORM mini subclass COMP_DIM 
+setwindow pcb
+
+#	stop time: Sun Mar 20 23:23:31 2011

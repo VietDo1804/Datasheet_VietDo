@@ -1,0 +1,15 @@
+# Allegro script
+#	file: F:/Working/work/PUBLICWIRELESS/old/spin.scr
+#	start time: Thu Dec 29 20:26:08 2011
+#	Version: 16.2 S041 (v16-2-57CG) i86
+version 16.2
+
+setwindow pcb
+trapsize 10574
+generaledit
+spin 
+setwindow form.mini
+FORM mini rotate_point Sym Origin 
+setwindow pcb
+
+#	stop time: Thu Dec 29 20:26:34 2011

@@ -1,0 +1,19 @@
+# Allegro script
+#	file: F:/Working/work/28-10608-01_1108/dehlight.scr
+#	start time: Thu Dec 01 00:38:23 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 9065
+placementedit
+dehilight 
+setwindow form.mini
+FORM mini net  
+FORM mini symbol  
+setwindow pcb
+prepopup 11399.644 4397.595
+done 
+placementedit 
+
+#	stop time: Thu Dec 01 00:38:39 2011

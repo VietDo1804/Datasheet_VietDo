@@ -1,0 +1,20 @@
+# Allegro script
+#	file: E:/A_CHUONG/Training/project_ECTM/10Feb09/BOTTOM.scr
+#	start time: Mon Feb 09 20:08:07 2009
+#	Version: 16.0 p005 (v16-0-87F) i86
+version 16.0
+
+setwindow pcb
+setwindow form.vf_vis
+FORM vf_vis colorview_list Film: L08_GND3 
+FORM vf_vis 8 drc_colorvisible 1
+FORM vf_vis 13 drc_colorvisible 1
+color
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main drc_error_class/package_top/visible YES 
+FORM cvf_main drc_error_class/package_bottom/visible YES 
+FORM cvf_main ok
+setwindow pcb
+
+#	stop time: Mon Feb 09 20:08:23 2009

@@ -1,0 +1,72 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Clipboard Paste Session                                          )
+(                                                                     )
+(    Drawing          : USB_HUNB3_5Sep18.brd                          )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Wed Oct 17 21:48:07 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Trying to paste the sub-design having units "mils" and accuracy 3 on to the desi
+gn having units "mils" and accuracy 1. Possibility of losing data accuracy.
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "7 X"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "CORNERS"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "NO "GANG RELIEF" FOR FINE PITCH COMPONENTS"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "TEADROP AT ALL CONNECTION POINTS"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "ON THE SAME LAYER OR AN ADJACENT TRACE LAYERS."
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "THIEVING TO BE .03\ SQUARES ON .05\ CENTERS"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "COPPER THIEVING ON OUTER LAYERS MUST BE COVERED BY S
+OLDER MASK"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "R0.031"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "ALL EDGE"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "1.  MATERIAL FR408HR"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "2.  ALL MATERIAL SHALL BE U. L. RECOGNIZED TO UL-94V
+2, OR BETTER"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "3.  FINISH GOLD IMMERSION"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "4.  LIQUID PHOTO IMAGEABLE SOLDERMASK OVER BARE COPP
+ER GREEN"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "5.  SILKSCREEN WHITE"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "6.  THIS IS CONTROLLED IMPEDANCE BOARD: SEE TABLE"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "7.  VENDOR TO PROVIDE STACKUP FOR APPROVAL PRIOR TO 
+FABRICATION"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "8.  LAYER TO LAYER REGISTRATION NOT TO EXCEED .003 I
+NCHES"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "9. ADD THIEVING ON ALL LAYERS KEEPING 50 MILS FROM A
+NY FEATURE"
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "10. ALL VIA IN PAD INSTANCES IN THE AREA DESIGNED MU
+ST BE PLUGGED PRIOR TO PLATING."
+*WARNING* (axlDBCreateText): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste the text - "NOTES:  UNLESS OTHERWISE SPECIFIED"
+*WARNING* (axlDBCreatePath): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste object of type "path" on layer BOARD GEOMETRY/FAB_NOTE.
+*WARNING* (axlDBCreatePath): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste object of type "path" on layer BOARD GEOMETRY/FAB_NOTE.
+*WARNING* (axlDBCreatePath): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste object of type "path" on layer BOARD GEOMETRY/FAB_NOTE.
+*WARNING* (axlDBCreatePath): No match for subclass name - "BOARD GEOMETRY/FAB_NOTE"
+Unable to paste object of type "path" on layer BOARD GEOMETRY/FAB_NOTE.
+Text pasted without CLIP_DRAWING property.
+
+
+Clipboard Paste Session Completed at Oct 17 21:48:09 2018

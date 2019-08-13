@@ -1,0 +1,19 @@
+# Allegro script
+#	file: F:/TOA/28-10493-01_0817a/noprobe_bot.scr
+#	start time: Thu Aug 18 01:50:34 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 7381
+placementedit
+color192 
+placementedit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Manufacturing'
+cvf layers_visible manufacturing/no_probe_bottom TRUE
+cvf apply
+cvf okay
+setwindow pcb
+
+#	stop time: Thu Aug 18 01:50:47 2011

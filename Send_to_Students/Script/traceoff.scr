@@ -1,0 +1,24 @@
+# Allegro script
+#	file: D:\Huy\Allegro\Project\Board\traceoff.scr
+#	start time: Fri Aug 10 09:46:10 2001
+version 13.6
+
+setwindow pcb
+
+Color 
+setwindow form.cvf_main
+FORM cvf_main global_vis All Invisible 
+fillin yes 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow form.vf_vis
+FORM vf_vis all_pin_visible YES 
+setwindow pcb
+Color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry 
+FORM cvf_main board_geometry/outline/visible YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+
+#	stop time: Fri Aug 10 09:46:35 2001

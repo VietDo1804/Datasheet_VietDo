@@ -1,0 +1,123 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 16.6S020                                      )
+(    Date/Time        : Sun Nov 05 23:17:52 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/S-Port USB Hurb_review.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  D091C121 being dumped.
+
+  D053C073 being dumped.
+
+  D036C056 being dumped.
+
+  D037C057 being dumped.
+
+  021X020SM being dumped.
+
+  100X060SM being dumped.
+
+  050X012SM being dumped.
+
+  033X011SM being dumped.
+
+  030X032SM being dumped.
+
+  032X032SM being dumped.
+
+  061X024SM being dumped.
+
+  028X032SM being dumped.
+
+  046X062SM being dumped.
+
+  048X063SM being dumped.
+
+  077X124SM being dumped.
+
+  094X065SM being dumped.
+
+  MH_129X220_PTH being dumped.
+
+  VIA_D012024 being dumped.
+
+
+  *** Creating shape symbols (.dra and .ssm) ***
+
+  shape_033x011 being dumped.
+
+  shape_100x071 being dumped.
+
+  shape_039x017 being dumped.
+
+  shape_094x065 being dumped.
+
+
+  *** Creating flash symbols (.dra and .fsm) ***
+
+  tr_073_093_10_4_45 being dumped.
+
+  tr_056_076_10_4_45 being dumped.
+
+  tr_d005 being dumped.
+
+  tr_220_260_20_4_45 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  nec_tqfp_48 being dumped.
+
+  molex_670688011 being dumped.
+
+  molex_672983091 being dumped.
+
+  mh_129x220_pth being dumped.
+
+  diodes_sop_8l being dumped.
+
+  fuse_smd being dumped.
+
+  1210c being dumped.
+
+  0402c being dumped.
+
+  0603c being dumped.
+
+  1206c being dumped.
+
+  0603l being dumped.
+
+  0402r being dumped.
+
+  ti_son_10 being dumped.
+
+  xtal_vxm5 being dumped.
+
+  smtled_0603 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:               18
+Number of package symbols dumped:         15
+Number of shape symbols dumped:            4
+Number of flash symbols dumped:            4
+
+Total number of symbols dumped:           23
+*****************************************************
+

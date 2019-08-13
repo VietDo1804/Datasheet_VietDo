@@ -1,0 +1,35 @@
+scriptmode +i
+setwindow pcb
+obsolete color
+setwindow form.color
+FORM color inv_classes
+zoom points
+pick 14281.2 -208.5
+pick 14670.9 181.2
+scriptmode +i
+FORM color package_geometry YES
+setwindow form.subcolor
+FORM subcolor place_bound_bottom visible YES
+scriptmode +i
+FORM color DRAWING_FORMAT YES
+setwindow form.subcolor
+FORM subcolor FILM_TEXT_BOTTOM visible YES
+FORM color VIA_CLASS YES
+setwindow form.subcolor
+FORM subcolor BOTTOM visible YES
+FORM color PIN YES
+setwindow form.subcolor
+FORM subcolor BOTTOM visible YES
+FORM color ETCH YES
+setwindow form.subcolor
+FORM subcolor BOTTOM visible YES
+FORM color DRAWING_FORMAT YES
+setwindow form.subcolor
+FORM subcolor FILM_TITLE_BLOCK visible YES
+scriptmode +i
+FORM color done
+echo AUTHOR__: osherrer 
+echo JOB_____: 28-9348-01 ... LAYERS: comp_+_bot comp_+_bot";"bottom
+echo PRIORITY: hot ... Checklist=cisco_assy ^Action=0 valor_assembly_component ^severity=Y^ erf=25 ... CATEGORY Comp. Spacing";"chip-0603_chip-1206_nn
+echo ISSUE___: 	chk:Comp. Spacing  C11P21";"C12P21  
+echo MEASURED: 0.024___X-LOCATION: 14.4826399606 ___Y-LOCATION: -0.0092899606 

@@ -1,0 +1,20 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/CISCO/Cisco_COLOSSUS/uftjuyuj.scr
+#	start time: Tue Nov 03 17:41:20 2009
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+color192 
+setwindow cvf.dialog
+cvf layer_tree_item 'Areas'
+cvf layers_visible areas constraints_region/all_row FALSE
+cvf layers_visible areas route_keepout/all_row FALSE
+cvf layers_visible areas via_keepout/all_row FALSE
+cvf layers_visible areas package_keepout/all_row FALSE
+cvf layers_visible areas package_keepin/all_row FALSE
+cvf layers_visible areas route_keepin/all_row FALSE
+cvf okay
+setwindow pcb
+
+#	stop time: Tue Nov 03 17:41:43 2009

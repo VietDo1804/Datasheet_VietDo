@@ -1,0 +1,12 @@
+# Allegro script
+#	file: F:/Working/CISCO/Cisco_FP160_DC/FP160_MB/01Jul10/ultuiloiu.scr
+#	start time: Wed Jun 30 19:55:08 2010
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+
+setwindow form.mini
+FORM mini bubble_space Hug only 
+ 
+
+#	stop time: Wed Jun 30 19:55:29 2010

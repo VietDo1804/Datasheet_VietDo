@@ -1,0 +1,18 @@
+# Allegro script
+#	file: E:/work/SIRF/SIRF_1060_0153/placebb.scr
+#	start time: Tue Jan 30 18:32:52 2007
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 30902
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Geometry 
+FORM cvf_main package_geometry/place_bound_bottom/visible YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Tue Jan 30 18:33:12 2007

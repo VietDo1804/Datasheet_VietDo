@@ -1,0 +1,58 @@
+\t (00:00:00) sigxp 16.6-2015 S071 (v16-6-112FS) Windows 32
+\t (00:00:00)     Journal start - Wed Sep 26 19:03:50 2018
+\t (00:00:00)         Host=TOANGUYEN87 User=01217616379 Pid=7152 CPUs=8
+\t (00:00:00) CmdLine= sigxp -spawn -p F:\hung C:/Users/phatn/AppData/Local/Temp/#Taaaaag06872.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1491
+\i (00:00:00) trapsize 1431
+\i (00:00:00) trapsize 1502
+\i (00:00:00) trapsize 1615
+\i (00:00:00) trapsize 1037
+\i (00:00:00) trapsize 2029
+\i (00:00:00) trapsize 10143
+   (00:00:00) function GS_SetColor redefined
+   (00:00:00) function AFn_formSetLayerSubColour redefined
+   (00:00:00) function CTFC_GetCoord redefined
+   (00:00:00) function CTFC_BuildTHShape redefined
+   (00:00:00) function CTFB_GetCoord redefined
+   (00:00:00) function CTFB_BuildTHShape redefined
+   (00:00:00) function CTFR_GetCoord redefined
+   (00:00:00) function CTFR_BuildTHShape redefined
+   (00:00:00) function CPS_Start redefined
+   (00:00:00) function CPS_GetPadstack redefined
+   (00:00:00) function CPS_BuildForm redefined
+   (00:00:00) function CPS_DisplayForm redefined
+   (00:00:00) function CPS_Callback redefined
+   (00:00:00) function CPS_AnalaysePadstackName redefined
+   (00:00:00) function CPS_SuggestionParameters redefined
+   (00:00:00) function CPS_CheckValues redefined
+   (00:00:00) function CPS_CreateFlashName redefined
+   (00:00:00) function CPS_CreatePadstack redefined
+   (00:00:00) function CPS_BuildDrillFigureList redefined
+   (00:00:00) function CPS_CreateFlash redefined
+   (00:00:00) function CTFC_GetCoord redefined
+   (00:00:00) function CTFC_BuildTHShape redefined
+   (00:00:00) function CTFB_GetCoord redefined
+   (00:00:00) function CTFB_BuildTHShape redefined
+   (00:00:00) function CTFR_GetCoord redefined
+   (00:00:00) function CTFR_BuildTHShape redefined
+   (00:00:00) function CPS_Help redefined
+   (00:00:00) function _checkElementList redefined
+   (00:00:00) function _deleteElementList redefined
+   (00:00:00) Loading axlcore.cxt 
+   (00:00:00) Loading signal.cxt 
+   (00:00:00) Loading sigxp.cxt 
+   (00:00:00) Loading sxutil.cxt 
+\t (00:00:00) Starting new design...
+\i (00:00:01) trapsize 10143
+\i (00:00:01) trapsize 10143
+\i (00:00:01) trapsize 10143
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Beginning Autoplacement
+   (00:00:01) Finished Autoplacement
+\i (00:00:01) trapsize 31
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:04) exit 
+\t (00:00:04)     Journal end - Wed Sep 26 19:03:54 2018

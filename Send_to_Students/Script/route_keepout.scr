@@ -1,0 +1,22 @@
+# Allegro script
+#	file: F:/TOA/route_keepout.scr
+#	start time: Tue Aug 16 23:34:03 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 5789
+placementedit
+color192 
+setwindow cvf.dialog
+cvf layer_mode
+setwindow pcb
+placementedit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Areas'
+cvf layers_visible areas route_keepout/all_row TRUE
+cvf apply
+cvf okay
+setwindow pcb
+
+#	stop time: Tue Aug 16 23:34:21 2011

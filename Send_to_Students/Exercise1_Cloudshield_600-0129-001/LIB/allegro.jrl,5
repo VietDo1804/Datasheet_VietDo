@@ -1,0 +1,54 @@
+\t (00:00:01) allegro 16.6 S020 (v16-6-112BH) Windows 32
+\t (00:00:01)     Journal start - Tue Nov 07 22:36:19 2017
+\t (00:00:01)         Host=TOANGUYEN87 User=01217616379 Pid=5460 CPUs=8
+\t (00:00:01) 
+   (00:00:01) function GS_SetColor redefined
+   (00:00:01) function AFn_formSetLayerSubColour redefined
+   (00:00:01) function CTFC_GetCoord redefined
+   (00:00:01) function CTFC_BuildTHShape redefined
+   (00:00:01) function CTFB_GetCoord redefined
+   (00:00:01) function CTFB_BuildTHShape redefined
+   (00:00:01) function CTFR_GetCoord redefined
+   (00:00:01) function CTFR_BuildTHShape redefined
+   (00:00:01) function CPS_Start redefined
+   (00:00:01) function CPS_GetPadstack redefined
+   (00:00:01) function CPS_BuildForm redefined
+   (00:00:01) function CPS_DisplayForm redefined
+   (00:00:01) function CPS_Callback redefined
+   (00:00:01) function CPS_AnalaysePadstackName redefined
+   (00:00:01) function CPS_SuggestionParameters redefined
+   (00:00:01) function CPS_CheckValues redefined
+   (00:00:01) function CPS_CreateFlashName redefined
+   (00:00:01) function CPS_CreatePadstack redefined
+   (00:00:01) function CPS_BuildDrillFigureList redefined
+   (00:00:01) function CPS_CreateFlash redefined
+   (00:00:01) function CTFC_GetCoord redefined
+   (00:00:01) function CTFC_BuildTHShape redefined
+   (00:00:01) function CTFB_GetCoord redefined
+   (00:00:01) function CTFB_BuildTHShape redefined
+   (00:00:01) function CTFR_GetCoord redefined
+   (00:00:01) function CTFR_BuildTHShape redefined
+   (00:00:01) function CPS_Help redefined
+   (00:00:01) function _checkElementList redefined
+   (00:00:01) function _deleteElementList redefined
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/111.dra
+\i (00:00:03) trapsize 173
+\i (00:00:03) trapsize 170
+\i (00:00:03) trapsize 173
+\i (00:00:04) trapsize 146
+\i (00:00:04) trapsize 146
+\i (00:00:04) generaledit 
+\i (00:00:10) open 
+\e (00:00:10) Do you want to save the changes you made to 111.dra?
+\i (00:00:12) fillin no 
+\i (00:00:26) fillin "E:\Document\Allegro_trainning\temp123.brd"
+\i (00:00:26) cd "E:\Document\Allegro_trainning"
+\t (00:00:26) Opening existing design...
+\i (00:00:26) trapsize 158
+\i (00:00:26) trapsize 155
+\i (00:00:26) trapsize 158
+\i (00:00:26) trapsize 160
+\i (00:00:26) trapsize 214
+\i (00:00:26) trapsize 355
+\t (00:00:26)     Journal end - Tue Nov 07 22:36:44 2017

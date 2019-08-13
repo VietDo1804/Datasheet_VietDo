@@ -1,0 +1,1725 @@
+("interconn.iml" 
+ (Trace 
+  (STL_1S_1R_1 
+   (IDL ".subckt STL_1S_1R_1 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=6000 botDist=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Plane Z=0.00159258
+
+.layerstack Layerstack7
++shield( 1.778e-005 1 0.035)
++dielectric( 0.000127 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.000127 0.0001524 0.00014478 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaap16084.in 0.00127 
+.rlgc RLGCSTL_1S_1R_1 ( Length=length N=1 )
+.C 0
++ 1.052900e-010 
+.L 0
++ 3.638100e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 6.193100e+000 
+.C INF
++ 1.052900e-010 
+.L INF
++ 3.638100e-007 
+.Td INF
++ 6.189100e-009 
+.Yc INF
++ 1.701200e-002 
+.Zc INF
++ 5.878200e+001 
+
+.endrlgc RLGCSTL_1S_1R_1
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.189100e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.701200e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  5.878200e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.403600e-001 
+.ends STL_1S_1R_1
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_1
+FREQUENCY=0
+CMATRIX
+ 1.052900e-010
+LMATRIX
+ 3.638100e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 6.193100e+000
+FREQUENCY=INF
+CMATRIX
+ 1.052900e-010
+LMATRIX
+ 3.638100e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_2S_1R_2 
+   (IDL ".subckt STL_2S_1R_2 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type StripLine
+*EMIinfo Plane Z=0.00062992
+*EMIinfo Dielectric Eps=4.5 Thick=0.0001524
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Conductor Width=4800 topDist=0.00029718 botDist=0.0001524
+*EMIinfo Dielectric Eps=4.5 Thick=0.0001524
+*EMIinfo Plane Z=0.00016256
+
+.layerstack Layerstack2
++shield( 1.778e-005 1 0.035)
++dielectric( 0.0001524 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0.035 )
++dielectric( 0.000127 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0.035 )
++dielectric( 0.0001524 4.5 0.035 )
++shield( 1.778e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0.0001524 0.00012192 0.00017018 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaaq16084.in 0.00127 
+.rlgc RLGCSTL_2S_1R_2 ( Length=length N=1 )
+.C 0
++ 1.276900e-010 
+.L 0
++ 3.921100e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.741400e+000 
+.C INF
++ 1.276900e-010 
+.L INF
++ 3.921100e-007 
+.Td INF
++ 7.075900e-009 
+.Yc INF
++ 1.804600e-002 
+.Zc INF
++ 5.541500e+001 
+
+.endrlgc RLGCSTL_2S_1R_2
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  7.075900e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.804600e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  5.541500e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.256800e-001 
+.ends STL_2S_1R_2
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_2S_1R_2
+FREQUENCY=0
+CMATRIX
+ 1.276900e-010
+LMATRIX
+ 3.921100e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.741400e+000
+FREQUENCY=INF
+CMATRIX
+ 1.276900e-010
+LMATRIX
+ 3.921100e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_3 
+   (IDL ".subckt STL_1S_1R_3 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Bottom MicroStrip
+*EMIinfo Plane Z=0.00014478
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Conductor Width=6000 topDist=0.000127
+
+.layerstack Layerstack1
++dielectric( 1.778e-005 4.5 0 )
++dielectric( 0.000127 4.5 0.035 )
++shield( 1.778e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0 0.0001524 1.778e-005 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaar16084.in 0.00127 
+.rlgc RLGCSTL_1S_1R_3 ( Length=length N=1 )
+.C 0
++ 1.052900e-010 
+.L 0
++ 3.638100e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 6.193100e+000 
+.C INF
++ 1.052900e-010 
+.L INF
++ 3.638100e-007 
+.Td INF
++ 6.189100e-009 
+.Yc INF
++ 1.701200e-002 
+.Zc INF
++ 5.878200e+001 
+
+.endrlgc RLGCSTL_1S_1R_3
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.189100e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.701200e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  5.878200e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.403600e-001 
+.ends STL_1S_1R_3
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_3
+FREQUENCY=0
+CMATRIX
+ 1.052900e-010
+LMATRIX
+ 3.638100e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 6.193100e+000
+FREQUENCY=INF
+CMATRIX
+ 1.052900e-010
+LMATRIX
+ 3.638100e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_4 
+   (IDL ".subckt STL_1S_1R_4 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=5000 botDist=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Plane Z=0.00159258
+
+.layerstack Layerstack7
++shield( 1.778e-005 1 0.035)
++dielectric( 0.000127 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.000127 0.000127 0.00014478 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaas16084.in 0.00127 
+.rlgc RLGCSTL_1S_1R_4 ( Length=length N=1 )
+.C 0
++ 9.680500e-011 
+.L 0
++ 3.925000e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.431800e+000 
+.C INF
++ 9.680500e-011 
+.L INF
++ 3.925000e-007 
+.Td INF
++ 6.164100e-009 
+.Yc INF
++ 1.570500e-002 
+.Zc INF
++ 6.367500e+001 
+
+.endrlgc RLGCSTL_1S_1R_4
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.164100e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.570500e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  6.367500e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.601500e-001 
+.ends STL_1S_1R_4
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_4
+FREQUENCY=0
+CMATRIX
+ 9.680500e-011
+LMATRIX
+ 3.925000e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.431800e+000
+FREQUENCY=INF
+CMATRIX
+ 9.680500e-011
+LMATRIX
+ 3.925000e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_2S_1R_5 
+   (IDL ".subckt STL_2S_1R_5 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type StripLine
+*EMIinfo Plane Z=0.00062992
+*EMIinfo Dielectric Eps=4.5 Thick=0.0001524
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Conductor Width=5000 topDist=0.00029718 botDist=0.0001524
+*EMIinfo Dielectric Eps=4.5 Thick=0.0001524
+*EMIinfo Plane Z=0.00016256
+
+.layerstack Layerstack2
++shield( 1.778e-005 1 0.035)
++dielectric( 0.0001524 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0.035 )
++dielectric( 0.000127 4.5 0.035 )
++dielectric( 1.778e-005 4.5 0.035 )
++dielectric( 0.0001524 4.5 0.035 )
++shield( 1.778e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0.0001524 0.000127 0.00017018 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaat16084.in 0.00127 
+.rlgc RLGCSTL_2S_1R_5 ( Length=length N=1 )
+.C 0
++ 1.298300e-010 
+.L 0
++ 3.856500e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.431800e+000 
+.C INF
++ 1.298300e-010 
+.L INF
++ 3.856500e-007 
+.Td INF
++ 7.075900e-009 
+.Yc INF
++ 1.834800e-002 
+.Zc INF
++ 5.450200e+001 
+
+.endrlgc RLGCSTL_2S_1R_5
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  7.075900e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.834800e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  5.450200e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.215400e-001 
+.ends STL_2S_1R_5
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_2S_1R_5
+FREQUENCY=0
+CMATRIX
+ 1.298300e-010
+LMATRIX
+ 3.856500e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.431800e+000
+FREQUENCY=INF
+CMATRIX
+ 1.298300e-010
+LMATRIX
+ 3.856500e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_6 
+   (IDL ".subckt STL_1S_1R_6 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Bottom MicroStrip
+*EMIinfo Plane Z=0.00014478
+*EMIinfo Dielectric Eps=4.5 Thick=0.000127
+*EMIinfo Dielectric Eps=4.5 Thick=1.778e-005
+*EMIinfo Conductor Width=5000 topDist=0.000127
+
+.layerstack Layerstack1
++dielectric( 1.778e-005 4.5 0 )
++dielectric( 0.000127 4.5 0.035 )
++shield( 1.778e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0 0.000127 1.778e-005 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/THINHP~1/AppData/Local/Temp/#Taaaaau16084.in 0.00127 
+.rlgc RLGCSTL_1S_1R_6 ( Length=length N=1 )
+.C 0
++ 9.680500e-011 
+.L 0
++ 3.925000e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.431800e+000 
+.C INF
++ 9.680500e-011 
+.L INF
++ 3.925000e-007 
+.Td INF
++ 6.164100e-009 
+.Yc INF
++ 1.570500e-002 
+.Zc INF
++ 6.367500e+001 
+
+.endrlgc RLGCSTL_1S_1R_6
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.164100e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.570500e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  6.367500e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.601500e-001 
+.ends STL_1S_1R_6
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_6
+FREQUENCY=0
+CMATRIX
+ 9.680500e-011
+LMATRIX
+ 3.925000e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.431800e+000
+FREQUENCY=INF
+CMATRIX
+ 9.680500e-011
+LMATRIX
+ 3.925000e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) ) 
+ (Via 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An180W5000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An180W5000
++L1A0W5000_1 L19An180W5000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W5000_1 L19An180W5000_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W5000_1 0 rectangle(SD1 0.0 0.00171958 0.000127 0.00173736))
++trace( L19An180W5000_1 -180 rectangle(SD1 0.0 0.00031496 0.000127 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaabj16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W5000_1	NA	2
+*	2	L19An180W5000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19An180W5000_1 0 1.05054e-013
+R1_0 L19An180W5000_1 0 3.56899e+007
+R2_0 L19An180W5000_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W5000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W5000_1 0 1.14131e-014
+R3_10 L1A0W5000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An180W5000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An90W5000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An90W5000
++L1A0W5000_1 L19An90W5000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W5000_1 L19An90W5000_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W5000_1 0 rectangle(SD1 0.0 0.00171958 0.000127 0.00173736))
++trace( L19An90W5000_1 -90 rectangle(SD1 0.0 0.00031496 0.000127 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaacq16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W5000_1	NA	2
+*	2	L19An90W5000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19An90W5000_1 0 1.05054e-013
+R1_0 L19An90W5000_1 0 3.56899e+007
+R2_0 L19An90W5000_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W5000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W5000_1 0 1.14131e-014
+R3_10 L1A0W5000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An90W5000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An135W5000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An135W5000
++L19A0W5000_1 L23An135W5000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material S23 conductivity=5.959e+007
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L19A0W5000_1 L23An135W5000_1 
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0 1.778e-005 ellipse(S23 -0.000254 -0.000254 0.000254 0.000254))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L19A0W5000_1 0 rectangle(SD1 0.0 0.00031496 0.000127 0.00033274))
++trace( L23An135W5000_1 -135 rectangle(SD1 0.0 0 0.000127 1.778e-005))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaacr16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L19A0W5000_1	NA	2
+*	2	L23An135W5000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L23An135W5000_1 0 1.31025e-014
+R1_0 L23An135W5000_1 0 6.247e+008
+R2_0 L23An135W5000_1 tln_1 0.00247619 L=2.51189e-010
+C3_0 tln_1 0 1.31025e-014
+R3_0 tln_1 0 6.247e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 4.0672e-014
+R1_2 tln_2 0 1.00625e+008
+R2_2 tln_2 L19A0W5000_1 0.00327685 L=3.36978e-010
+C3_2 L19A0W5000_1 0 1.74026e-013
+R3_2 L19A0W5000_1 0 2.64097e+007
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An135W5000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An180W5000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An180W5000
++L19A0W5000_1 L23An180W5000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material S23 conductivity=5.959e+007
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L19A0W5000_1 L23An180W5000_1 
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0 1.778e-005 ellipse(S23 -0.000254 -0.000254 0.000254 0.000254))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L19A0W5000_1 0 rectangle(SD1 0.0 0.00031496 0.000127 0.00033274))
++trace( L23An180W5000_1 -180 rectangle(SD1 0.0 0 0.000127 1.778e-005))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaacs16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L19A0W5000_1	NA	2
+*	2	L23An180W5000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L23An180W5000_1 0 1.31025e-014
+R1_0 L23An180W5000_1 0 6.247e+008
+R2_0 L23An180W5000_1 tln_1 0.00247619 L=2.51189e-010
+C3_0 tln_1 0 1.31025e-014
+R3_0 tln_1 0 6.247e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 4.0672e-014
+R1_2 tln_2 0 1.00625e+008
+R2_2 tln_2 L19A0W5000_1 0.00327685 L=3.36978e-010
+C3_2 L19A0W5000_1 0 1.74026e-013
+R3_2 L19A0W5000_1 0 2.64097e+007
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W5000L23An180W5000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An225W5000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An225W5000
++L1A0W5000_1 L19An225W5000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W5000_1 L19An225W5000_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W5000_1 0 rectangle(SD1 0.0 0.00171958 0.000127 0.00173736))
++trace( L19An225W5000_1 -225 rectangle(SD1 0.0 0.00031496 0.000127 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaact16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W5000_1	NA	2
+*	2	L19An225W5000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19An225W5000_1 0 1.05054e-013
+R1_0 L19An225W5000_1 0 3.56899e+007
+R2_0 L19An225W5000_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W5000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W5000_1 0 1.14131e-014
+R3_10 L1A0W5000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W5000L19An225W5000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An270W4800 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An270W4800
++L1A0W6000_1 L19An270W4800_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W6000_1 L19An270W4800_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W6000_1 0 rectangle(SD1 0.0 0.00171958 0.0001524 0.00173736))
++trace( L19An270W4800_1 -270 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaalk16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W6000_1	NA	2
+*	2	L19An270W4800_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19An270W4800_1 0 1.05054e-013
+R1_0 L19An270W4800_1 0 3.56899e+007
+R2_0 L19An270W4800_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W6000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W6000_1 0 1.14131e-014
+R3_10 L1A0W6000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An270W4800
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23A180W6000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23A180W6000
++L19A0W4800_1 L23A180W6000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material S23 conductivity=5.959e+007
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L19A0W4800_1 L23A180W6000_1 
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0 1.778e-005 ellipse(S23 -0.000254 -0.000254 0.000254 0.000254))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L19A0W4800_1 0 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
++trace( L23A180W6000_1 180 rectangle(SD1 0.0 0 0.0001524 1.778e-005))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaall16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L19A0W4800_1	NA	2
+*	2	L23A180W6000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L23A180W6000_1 0 1.31025e-014
+R1_0 L23A180W6000_1 0 6.247e+008
+R2_0 L23A180W6000_1 tln_1 0.00247619 L=2.51189e-010
+C3_0 tln_1 0 1.31025e-014
+R3_0 tln_1 0 6.247e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 4.0672e-014
+R1_2 tln_2 0 1.00625e+008
+R2_2 tln_2 L19A0W4800_1 0.00327685 L=3.36978e-010
+C3_2 L19A0W4800_1 0 1.74026e-013
+R3_2 L19A0W4800_1 0 2.64097e+007
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23A180W6000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19A0W4800 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19A0W4800
++L1A0W6000_1 L19A0W4800_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W6000_1 L19A0W4800_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W6000_1 0 rectangle(SD1 0.0 0.00171958 0.0001524 0.00173736))
++trace( L19A0W4800_1 0 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaalm16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W6000_1	NA	2
+*	2	L19A0W4800_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19A0W4800_1 0 1.05054e-013
+R1_0 L19A0W4800_1 0 3.56899e+007
+R2_0 L19A0W4800_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W6000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W6000_1 0 1.14131e-014
+R3_10 L1A0W6000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19A0W4800
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An135W6000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An135W6000
++L19A0W4800_1 L23An135W6000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material S23 conductivity=5.959e+007
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L19A0W4800_1 L23An135W6000_1 
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0 1.778e-005 ellipse(S23 -0.000254 -0.000254 0.000254 0.000254))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L19A0W4800_1 0 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
++trace( L23An135W6000_1 -135 rectangle(SD1 0.0 0 0.0001524 1.778e-005))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaamt16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L19A0W4800_1	NA	2
+*	2	L23An135W6000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L23An135W6000_1 0 1.31025e-014
+R1_0 L23An135W6000_1 0 6.247e+008
+R2_0 L23An135W6000_1 tln_1 0.00247619 L=2.51189e-010
+C3_0 tln_1 0 1.31025e-014
+R3_0 tln_1 0 6.247e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 4.0672e-014
+R1_2 tln_2 0 1.00625e+008
+R2_2 tln_2 L19A0W4800_1 0.00327685 L=3.36978e-010
+C3_2 L19A0W4800_1 0 1.74026e-013
+R3_2 L19A0W4800_1 0 2.64097e+007
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An135W6000
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An225W4800 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An225W4800
++L1A0W6000_1 L19An225W4800_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.material S1 conductivity=5.959e+007
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L1A0W6000_1 L19An225W4800_1 
++pad( 0.00171958 0.00173736 ellipse(S1 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L1A0W6000_1 0 rectangle(SD1 0.0 0.00171958 0.0001524 0.00173736))
++trace( L19An225W4800_1 -225 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaamu16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L1A0W6000_1	NA	2
+*	2	L19An225W4800_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L19An225W4800_1 0 1.05054e-013
+R1_0 L19An225W4800_1 0 3.56899e+007
+R2_0 L19An225W4800_1 tln_1 0.00572227 L=5.88453e-010
+C3_0 tln_1 0 4.0672e-014
+R3_0 tln_1 0 1.00625e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 5.20851e-014
+R1_2 tln_2 0 7.86198e+007
+R2_2 tln_2 tln_3 0.00244539 L=2.51572e-010
+C3_2 tln_3 0 1.14129e-014
+R3_2 tln_3 0 3.63001e+008
+TidlPart_3 tln_3 0 tln_4 0 z0=38.8498 Td=1.25724e-013
+C1_4 tln_4 0 2.50739e-014
+R1_4 tln_4 0 1.64047e+008
+R2_4 tln_4 tln_5 0.00293447 L=3.01887e-010
+C3_4 tln_5 0 1.3661e-014
+R3_4 tln_5 0 2.99333e+008
+TidlPart_5 tln_5 0 tln_6 0 z0=38.8498 Td=1.25724e-013
+C1_6 tln_6 0 2.50741e-014
+R1_6 tln_6 0 1.63337e+008
+R2_6 tln_6 tln_7 0.00244539 L=2.51572e-010
+C3_6 tln_7 0 1.14129e-014
+R3_6 tln_7 0 3.63001e+008
+TidlPart_7 tln_7 0 tln_8 0 z0=38.8498 Td=1.25724e-013
+C1_8 tln_8 0 5.19778e-014
+R1_8 tln_8 0 7.89482e+007
+R2_8 tln_8 tln_9 0.00899904 L=9.25786e-010
+C3_8 tln_9 0 4.05649e-014
+R3_8 tln_9 0 1.00891e+008
+TidlPart_9 tln_9 0 tln_10 0 z0=38.8498 Td=1.25724e-013
+C1_10 tln_10 0 5.1978e-014
+R1_10 tln_10 0 7.87377e+007
+R2_10 tln_10 L1A0W6000_1 0.00244539 L=2.51572e-010
+C3_10 L1A0W6000_1 0 1.14131e-014
+R3_10 L1A0W6000_1 0 3.58589e+008
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L1A0W6000L19An225W4800
+" ) ) 
+  (VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An225W6000 
+   (IDL "*There is a VIA here.
+*FieldSolver: FSvia
+.subckt VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An225W6000
++L19A0W4800_1 L23An225W6000_1 
+.material SD1 conductivity=5.959e+7
+.material D23 dielectric=4.5 losstangent=0
+.material S23 conductivity=5.959e+007
+.material D22 dielectric=4.5 losstangent=0.035
+.material D21 dielectric=4.5 losstangent=0.035
+.material S21 conductivity=5.959e+007
+.material D20 dielectric=4.5 losstangent=0.035
+.material D19 dielectric=4.5 losstangent=0.035
+.material S19 conductivity=5.959e+007
+.material D18 dielectric=4.5 losstangent=0.035
+.material D17 dielectric=4.5 losstangent=0.035
+.material D16 dielectric=4.5 losstangent=0.035
+.material D15 dielectric=4.5 losstangent=0.035
+.material S15 conductivity=5.959e+007
+.material D14 dielectric=4.5 losstangent=0.035
+.material D13 dielectric=4.5 losstangent=0.035
+.material S13 conductivity=5.959e+007
+.material D12 dielectric=4.5 losstangent=0.035
+.material D11 dielectric=4.5 losstangent=0.035
+.material S11 conductivity=5.959e+007
+.material D10 dielectric=4.5 losstangent=0.035
+.material D9 dielectric=4.5 losstangent=0.035
+.material S9 conductivity=5.959e+007
+.material D8 dielectric=4.5 losstangent=0.035
+.material D7 dielectric=4.5 losstangent=0.035
+.material D6 dielectric=4.5 losstangent=0.035
+.material D5 dielectric=4.5 losstangent=0.035
+.material D4 dielectric=4.5 losstangent=0.035
+.material D3 dielectric=4.5 losstangent=0.035
+.material S3 conductivity=5.959e+007
+.material D2 dielectric=4.5 losstangent=0.035
+.material D1 dielectric=4.5 losstangent=0
+.layerstack LayerStackAll
++dielectric( D23 1.778e-005 )
++dielectric( D22 0.000127 )
++shield( SL21  S21 1.778e-005 )
++dielectric( D20 0.0001524 )
++dielectric( D19 1.778e-005 )
++dielectric( D18 0.000127 )
++dielectric( D17 1.778e-005 )
++dielectric( D16 0.0001524 )
++shield( SL15  S15 1.778e-005 )
++dielectric( D14 0.000127 )
++shield( SL13  S13 1.778e-005 )
++dielectric( D12 0.0001524 )
++shield( SL11  S11 1.778e-005 )
++dielectric( D10 0.000127 )
++shield( SL9  S9 1.778e-005 )
++dielectric( D8 0.0001524 )
++dielectric( D7 1.778e-005 )
++dielectric( D6 0.000127 )
++dielectric( D5 1.778e-005 )
++dielectric( D4 0.0001524 )
++shield( SL3  S3 1.778e-005 )
++dielectric( D2 0.000127 )
++dielectric( D1 1.778e-005 )
+.Via L19A0W4800_1 L23An225W6000_1 
++void( 0.0015748 0.00159258 ellipse(D3 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00108966 0.00110744 ellipse(D9 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00094488 0.00096266 ellipse(D11 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.0007747 0.00079248 ellipse(D13 -0.000501565 -0.000501565 0.000501565 0.000501565))
++void( 0.00062992 0.0006477 ellipse(D15 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0.00031496 0.00033274 ellipse(S19 -0.000254 -0.000254 0.000254 0.000254))
++void( 0.00014478 0.00016256 ellipse(D21 -0.000501565 -0.000501565 0.000501565 0.000501565))
++pad( 0 1.778e-005 ellipse(S23 -0.000254 -0.000254 0.000254 0.000254))
++drill(0 0.00171958 ellipse(SD1 -0.000127 -0.000127 0.000127 0.000127))
++trace( L19A0W4800_1 0 rectangle(SD1 0.0 0.00031496 0.00012192 0.00033274))
++trace( L23An225W6000_1 -225 rectangle(SD1 0.0 0 0.0001524 1.778e-005))
+*FieldSolver:  FSvia C:/Users/THINHP~1/AppData/Local/Temp/#Taaaamv16084.in -omodel NarrowBand -fa 0.01 
+****************************************************************
+*	PortIndx	PortName	LayerName	SparaIndx
+*	1	L19A0W4800_1	NA	2
+*	2	L23An225W6000_1	NA	1
+****************************************************************
+*Narrow-Band Via Model
+*Narrow-Band Via Model
+*Frequency= 0.01GHz
+C1_0 L23An225W6000_1 0 1.31025e-014
+R1_0 L23An225W6000_1 0 6.247e+008
+R2_0 L23An225W6000_1 tln_1 0.00247619 L=2.51189e-010
+C3_0 tln_1 0 1.31025e-014
+R3_0 tln_1 0 6.247e+008
+TidlPart_1 tln_1 0 tln_2 0 z0=38.8498 Td=1.25724e-013
+C1_2 tln_2 0 4.0672e-014
+R1_2 tln_2 0 1.00625e+008
+R2_2 tln_2 L19A0W4800_1 0.00327685 L=3.36978e-010
+C3_2 L19A0W4800_1 0 1.74026e-013
+R3_2 L19A0W4800_1 0 2.64097e+007
+.ends VIA_HELIOS_24OCT18_VIA_D10C20_L19A0W4800L23An225W6000
+" ) ) ) 
+ (LibraryVersion 136.2 ) ) 

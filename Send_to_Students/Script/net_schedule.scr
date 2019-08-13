@@ -1,0 +1,12 @@
+# Allegro script
+#	file: F:/TOA/MTMCKINLEY_23Aug11_0300/net_schedule.scr
+#	start time: Fri Aug 26 00:31:19 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 5881
+generaledit
+net schedule 
+
+#	stop time: Fri Aug 26 00:31:31 2011

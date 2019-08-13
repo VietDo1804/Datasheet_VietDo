@@ -1,0 +1,30 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRC Update                                                       )
+(                                                                     )
+(    Drawing          : Helios_24Oct18.brd                            )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Sun Jan 13 00:20:29 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ========= check shapes                       0:00:00
+ ========= check standalone pins              0:00:00
+ ========= check symbols (pins,lines,text)    0:00:00
+ ========= check xnets                        0:00:00
+ ========= check nets                         0:00:00
+ ========= check standalone branches          0:00:00
+ ========= check standalone filled rectangles 0:00:00
+ ========= check standalone lines             0:00:00
+ ========= check standalone text              0:00:00
+ ========= check standalone rectangles        0:00:00
+
+ ..... Total number of DRC errors  124
+
+
+WARNING: 8 dynamic shape(s) out of date; checking skipped on these elements.
+
+ ..... DRC update completed, total CPU time   0:00:01
+ *************************************************************************
+

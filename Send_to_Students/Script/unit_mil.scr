@@ -1,0 +1,34 @@
+# Allegro script
+#	file: E:/A_CHUONG/script/unit_mil.scr
+#	start time: Tue Feb 03 20:53:33 2009
+#	Version: 16.0 p005 (v16-0-87F) i86
+version 16.0
+
+
+#setwindow pcb
+#prmed 
+#setwindow form.prmedit
+#FORM prmedit done  
+#setwindow pcb
+#prmed 
+#setwindow form.prmedit
+#FORM prmedit units Mils 
+#FORM prmedit accuracy 3
+#FORM prmedit done  
+#fillin yes 
+#setwindow pcb
+
+setwindow pcb
+status 
+setwindow form.status
+FORM status done
+setwindow pcb
+status 
+setwindow form.status
+FORM status units Mils 
+FORM status accuracy 3
+FORM status done  
+fillin yes
+setwindow pcb
+
+#	stop time: Tue Feb 03 20:54:06 2009

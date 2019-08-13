@@ -1,0 +1,18 @@
+# Allegro script
+#	file: D:\Huy\Allegro\QTNew1\g525.scr
+#	start time: Tue Jan 22 18:58:37 2002
+version 13.6
+
+setwindow pcb
+
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 5.00 
+FORM grid non_etch non_etch_y_grids 5.00 
+FORM grid top subclass_x_grids 5.00 
+FORM grid top subclass_x_grids 5.00 
+FORM grid all_etch all_etch_x_grids '1 1 1 1 1' 
+FORM grid all_etch all_etch_y_grids '1 1 1 1 1' 
+FORM grid done  
+
+#	stop time: Tue Jan 22 18:59:36 2002

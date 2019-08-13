@@ -1,0 +1,191 @@
+("interconn.iml" 
+ (Trace 
+  (STL_0S_1R_3 
+   (IDL ".subckt STL_0S_1R_3 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type NoGroundPlane
+*EMIinfo Conductor Width=150 botDist=0.00154305
+*EMIinfo Dielectric Eps=4.5 Thick=6.477e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00010922
+*EMIinfo Dielectric Eps=4.5 Thick=3.302e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0011938
+*EMIinfo Dielectric Eps=4.5 Thick=3.302e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00010922
+*EMIinfo Dielectric Eps=4.5 Thick=6.477e-005
+
+.layerstack Layerstack1
++dielectric( 6.477e-005 4.5 0 )
++dielectric( 0.00010922 4.5 0.035 )
++dielectric( 3.302e-005 4.5 0.035 )
++dielectric( 0.0011938 4.5 0.035 )
++dielectric( 3.302e-005 4.5 0.035 )
++dielectric( 0.00010922 4.5 0.035 )
++dielectric( 6.477e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00154305 0.000381 0.00160782 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/phatn/AppData/Local/Temp/#Taaaabh10360.in 0.00127 
+.rlgc RLGCSTL_0S_1R_3 ( Length=length N=1 )
+.C 0
++ 3.060000e-011 
+.L 0
++ 7.438000e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 6.800300e-001 
+.C INF
++ 3.060000e-011 
+.L INF
++ 7.438000e-007 
+.Td INF
++ 4.770800e-009 
+.Yc INF
++ 6.414100e-003 
+.Zc INF
++ 1.559100e+002 
+
+.endrlgc RLGCSTL_0S_1R_3
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  4.770800e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 6.414100e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.559100e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  7.571700e-001 
+.ends STL_0S_1R_3
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_0S_1R_3
+FREQUENCY=0
+CMATRIX
+ 3.060000e-011
+LMATRIX
+ 7.438000e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 6.800300e-001
+FREQUENCY=INF
+CMATRIX
+ 3.060000e-011
+LMATRIX
+ 7.438000e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_0S_1R_4 
+   (IDL ".subckt STL_0S_1R_4 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type NoGroundPlane
+*EMIinfo Conductor Width=50 botDist=0.00154305
+*EMIinfo Dielectric Eps=4.5 Thick=6.477e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00010922
+*EMIinfo Dielectric Eps=4.5 Thick=3.302e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0011938
+*EMIinfo Dielectric Eps=4.5 Thick=3.302e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00010922
+*EMIinfo Dielectric Eps=4.5 Thick=6.477e-005
+
+.layerstack Layerstack1
++dielectric( 6.477e-005 4.5 0 )
++dielectric( 0.00010922 4.5 0.035 )
++dielectric( 3.302e-005 4.5 0.035 )
++dielectric( 0.0011938 4.5 0.035 )
++dielectric( 3.302e-005 4.5 0.035 )
++dielectric( 0.00010922 4.5 0.035 )
++dielectric( 6.477e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00154305 0.000127 0.00160782 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/phatn/AppData/Local/Temp/#Taaaabi10360.in 0.00127 
+.rlgc RLGCSTL_0S_1R_4 ( Length=length N=1 )
+.C 0
++ 2.681400e-011 
+.L 0
++ 9.042300e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 2.040100e+000 
+.C INF
++ 2.681400e-011 
+.L INF
++ 9.042300e-007 
+.Td INF
++ 4.924000e-009 
+.Yc INF
++ 5.445500e-003 
+.Zc INF
++ 1.836400e+002 
+
+.endrlgc RLGCSTL_0S_1R_4
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  4.924000e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 5.445500e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.836400e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  7.859900e-001 
+.ends STL_0S_1R_4
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_0S_1R_4
+FREQUENCY=0
+CMATRIX
+ 2.681400e-011
+LMATRIX
+ 9.042300e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 2.040100e+000
+FREQUENCY=INF
+CMATRIX
+ 2.681400e-011
+LMATRIX
+ 9.042300e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) ) 
+ (LibraryVersion 136.2 ) ) 

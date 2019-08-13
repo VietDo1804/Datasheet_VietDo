@@ -1,0 +1,9 @@
+\t (00:00:00) pad_designer 16.6-2015 S069 (v16-6-112FN) Windows 32
+\t (00:00:00)     Journal start - Tue Jan 15 01:04:29 2019
+\t (00:00:00)         Host=THINHPHAM-PC User=ThinhPham Pid=17736 CPUs=8
+\t (00:00:00) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (04:25:23) setwindow form.padedit
+\i (04:25:23) pse_new 
+\i (04:28:46) fillin "045x145sm.pad"
+\t (04:28:46)     Journal end - Tue Jan 15 05:33:16 2019

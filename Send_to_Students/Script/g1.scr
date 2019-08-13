@@ -1,0 +1,20 @@
+setwindow pcb
+# Allegro script
+#	file: D:\CHUONG\SOFT\Cadence\Acronicsvn\Project3\TEGOINC_Helios_test\New_Footprint\g1.scr
+#	start time: Sun Jul 20 18:48:25 2008
+#	Version: 15.2 p003 (v15-2-51C) i86
+version 15.2
+
+trapsize 1134
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 1.000 
+FORM grid non_etch non_etch_y_grids 1.000 
+FORM grid all_etch all_etch_x_grids '1.000 1.000 1.000 1.000 1.000' 
+FORM grid all_etch all_etch_y_grids '1.000 1.000 1.000 1.000 1.000' 
+FORM grid all_etch all_etch_x_offset 0.000
+FORM grid all_etch all_etch_y_offset 0.000
+FORM grid done  
+setwindow pcb
+
+#	stop time: Sun Jul 20 18:48:57 2008

@@ -1,0 +1,17 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Clipboard Paste Session                                          )
+(                                                                     )
+(    Drawing          : USB_HUNB3_5Sep18.brd                          )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Wed Oct 17 21:48:41 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Trying to paste the sub-design having units "mils" and accuracy 3 on to the desi
+gn having units "mils" and accuracy 1. Possibility of losing data accuracy.
+Text pasted without CLIP_DRAWING property.
+
+
+Clipboard Paste Session Completed at Oct 17 21:48:42 2018

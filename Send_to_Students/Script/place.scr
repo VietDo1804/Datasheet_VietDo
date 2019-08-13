@@ -1,0 +1,12 @@
+# Allegro script
+#	file: F:/TOA/31MAY11/FOOTPRINT/place.scr
+#	start time: Tue May 31 00:50:48 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 21235
+placementedit
+placementedit 
+
+#	stop time: Tue May 31 00:51:13 2011

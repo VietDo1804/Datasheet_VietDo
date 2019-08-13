@@ -1,0 +1,15 @@
+# Allegro script
+#	file: F:/WORK/Temp/Receive/29Mar11/tb.scr
+#	start time: Tue Mar 29 19:27:50 2011
+#	Version: 16.3 p006 (v16-3-85F) i86
+version 16.3
+
+setwindow pcb
+trapsize 95670
+generaledit
+setwindow form.vf_vis
+FORM vf_vis 1 all_colorvisible YES 
+FORM vf_vis 8 all_colorvisible YES 
+setwindow pcb
+
+#	stop time: Tue Mar 29 19:27:59 2011

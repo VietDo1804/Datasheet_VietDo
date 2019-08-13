@@ -1,0 +1,111 @@
+# Allegro script
+# Written by Huynh Van Noi
+# Date: Friday, September 21, 2001
+
+Version 13.6
+Scriptmode +invisible
+
+setwindow pcb
+
+define text 
+setwindow form.textblock
+
+FORM textblock 1 width              16.000 
+FORM textblock 1 height             25.000 
+FORM textblock 1 line_spacing       31.000 
+FORM textblock 1 photoplot_width    00.000 
+FORM textblock 1 character_spacing  06.000 
+
+FORM textblock 2 width              23.000 
+FORM textblock 2 height             31.000 
+FORM textblock 2 line_spacing       39.000 
+FORM textblock 2 photoplot_width    00.000 
+FORM textblock 2 character_spacing  08.000 
+
+FORM textblock 3 width              38.000 
+FORM textblock 3 height             50.000 
+FORM textblock 3 line_spacing       63.000 
+FORM textblock 3 photoplot_width    00.000 
+FORM textblock 3 character_spacing  13.000 
+
+FORM textblock 4 width              47.000 
+FORM textblock 4 height             63.000 
+FORM textblock 4 line_spacing       79.000 
+FORM textblock 4 photoplot_width    00.000 
+FORM textblock 4 character_spacing  16.000 
+ 
+FORM textblock 5 width              56.000 
+FORM textblock 5 height             75.000 
+FORM textblock 5 line_spacing       96.000 
+FORM textblock 5 photoplot_width    00.000 
+FORM textblock 5 character_spacing  19.000 
+
+FORM textblock 6 width              60.000 
+FORM textblock 6 height             80.000 
+FORM textblock 6 line_spacing      100.000 
+FORM textblock 6 photoplot_width    00.000 
+FORM textblock 6 character_spacing  20.000 
+
+FORM textblock 7 width              69.000 
+FORM textblock 7 height             94.000 
+FORM textblock 7 line_spacing      117.000 
+FORM textblock 7 photoplot_width    00.000 
+FORM textblock 7 character_spacing  23.000 
+
+FORM textblock 8 width              75.000 
+FORM textblock 8 height            100.000 
+FORM textblock 8 line_spacing      125.000 
+FORM textblock 8 photoplot_width    00.000 
+FORM textblock 8 character_spacing  25.000 
+
+FORM textblock 9 width              93.000 
+FORM textblock 9 height            125.000 
+FORM textblock 9 line_spacing      156.000 
+FORM textblock 9 photoplot_width    00.000 
+FORM textblock 9 character_spacing  31.000 
+
+FORM textblock 10 width            117.000 
+FORM textblock 10 height           156.000 
+FORM textblock 10 line_spacing     195.000 
+FORM textblock 10 photoplot_width   00.000 
+FORM textblock 10 character_spacing 62.000 
+
+FORM textblock 11 width            131.000 
+FORM textblock 11 height           175.000 
+FORM textblock 11 line_spacing     219.000 
+FORM textblock 11 photoplot_width   00.000 
+FORM textblock 11 character_spacing 44.000 
+
+FORM textblock 12 width            141.000 
+FORM textblock 12 height           188.000 
+FORM textblock 12 line_spacing     235.000 
+FORM textblock 12 photoplot_width   00.000 
+FORM textblock 12 character_spacing 47.000 
+
+FORM textblock 13 width            150.000 
+FORM textblock 13 height           200.000 
+FORM textblock 13 line_spacing     250.000 
+FORM textblock 13 photoplot_width   00.000 
+FORM textblock 13 character_spacing 50.000 
+
+FORM textblock 14 width            167.000 
+FORM textblock 14 height           225.000 
+FORM textblock 14 line_spacing     281.000 
+FORM textblock 14 photoplot_width   00.000 
+FORM textblock 14 character_spacing 56.000 
+
+FORM textblock 15 width            189.000 
+FORM textblock 15 height           250.000 
+FORM textblock 15 line_spacing     313.000 
+FORM textblock 15 photoplot_width   00.000 
+FORM textblock 15 character_spacing 63.000 
+
+FORM textblock 16 width            375.000 
+FORM textblock 16 height           500.000 
+FORM textblock 16 line_spacing     625.000 
+FORM textblock 16 photoplot_width   00.000 
+FORM textblock 16 character_spacing 125.000 
+
+
+FORM textblock done  
+setwindow pcb

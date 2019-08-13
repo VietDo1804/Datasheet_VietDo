@@ -1,0 +1,557 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AVDD_2V5     pins ADDED TO this new net
+                                 C15.1          C16.1          FB1.2          
+                                 U1.17          U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AVSS_GND     pins ADDED TO this new net
+                                 C15.2          C16.2          FB2.2          
+                                 R11.1          U1.16          U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BUS_B        pins ADDED TO this new net
+                                 R4.2           R5.1           U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CHASSIS_GND  pins ADDED TO this new net
+                                 CN2.5          CN2.6          CN2.7          
+                                 CN2.8          CN3.5          CN3.6          
+                                 CN3.7          CN3.8          CN4.5          
+                                 CN4.6          CN4.7          CN4.8          
+                                 FB5.1          FB7.1          FB8.1          
+                                 MH1.1          MH2.1          MH3.1          
+                                 MH4.1          R26.1          R27.1          
+                                 R28.1          R29.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C5.2           C6.2           
+                                 C7.2           C8.2           C9.2           
+                                 C10.2          C11.2          C13.2          
+                                 C14.2          C17.2          C18.2          
+                                 C19.2          C20.2          C21.2          
+                                 C22.2          C23.2          C24.2          
+                                 C26.2          C27.2          C28.2          
+                                 C29.2          C30.2          C31.2          
+                                 C32.2          CN1.4          CN1.5          
+                                 CN1.6          CN2.4          CN3.4          
+                                 CN4.4          FB2.1          FB5.2          
+                                 FB7.2          FB8.2          R3.2           
+                                 R5.2           R6.2           R22.2          
+                                 R24.2          R25.2          R26.2          
+                                 R27.2          R28.2          R29.2          
+                                 U1.2           U1.14          U1.23          
+                                 U1.27          U1.36          U1.42          
+                                 U2.6           U3.6           U4.6           
+                                 U4.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LDO_FB       pins ADDED TO this new net
+                                 R21.2          R22.1          U4.8           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  LDO_PG       pins ADDED TO this new net
+                                 R23.2          U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LDO_SS       pins ADDED TO this new net
+                                 C32.1          U4.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED1         pins ADDED TO this new net
+                                 R7.1           U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED2         pins ADDED TO this new net
+                                 R8.1           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED3         pins ADDED TO this new net
+                                 R9.1           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED1_R       pins ADDED TO this new net
+                                 D1.2           D2.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED2_R       pins ADDED TO this new net
+                                 D3.2           D4.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED3_R       pins ADDED TO this new net
+                                 D5.2           D6.2           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_AMBER    pins ADDED TO this new net
+                                 D2.1           D4.1           D6.1           
+                                 R6.1           U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_GREEN    pins ADDED TO this new net
+                                 D1.1           D3.1           D5.1           
+                                 U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RREF         pins ADDED TO this new net
+                                 R11.2          U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SYSRST_L     pins ADDED TO this new net
+                                 C17.1          R12.2          U1.37          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_CS_L    pins ADDED TO this new net
+                                 R15.2          U1.46          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_EN_L    pins ADDED TO this new net
+                                 R13.2          U1.45          U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_CS_L    pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R16.2          U1.44          U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_EN_L    pins ADDED TO this new net
+                                 R14.2          U1.43          U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB3_CS_L    pins ADDED TO this new net
+                                 R19.2          U1.41          U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB3_EN_L    pins ADDED TO this new net
+                                 R17.2          U1.40          U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB4_CS_L    pins ADDED TO this new net
+                                 R20.2          U1.39          U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB4_EN_L    pins ADDED TO this new net
+                                 R18.2          U1.38          U3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D1_N     pins ADDED TO this new net
+                                 CN2.2          U1.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D1_P     pins ADDED TO this new net
+                                 CN2.3          U1.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D2_N     pins ADDED TO this new net
+                                 CN3.2          U1.28          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D2_P     pins ADDED TO this new net
+                                 CN3.3          U1.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D3_N     pins ADDED TO this new net
+                                 CN4.2          U1.31          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D3_P     pins ADDED TO this new net
+                                 CN4.3          U1.32          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D4_N     pins ADDED TO this new net
+                                 R25.1          U1.34          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_D4_P     pins ADDED TO this new net
+                                 R24.1          U1.35          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_UP_N     pins ADDED TO this new net
+                                 CN1.2          U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_UP_P     pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 CN1.3          U1.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS_5V0     pins ADDED TO this new net
+                                 C2.1           C3.1           C27.1          
+                                 C30.1          C31.1          CN1.1          
+                                 F1.1           R2.1           R23.1          
+                                 U4.1           U4.2           U4.4           
+                                 U4.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS_MON     pins ADDED TO this new net
+                                 R2.2           R3.1           U1.47          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDDOUT_2V5   pins ADDED TO this new net
+                                 C13.1          C14.1          C21.1          
+                                 C22.1          C23.1          FB1.1          
+                                 U1.1           U1.12          U1.24          
+                                 U1.33          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_3V3      pins ADDED TO this new net
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C28.1          C29.1          
+                                 R4.1           R12.1          R13.1          
+                                 R14.1          R15.1          R16.1          
+                                 R17.1          R18.1          R19.1          
+                                 R20.1          R21.1          U1.9           
+                                 U1.20          U1.30          U1.48          
+                                 U4.9           U4.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VFIL1_5V0    pins ADDED TO this new net
+                                 C5.1           CN2.1          FB4.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VFIL2_5V0    pins ADDED TO this new net
+                                 C6.1           CN3.1          FB6.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VFIL3_5V0    pins ADDED TO this new net
+                                 C11.1          CN4.1          FB9.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VPORT1_5V0   pins ADDED TO this new net
+                                 C20.1          FB4.1          U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VPORT2_5V0   pins ADDED TO this new net
+                                 C19.1          FB6.1          U2.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VPORT3_5V0   pins ADDED TO this new net
+                                 C26.1          FB9.1          U3.5           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VPORT_5V0    pins ADDED TO this new net
+                                 C18.1          C24.1          F1.2           
+                                 U2.7           U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTAL1        pins ADDED TO this new net
+                                 C1.1           U1.10          X1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTAL2        pins ADDED TO this new net
+                                 R1.1           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTAL2_R      pins ADDED TO this new net
+                                 C4.1           R1.2           X1.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ VBUS_5V0          NET_PHYSICAL_T PWR_PH
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 3000-1393_USB_B_RECP_MOLEX_6706
+ 3000-1394_USB_A_VERT_RECP_MOLEX
+ 4000-1384_UPD720114_TQFP48_NEC_
+ 4000-1385_AP1212L_SOL8L_DIODES_
+ C_0402_16V_20P_X7R_1N0F_0402C_D
+ C_0U1F_0402_16V_10P_1500-1135_0
+ C_100UF_1210_6V3_20P_1500-1194_
+ C_10UF_0603_6V3_20P_1500-1141_0
+ C_12PF_0402_50V_5P_1500-1206_04
+ C_1UF_0402_6V3_10P_1500-1146_04
+ C_22UF_1206_6V3_10P_1500-1097_1
+ C_4U7F_0603_6V3_15P_1500-1207_0
+ FB_0603_60OHM_1A_2100-1019_0603
+ FUSE_2A_125V_NANO_2300-1027_FUS
+ IC_TPS74801_SON10_3X3_ADJ_REG_T
+ LED_0603_GRN_3100-1045_SMTLED_0
+ MH_129X220_PTH_MH_129X220_PTH_D
+ R_0_0402_5P_1000-1377_0402R_0
+ R_0_0402_5P_1000-1377_0402R_DNL
+ R_10K_0402_1P_1000-1234_0402R_1
+ R_15K_0402_5P_1000-1505_0402R_1
+ R_1K15_0402_1P_1000-1345_0402R_
+ R_2K43_0402_1P_1000-1503_0402R_
+ R_33R2_0402_1P_1000-1380_0402R_
+ R_3K57_0402_1P_1000-1344_0402R_
+ R_470_0402_5P_1000-1506_0402R_4
+ R_510K_0402_5P_1000-1504_0402R_
+ XTAL_30MHZ_4P_VXM5_1900-1069_XT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_12PF_0402_50V_5P_1500-1206_04 
+ C2                  C_10UF_0603_6V3_20P_1500-1141_0 
+ C3                  C_1UF_0402_6V3_10P_1500-1146_04 
+ C4                  C_12PF_0402_50V_5P_1500-1206_04 
+ C5                  C_1UF_0402_6V3_10P_1500-1146_04 
+ C6                  C_1UF_0402_6V3_10P_1500-1146_04 
+ C7                  C_10UF_0603_6V3_20P_1500-1141_0 
+ C8                  C_1UF_0402_6V3_10P_1500-1146_04 
+ C9                  C_1UF_0402_6V3_10P_1500-1146_04 
+ C10                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C11                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C13                 C_22UF_1206_6V3_10P_1500-1097_1 
+ C14                 C_4U7F_0603_6V3_15P_1500-1207_0 
+ C15                 C_4U7F_0603_6V3_15P_1500-1207_0 
+ C16                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C17                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C18                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C19                 C_100UF_1210_6V3_20P_1500-1194_ 
+ C20                 C_100UF_1210_6V3_20P_1500-1194_ 
+ C21                 C_0U1F_0402_16V_10P_1500-1135_0 
+ C22                 C_0U1F_0402_16V_10P_1500-1135_0 
+ C23                 C_0U1F_0402_16V_10P_1500-1135_0 
+ C24                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C26                 C_100UF_1210_6V3_20P_1500-1194_ 
+ C27                 C_100UF_1210_6V3_20P_1500-1194_ 
+ C28                 C_1UF_0402_6V3_10P_1500-1146_04 
+ C29                 C_100UF_1210_6V3_20P_1500-1194_ 
+ C30                 C_10UF_0603_6V3_20P_1500-1141_0 
+ C31                 C_10UF_0603_6V3_20P_1500-1141_0 
+ C32                 C_0402_16V_20P_X7R_1N0F_0402C_D 
+ CN1                 3000-1393_USB_B_RECP_MOLEX_6706 
+ CN2                 3000-1394_USB_A_VERT_RECP_MOLEX 
+ CN3                 3000-1394_USB_A_VERT_RECP_MOLEX 
+ CN4                 3000-1394_USB_A_VERT_RECP_MOLEX 
+ D1                  LED_0603_GRN_3100-1045_SMTLED_0 
+ D2                  LED_0603_GRN_3100-1045_SMTLED_0 
+ D3                  LED_0603_GRN_3100-1045_SMTLED_0 
+ D4                  LED_0603_GRN_3100-1045_SMTLED_0 
+ D5                  LED_0603_GRN_3100-1045_SMTLED_0 
+ D6                  LED_0603_GRN_3100-1045_SMTLED_0 
+ F1                  FUSE_2A_125V_NANO_2300-1027_FUS 
+ FB1                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB2                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB4                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB5                 FB_0603_60OHM_1A_2100-1019_0603 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ FB6                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB7                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB8                 FB_0603_60OHM_1A_2100-1019_0603 
+ FB9                 FB_0603_60OHM_1A_2100-1019_0603 
+ MH1                 MH_129X220_PTH_MH_129X220_PTH_D 
+ MH2                 MH_129X220_PTH_MH_129X220_PTH_D 
+ MH3                 MH_129X220_PTH_MH_129X220_PTH_D 
+ MH4                 MH_129X220_PTH_MH_129X220_PTH_D 
+ R1                  R_33R2_0402_1P_1000-1380_0402R_ 
+ R2                  R_10K_0402_1P_1000-1234_0402R_1 
+ R3                  R_15K_0402_5P_1000-1505_0402R_1 
+ R4                  R_0_0402_5P_1000-1377_0402R_0 
+ R5                  R_0_0402_5P_1000-1377_0402R_DNL 
+ R6                  R_10K_0402_1P_1000-1234_0402R_1 
+ R7                  R_470_0402_5P_1000-1506_0402R_4 
+ R8                  R_470_0402_5P_1000-1506_0402R_4 
+ R9                  R_470_0402_5P_1000-1506_0402R_4 
+ R11                 R_2K43_0402_1P_1000-1503_0402R_ 
+ R12                 R_10K_0402_1P_1000-1234_0402R_1 
+ R13                 R_510K_0402_5P_1000-1504_0402R_ 
+ R14                 R_510K_0402_5P_1000-1504_0402R_ 
+ R15                 R_10K_0402_1P_1000-1234_0402R_1 
+ R16                 R_10K_0402_1P_1000-1234_0402R_1 
+ R17                 R_510K_0402_5P_1000-1504_0402R_ 
+ R18                 R_510K_0402_5P_1000-1504_0402R_ 
+ R19                 R_10K_0402_1P_1000-1234_0402R_1 
+ R20                 R_10K_0402_1P_1000-1234_0402R_1 
+ R21                 R_3K57_0402_1P_1000-1344_0402R_ 
+ R22                 R_1K15_0402_1P_1000-1345_0402R_ 
+ R23                 R_10K_0402_1P_1000-1234_0402R_1 
+ R24                 R_0_0402_5P_1000-1377_0402R_0 
+ R25                 R_0_0402_5P_1000-1377_0402R_0 
+ R26                 R_0_0402_5P_1000-1377_0402R_0 
+ R27                 R_0_0402_5P_1000-1377_0402R_0 
+ R28                 R_0_0402_5P_1000-1377_0402R_0 
+ R29                 R_0_0402_5P_1000-1377_0402R_0 
+ U1                  4000-1384_UPD720114_TQFP48_NEC_ 
+ U2                  4000-1385_AP1212L_SOL8L_DIODES_ 
+ U3                  4000-1385_AP1212L_SOL8L_DIODES_ 
+ U4                  IC_TPS74801_SON10_3X3_ADJ_REG_T 
+ X1                  XTAL_30MHZ_4P_VXM5_1900-1069_XT 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                             VOLTAGE        50V
+ C2                             VOLTAGE        6.3V
+ C3                             VOLTAGE        6.3V
+ C4                             VOLTAGE        50V
+ C5                             VOLTAGE        6.3V
+ C6                             VOLTAGE        6.3V
+ C7                             VOLTAGE        6.3V
+ C8                             VOLTAGE        6.3V
+ C9                             VOLTAGE        6.3V
+ C10                            VOLTAGE        6.3V
+ C11                            VOLTAGE        6.3V
+ C13                            VOLTAGE        6.3V
+ C14                            VOLTAGE        6.3V
+ C15                            VOLTAGE        6.3V
+ C16                            VOLTAGE        6.3V
+ C17                            VOLTAGE        6.3V
+ C18                            VOLTAGE        6.3V
+ C19                            VOLTAGE        6.3V
+ C20                            VOLTAGE        6.3V
+ C21                            VOLTAGE        16V
+ C22                            VOLTAGE        16V
+ C23                            VOLTAGE        16V
+ C24                            VOLTAGE        6.3V
+ C26                            VOLTAGE        6.3V
+ C27                            VOLTAGE        6.3V
+ C28                            VOLTAGE        6.3V
+ C29                            VOLTAGE        6.3V
+ C30                            VOLTAGE        6.3V
+ C31                            VOLTAGE        6.3V
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C24.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C28.2                          PRIM_FILE      .\pstchip.dat
+ C29.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C31.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ CN1.1                          PRIM_FILE      .\pstchip.dat
+ CN2.1                          PRIM_FILE      .\pstchip.dat
+ CN3.1                          PRIM_FILE      .\pstchip.dat
+ CN4.1                          PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ D4.2                           PRIM_FILE      .\pstchip.dat
+ D5.2                           PRIM_FILE      .\pstchip.dat
+ D6.2                           PRIM_FILE      .\pstchip.dat
+ F1.2                           PRIM_FILE      .\pstchip.dat
+ FB1.2                          PRIM_FILE      .\pstchip.dat
+ FB2.2                          PRIM_FILE      .\pstchip.dat
+ FB4.2                          PRIM_FILE      .\pstchip.dat
+ FB5.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  E:/Document/Allegro_trainning/LIB/temp.brd                                  |
+|                                                    Tue Oct 31 23:22:48 2017  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ FB6.2                          PRIM_FILE      .\pstchip.dat
+ FB7.2                          PRIM_FILE      .\pstchip.dat
+ FB8.2                          PRIM_FILE      .\pstchip.dat
+ FB9.2                          PRIM_FILE      .\pstchip.dat
+ MH1.1                          PRIM_FILE      .\pstchip.dat
+ MH2.1                          PRIM_FILE      .\pstchip.dat
+ MH3.1                          PRIM_FILE      .\pstchip.dat
+ MH4.1                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          PRIM_FILE      .\pstchip.dat
+ R19.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ R21.2                          PRIM_FILE      .\pstchip.dat
+ R22.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R24.2                          PRIM_FILE      .\pstchip.dat
+ R25.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R27.2                          PRIM_FILE      .\pstchip.dat
+ R28.2                          PRIM_FILE      .\pstchip.dat
+ R29.2                          PRIM_FILE      .\pstchip.dat
+ U1.11                          PRIM_FILE      .\pstchip.dat
+ U2.5                           PRIM_FILE      .\pstchip.dat
+ U3.5                           PRIM_FILE      .\pstchip.dat
+ U4.9                           PRIM_FILE      .\pstchip.dat
+ X1.3                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  485                                            |
+|------------------------------------------------------------------------------|

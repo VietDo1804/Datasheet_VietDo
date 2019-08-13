@@ -1,0 +1,73 @@
+# Allegro script
+#	file: E:\Allegro\Cloudshield_700_0047\part_color.scr
+#	start time: Thu May 06 08:06:01 2004
+version 14.2
+
+setwindow pcb
+trapsize 35
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main color4 3 
+FORM cvf_main package_geometry/silkscreen_top/color 4 
+FORM cvf_main color8 7 
+FORM cvf_main package_geometry/silkscreen_bottom/color 8 
+FORM cvf_main color16 15 
+FORM cvf_main package_geometry/place_bound_top/color 16 
+FORM cvf_main color12 11 
+FORM cvf_main package_geometry/place_bound_bottom/color 12 
+FORM cvf_main color23 22 
+FORM cvf_main package_geometry/pin_number/color 23 
+FORM cvf_main class_list Manufacturing 
+FORM cvf_main color20 19 
+FORM cvf_main manufacturing/no_probe_top/color 20 
+FORM cvf_main class_list Components 
+FORM cvf_main color11 10 
+FORM cvf_main component_value/silkscreen_top/color 11 
+FORM cvf_main ref_des/silkscreen_top/color 11 
+FORM cvf_main color8 7 
+FORM cvf_main ref_des/silkscreen_bottom/color 8 
+FORM cvf_main class_list Stack-Up 
+FORM cvf_main color11 10 
+FORM cvf_main pin/top/color 11 
+FORM cvf_main etch/top/color 11 
+FORM cvf_main color8 7 
+FORM cvf_main pin/bottom/color 8 
+FORM cvf_main etch/bottom/color 8 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main class_list Areas 
+FORM cvf_main color23 22 
+FORM cvf_main via_keepout/top/color 23 
+FORM cvf_main via_keepout/all/color 23 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+trapsize 49
+draft param 
+setwindow form.draft_main
+FORM draft_main dim_text  
+setwindow form.draft_dimtext
+FORM draft_dimtext text_block 3 
+FORM draft_dimtext accuracy 3 
+FORM draft_dimtext second_accuracy 4 
+FORM draft_dimtext done  
+setwindow form.draft_main
+FORM draft_main dim_extension_lines  
+setwindow form.draft_extline
+FORM draft_extline done  
+setwindow form.draft_main
+FORM draft_main dim_lines  
+setwindow form.draft_dimline
+FORM draft_dimline arrow_length 0.050 
+FORM draft_dimline arrow_width 0.020 
+FORM draft_dimline arrow_inside NO 
+FORM draft_dimline done  
+setwindow form.draft_main
+FORM draft_main done  
+
+#	stop time: Thu May 06 08:10:31 2004

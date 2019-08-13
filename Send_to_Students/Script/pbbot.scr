@@ -1,0 +1,12 @@
+# Allegro script
+#	file: F:/TOA/04aug11/28-10493-01_0803a/pbbot.scr
+#	start time: Wed Aug 03 20:28:03 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 2048
+siv 
+pick -842.538 6306.888
+
+#	stop time: Wed Aug 03 20:28:18 2011

@@ -1,0 +1,442 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+NOTE: Replacing illegal character * with X in *D7.
+NOTE: Replacing illegal character * with X in *D8.
+NOTE: Replacing illegal character * with X in *D9.
+NOTE: Replacing illegal character * with X in *D10.
+NOTE: Replacing illegal character * with X in *D11.
+NOTE: Replacing illegal character * with X in *D12.
+NOTE: Replacing illegal character * with X in *D13.
+NOTE: Replacing illegal character * with X in *D14.
+NOTE: Replacing illegal character * with X in *D15.
+NOTE: Replacing illegal character * with X in *D16.
+NOTE: Replacing illegal character * with X in *D17.
+NOTE: Replacing illegal character * with X in *D18.
+NOTE: Replacing illegal character * with X in *D19.
+NOTE: Replacing illegal character * with X in *D20.
+NOTE: Replacing illegal character * with X in *D21.
+NOTE: Replacing illegal character * with X in *D22.
+NOTE: Replacing illegal character * with X in *D23.
+NOTE: Replacing illegal character * with X in *D24.
+NOTE: Replacing illegal character * with X in *D25.
+NOTE: Replacing illegal character * with X in *D26.
+NOTE: Replacing illegal character * with X in *D7.
+ERROR: 3D data has been found in this dxf file.
+  Most 3D data is not supported by dxf2a.
+  For the special case of DXF code 230 = -1.0, ARC, CIRCLE 
+  and SOLID entities will be mirrored about the Y axis.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21664
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21686
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21692
+NOTE: Replacing illegal character * with X in *D8.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21718
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21740
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21746
+NOTE: Replacing illegal character * with X in *D9.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21772
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21794
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21800
+NOTE: Replacing illegal character * with X in *D10.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21826
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21848
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21854
+NOTE: Replacing illegal character * with X in *D11.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21880
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21902
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21908
+NOTE: Replacing illegal character * with X in *D12.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21934
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 21956
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 21962
+NOTE: Replacing illegal character * with X in *D13.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 21988
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22010
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22016
+NOTE: Replacing illegal character * with X in *D14.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 22042
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22064
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22070
+NOTE: Replacing illegal character * with X in *D15.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 22096
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22118
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22124
+NOTE: Replacing illegal character * with X in *D16.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 22150
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22172
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22178
+NOTE: Replacing illegal character * with X in *D17.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 22204
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22226
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22232
+NOTE: Replacing illegal character * with X in *D18.
+ERROR: 3D data (DXF code 30, value = 0.0079) detected on DIMENSION at line 22258
+ERROR: 3D data (DXF code 33, value = 0.0079) detected on DIMENSION at line 22280
+ERROR: 3D data (DXF code 34, value = 0.0079) detected on DIMENSION at line 22286
+NOTE: Replacing illegal character * with X in *D19.
+NOTE: Replacing illegal character * with X in *D20.
+NOTE: Replacing illegal character * with X in *D21.
+NOTE: Replacing illegal character * with X in *D22.
+NOTE: Replacing illegal character * with X in *D23.
+NOTE: Replacing illegal character * with X in *D24.
+NOTE: Replacing illegal character * with X in *D25.
+NOTE: Replacing illegal character * with X in *D26.
+done.
+NOTE: Ignoring unsupported element POINT on line 10476.
+NOTE: Ignoring unsupported element MTEXT on line 10500.
+NOTE: Ignoring unsupported element MTEXT on line 10540.
+NOTE: Ignoring unsupported element MTEXT on line 10580.
+NOTE: Ignoring unsupported element MTEXT on line 10620.
+NOTE: Ignoring unsupported element MTEXT on line 10660.
+NOTE: Ignoring unsupported element MTEXT on line 10700.
+NOTE: Ignoring unsupported element MTEXT on line 10740.
+NOTE: Ignoring unsupported element MTEXT on line 10780.
+NOTE: Ignoring unsupported element MTEXT on line 10820.
+NOTE: Ignoring unsupported element MTEXT on line 10860.
+NOTE: Ignoring unsupported element MTEXT on line 10900.
+NOTE: Ignoring unsupported element MTEXT on line 10940.
+NOTE: Ignoring unsupported element MTEXT on line 10980.
+NOTE: Ignoring unsupported element MTEXT on line 11020.
+NOTE: Ignoring unsupported element MTEXT on line 11060.
+NOTE: Ignoring unsupported element MTEXT on line 11100.
+NOTE: Ignoring unsupported element MTEXT on line 11140.
+NOTE: Ignoring unsupported element MTEXT on line 11180.
+NOTE: Ignoring unsupported element MTEXT on line 11220.
+NOTE: Ignoring unsupported element MTEXT on line 11260.
+NOTE: Ignoring unsupported element MTEXT on line 11300.
+NOTE: Ignoring unsupported element MTEXT on line 11340.
+NOTE: Ignoring unsupported element MTEXT on line 11380.
+NOTE: Ignoring unsupported element MTEXT on line 11420.
+NOTE: Ignoring unsupported element MTEXT on line 11460.
+NOTE: Ignoring unsupported element MTEXT on line 11500.
+NOTE: Ignoring unsupported element MTEXT on line 11540.
+NOTE: Ignoring unsupported element MTEXT on line 11580.
+NOTE: Ignoring unsupported element MTEXT on line 11620.
+NOTE: Ignoring unsupported element MTEXT on line 11660.
+NOTE: Ignoring unsupported element MTEXT on line 11700.
+NOTE: Ignoring unsupported element MTEXT on line 2688.
+NOTE: Ignoring unsupported element MTEXT on line 2728.
+NOTE: Ignoring unsupported element MTEXT on line 2768.
+NOTE: Ignoring unsupported element MTEXT on line 2808.
+NOTE: Ignoring unsupported element MTEXT on line 2848.
+NOTE: Ignoring unsupported element MTEXT on line 2888.
+NOTE: Ignoring unsupported element MTEXT on line 11766.
+NOTE: Ignoring unsupported element MTEXT on line 11806.
+NOTE: Ignoring unsupported element MTEXT on line 11846.
+NOTE: Ignoring unsupported element MTEXT on line 11886.
+NOTE: Ignoring unsupported element MTEXT on line 2966.
+NOTE: Ignoring unsupported element MTEXT on line 3006.
+NOTE: Ignoring unsupported element MTEXT on line 3046.
+NOTE: Ignoring unsupported element MTEXT on line 3086.
+NOTE: Ignoring unsupported element MTEXT on line 3126.
+NOTE: Ignoring unsupported element MTEXT on line 11952.
+NOTE: Ignoring unsupported element MTEXT on line 3204.
+NOTE: Ignoring unsupported element MTEXT on line 3244.
+NOTE: Ignoring unsupported element MTEXT on line 3284.
+NOTE: Ignoring unsupported element MTEXT on line 3324.
+NOTE: Ignoring unsupported element MTEXT on line 3364.
+NOTE: Ignoring unsupported element MTEXT on line 3404.
+NOTE: Ignoring unsupported element MTEXT on line 3444.
+NOTE: Ignoring unsupported element MTEXT on line 3484.
+NOTE: Ignoring unsupported element MTEXT on line 12018.
+NOTE: Ignoring unsupported element MTEXT on line 12058.
+NOTE: Ignoring unsupported element MTEXT on line 12098.
+NOTE: Ignoring unsupported element MTEXT on line 12138.
+NOTE: Ignoring unsupported element MTEXT on line 12178.
+NOTE: Ignoring unsupported element MTEXT on line 12218.
+NOTE: Ignoring unsupported element MTEXT on line 12258.
+NOTE: Ignoring unsupported element MTEXT on line 12298.
+NOTE: Ignoring unsupported element MTEXT on line 12338.
+NOTE: Ignoring unsupported element MTEXT on line 12378.
+NOTE: Ignoring unsupported element MTEXT on line 12418.
+NOTE: Ignoring unsupported element MTEXT on line 12458.
+NOTE: Ignoring unsupported element MTEXT on line 12498.
+NOTE: Ignoring unsupported element MTEXT on line 12538.
+NOTE: Ignoring unsupported element MTEXT on line 12578.
+NOTE: Ignoring unsupported element MTEXT on line 3562.
+NOTE: Ignoring unsupported element MTEXT on line 3602.
+NOTE: Ignoring unsupported element MTEXT on line 3642.
+NOTE: Ignoring unsupported element MTEXT on line 3720.
+NOTE: Ignoring unsupported element MTEXT on line 3760.
+NOTE: Ignoring unsupported element MTEXT on line 3800.
+NOTE: Ignoring unsupported element MTEXT on line 3840.
+NOTE: Ignoring unsupported element MTEXT on line 3880.
+NOTE: Ignoring unsupported element MTEXT on line 3920.
+NOTE: Ignoring unsupported element MTEXT on line 3960.
+NOTE: Ignoring unsupported element MTEXT on line 4000.
+NOTE: Ignoring unsupported element MTEXT on line 12670.
+NOTE: Ignoring unsupported element MTEXT on line 12710.
+NOTE: Ignoring unsupported element SPLINE on line 12750.
+NOTE: Ignoring unsupported element SPLINE on line 12948.
+NOTE: Ignoring unsupported element SPLINE on line 13204.
+NOTE: Ignoring unsupported element SPLINE on line 13338.
+NOTE: Ignoring unsupported element SPLINE on line 13472.
+NOTE: Ignoring unsupported element SPLINE on line 13850.
+NOTE: Ignoring unsupported element SPLINE on line 13952.
+NOTE: Ignoring unsupported element SPLINE on line 14624.
+NOTE: Ignoring unsupported element SPLINE on line 14822.
+NOTE: Ignoring unsupported element SPLINE on line 14988.
+NOTE: Ignoring unsupported element SPLINE on line 16352.
+NOTE: Ignoring unsupported element SPLINE on line 16454.
+NOTE: Ignoring unsupported element SPLINE on line 16726.
+NOTE: Ignoring unsupported element SPLINE on line 16828.
+NOTE: Ignoring unsupported element SPLINE on line 16930.
+NOTE: Ignoring unsupported element SPLINE on line 17128.
+NOTE: Ignoring unsupported element SPLINE on line 17718.
+NOTE: Ignoring unsupported element SPLINE on line 17852.
+NOTE: Ignoring unsupported element SPLINE on line 18166.
+NOTE: Ignoring unsupported element SPLINE on line 18268.
+NOTE: Ignoring unsupported element SPLINE on line 18540.
+NOTE: Ignoring unsupported element SPLINE on line 18642.
+NOTE: Ignoring unsupported element SPLINE on line 18744.
+NOTE: Ignoring unsupported element SPLINE on line 18942.
+NOTE: Ignoring unsupported element SPLINE on line 19644.
+NOTE: Ignoring unsupported element SPLINE on line 19900.
+NOTE: Ignoring unsupported element SPLINE on line 20098.
+NOTE: Ignoring unsupported element SPLINE on line 20322.
+NOTE: Ignoring unsupported element HATCH on line 20752.
+NOTE: Ignoring unsupported element HATCH on line 20858.
+NOTE: Ignoring unsupported element HATCH on line 20964.
+NOTE: Ignoring unsupported element HATCH on line 21070.
+NOTE: Ignoring unsupported element HATCH on line 21176.
+NOTE: Ignoring unsupported element HATCH on line 21292.
+NOTE: Ignoring unsupported element HATCH on line 21408.
+NOTE: Ignoring unsupported element HATCH on line 21524.
+NOTE: Ignoring unsupported element SPLINE on line 24840.
+NOTE: Ignoring unsupported element SPLINE on line 25070.
+NOTE: Ignoring unsupported element SPLINE on line 25300.
+NOTE: Ignoring unsupported element SPLINE on line 25528.
+NOTE: Ignoring unsupported element SPLINE on line 25726.
+NOTE: Ignoring unsupported element SPLINE on line 25988.
+NOTE: Ignoring unsupported element SPLINE on line 26250.
+NOTE: Ignoring unsupported element SPLINE on line 26478.
+NOTE: Ignoring unsupported element SPLINE on line 26676.
+NOTE: Ignoring unsupported element SPLINE on line 26874.
+NOTE: Ignoring unsupported element SPLINE on line 27040.
+NOTE: Ignoring unsupported element SPLINE on line 27238.
+NOTE: Ignoring unsupported element SPLINE on line 27340.
+NOTE: Ignoring unsupported element SPLINE on line 27538.
+NOTE: Ignoring unsupported element SPLINE on line 27766.
+NOTE: Ignoring unsupported element SPLINE on line 27964.
+NOTE: Ignoring unsupported element SPLINE on line 28162.
+NOTE: Ignoring unsupported element SPLINE on line 28296.
+NOTE: Ignoring unsupported element SPLINE on line 28494.
+NOTE: Ignoring unsupported element SPLINE on line 28628.
+NOTE: Ignoring unsupported element SPLINE on line 28794.
+NOTE: Ignoring unsupported element SPLINE on line 28990.
+NOTE: Ignoring unsupported element SPLINE on line 30236.
+NOTE: Ignoring unsupported element SPLINE on line 30498.
+NOTE: Ignoring unsupported element SPLINE on line 30760.
+NOTE: Ignoring unsupported element SPLINE on line 30958.
+NOTE: Ignoring unsupported element SPLINE on line 31220.
+NOTE: Ignoring unsupported element SPLINE on line 31450.
+NOTE: Ignoring unsupported element SPLINE on line 31648.
+NOTE: Ignoring unsupported element SPLINE on line 31750.
+NOTE: Ignoring unsupported element SPLINE on line 32034.
+NOTE: Ignoring unsupported element SPLINE on line 32136.
+NOTE: Ignoring unsupported element SPLINE on line 32408.
+NOTE: Ignoring unsupported element SPLINE on line 32510.
+NOTE: Ignoring unsupported element SPLINE on line 32612.
+NOTE: Ignoring unsupported element SPLINE on line 32810.
+NOTE: Ignoring unsupported element SPLINE on line 33514.
+NOTE: Ignoring unsupported element SPLINE on line 33776.
+NOTE: Ignoring unsupported element SPLINE on line 33974.
+NOTE: Ignoring unsupported element SPLINE on line 34172.
+NOTE: Ignoring unsupported element SPLINE on line 34400.
+NOTE: Ignoring unsupported element SPLINE on line 34534.
+NOTE: Ignoring unsupported element SPLINE on line 34732.
+NOTE: Ignoring unsupported element SPLINE on line 34866.
+NOTE: Ignoring unsupported element SPLINE on line 35060.
+NOTE: Ignoring unsupported element SPLINE on line 35162.
+NOTE: Ignoring unsupported element SPLINE on line 35448.
+NOTE: Ignoring unsupported element SPLINE on line 35550.
+NOTE: Ignoring unsupported element SPLINE on line 35712.
+NOTE: Ignoring unsupported element SPLINE on line 35970.
+NOTE: Ignoring unsupported element HATCH on line 36710.
+NOTE: Ignoring unsupported element HATCH on line 36816.
+NOTE: Ignoring unsupported element HATCH on line 36922.
+NOTE: Ignoring unsupported element HATCH on line 37028.
+NOTE: Ignoring unsupported element HATCH on line 37154.
+NOTE: Ignoring unsupported element HATCH on line 37270.
+NOTE: Ignoring unsupported element HATCH on line 37468.
+NOTE: Ignoring unsupported element HATCH on line 37584.
+WARNING: Ignoring zero length segment at (17.5252, 12.3094)
+WARNING: Ignoring zero length segment at (17.7452, 12.3094)
+WARNING: Ignoring zero length segment at (16.6271, 12.8278)
+WARNING: Ignoring zero length segment at (16.8471, 12.8278)
+WARNING: Ignoring zero length segment at (18.7656, 13.0544)
+WARNING: Ignoring zero length segment at (19.0856, 13.0544)
+WARNING: Ignoring zero length segment at (18.8156, 13.0544)
+WARNING: Ignoring zero length segment at (19.0356, 13.0544)
+WARNING: Ignoring zero length segment at (17.9176, 13.5728)
+WARNING: Ignoring zero length segment at (18.1376, 13.5728)
+NOTE: Ignoring unsupported element SPLINE on line 45364.
+NOTE: Ignoring unsupported element SPLINE on line 45588.
+NOTE: Ignoring unsupported element SPLINE on line 45812.
+NOTE: Ignoring unsupported element SPLINE on line 46096.
+NOTE: Ignoring unsupported element SPLINE on line 46320.
+NOTE: Ignoring unsupported element SPLINE on line 46544.
+NOTE: Ignoring unsupported element SPLINE on line 47282.
+NOTE: Ignoring unsupported element SPLINE on line 47446.
+NOTE: Ignoring unsupported element SPLINE on line 47698.
+NOTE: Ignoring unsupported element SPLINE on line 47830.
+NOTE: Ignoring unsupported element SPLINE on line 47994.
+NOTE: Ignoring unsupported element SPLINE on line 48186.
+NOTE: Ignoring unsupported element SPLINE on line 49892.
+NOTE: Ignoring unsupported element SPLINE on line 49978.
+NOTE: Ignoring unsupported element SPLINE on line 50080.
+NOTE: Ignoring unsupported element SPLINE on line 50196.
+NOTE: Ignoring unsupported element SPLINE on line 50978.
+NOTE: Ignoring unsupported element SPLINE on line 51148.
+NOTE: Ignoring unsupported element SPLINE on line 51522.
+NOTE: Ignoring unsupported element SPLINE on line 51992.
+NOTE: Ignoring unsupported element SPLINE on line 52304.
+NOTE: Ignoring unsupported element SPLINE on line 52496.
+NOTE: Ignoring unsupported element SPLINE on line 52748.
+NOTE: Ignoring unsupported element SPLINE on line 52894.
+NOTE: Ignoring unsupported element SPLINE on line 53236.
+NOTE: Ignoring unsupported element SPLINE on line 53458.
+NOTE: Ignoring unsupported element SPLINE on line 53620.
+NOTE: Ignoring unsupported element SPLINE on line 53760.
+NOTE: Ignoring unsupported element SPLINE on line 53922.
+NOTE: Ignoring unsupported element SPLINE on line 54114.
+NOTE: Ignoring unsupported element SPLINE on line 54246.
+NOTE: Ignoring unsupported element SPLINE on line 54408.
+NOTE: Ignoring unsupported element SPLINE on line 54510.
+NOTE: Ignoring unsupported element SPLINE on line 54642.
+NOTE: Ignoring unsupported element SPLINE on line 54774.
+NOTE: Ignoring unsupported element SPLINE on line 54998.
+NOTE: Ignoring unsupported element SPLINE on line 55280.
+NOTE: Ignoring unsupported element SPLINE on line 55622.
+NOTE: Ignoring unsupported element SPLINE on line 55938.
+NOTE: Ignoring unsupported element SPLINE on line 56114.
+NOTE: Ignoring unsupported element SPLINE on line 56338.
+NOTE: Ignoring unsupported element SPLINE on line 56562.
+NOTE: Ignoring unsupported element SPLINE on line 56846.
+NOTE: Ignoring unsupported element SPLINE on line 57070.
+NOTE: Ignoring unsupported element SPLINE on line 57294.
+NOTE: Ignoring unsupported element SPLINE on line 58032.
+NOTE: Ignoring unsupported element SPLINE on line 58196.
+NOTE: Ignoring unsupported element SPLINE on line 58448.
+NOTE: Ignoring unsupported element SPLINE on line 58580.
+NOTE: Ignoring unsupported element SPLINE on line 58744.
+NOTE: Ignoring unsupported element SPLINE on line 58936.
+NOTE: Ignoring unsupported element SPLINE on line 60642.
+NOTE: Ignoring unsupported element SPLINE on line 60728.
+NOTE: Ignoring unsupported element SPLINE on line 60860.
+NOTE: Ignoring unsupported element SPLINE on line 60946.
+NOTE: Ignoring unsupported element SPLINE on line 61728.
+NOTE: Ignoring unsupported element SPLINE on line 61898.
+NOTE: Ignoring unsupported element SPLINE on line 62272.
+NOTE: Ignoring unsupported element SPLINE on line 62742.
+NOTE: Ignoring unsupported element SPLINE on line 63054.
+NOTE: Ignoring unsupported element SPLINE on line 63246.
+NOTE: Ignoring unsupported element SPLINE on line 63498.
+NOTE: Ignoring unsupported element SPLINE on line 63644.
+NOTE: Ignoring unsupported element SPLINE on line 63986.
+NOTE: Ignoring unsupported element SPLINE on line 64208.
+NOTE: Ignoring unsupported element SPLINE on line 64370.
+NOTE: Ignoring unsupported element SPLINE on line 64510.
+NOTE: Ignoring unsupported element SPLINE on line 64672.
+NOTE: Ignoring unsupported element SPLINE on line 64804.
+NOTE: Ignoring unsupported element SPLINE on line 65026.
+NOTE: Ignoring unsupported element SPLINE on line 65158.
+NOTE: Ignoring unsupported element SPLINE on line 65260.
+NOTE: Ignoring unsupported element SPLINE on line 65422.
+NOTE: Ignoring unsupported element SPLINE on line 65584.
+NOTE: Ignoring unsupported element SPLINE on line 65748.
+NOTE: Ignoring unsupported element SPLINE on line 66030.
+NOTE: Ignoring unsupported element SPLINE on line 66372.
+NOTE: Ignoring unsupported element SPLINE on line 66688.
+NOTE: Ignoring unsupported element SPLINE on line 66864.
+NOTE: Ignoring unsupported element SPLINE on line 67088.
+NOTE: Ignoring unsupported element SPLINE on line 67312.
+NOTE: Ignoring unsupported element SPLINE on line 67596.
+NOTE: Ignoring unsupported element SPLINE on line 67820.
+NOTE: Ignoring unsupported element SPLINE on line 68044.
+NOTE: Ignoring unsupported element SPLINE on line 68782.
+NOTE: Ignoring unsupported element SPLINE on line 68946.
+NOTE: Ignoring unsupported element SPLINE on line 69198.
+NOTE: Ignoring unsupported element SPLINE on line 69330.
+NOTE: Ignoring unsupported element SPLINE on line 69494.
+NOTE: Ignoring unsupported element SPLINE on line 69686.
+NOTE: Ignoring unsupported element SPLINE on line 73180.
+NOTE: Ignoring unsupported element SPLINE on line 73266.
+NOTE: Ignoring unsupported element SPLINE on line 73398.
+NOTE: Ignoring unsupported element SPLINE on line 73484.
+NOTE: Ignoring unsupported element SPLINE on line 74386.
+NOTE: Ignoring unsupported element SPLINE on line 74556.
+NOTE: Ignoring unsupported element SPLINE on line 74990.
+NOTE: Ignoring unsupported element SPLINE on line 75190.
+NOTE: Ignoring unsupported element SPLINE on line 75584.
+NOTE: Ignoring unsupported element SPLINE on line 75896.
+NOTE: Ignoring unsupported element SPLINE on line 76088.
+NOTE: Ignoring unsupported element SPLINE on line 76340.
+NOTE: Ignoring unsupported element SPLINE on line 76486.
+NOTE: Ignoring unsupported element SPLINE on line 76828.
+NOTE: Ignoring unsupported element SPLINE on line 77050.
+NOTE: Ignoring unsupported element SPLINE on line 77212.
+NOTE: Ignoring unsupported element SPLINE on line 77352.
+NOTE: Ignoring unsupported element SPLINE on line 77514.
+NOTE: Ignoring unsupported element SPLINE on line 77706.
+NOTE: Ignoring unsupported element SPLINE on line 77838.
+NOTE: Ignoring unsupported element SPLINE on line 78000.
+NOTE: Ignoring unsupported element SPLINE on line 78102.
+NOTE: Ignoring unsupported element SPLINE on line 78234.
+NOTE: Ignoring unsupported element SPLINE on line 78426.
+NOTE: Ignoring unsupported element SPLINE on line 78588.
+NOTE: Ignoring unsupported element SPLINE on line 78752.
+NOTE: Ignoring unsupported element SPLINE on line 79124.
+NOTE: Ignoring unsupported element SPLINE on line 79348.
+NOTE: Ignoring unsupported element SPLINE on line 79842.
+NOTE: Ignoring unsupported element SPLINE on line 80102.
+NOTE: Ignoring unsupported element SPLINE on line 80354.
+NOTE: Ignoring unsupported element SPLINE on line 80730.
+NOTE: Ignoring unsupported element SPLINE on line 80816.
+NOTE: Ignoring unsupported element SPLINE on line 81010.
+NOTE: Ignoring unsupported element SPLINE on line 81232.
+NOTE: Ignoring unsupported element SPLINE on line 81498.
+NOTE: Ignoring unsupported element SPLINE on line 81624.
+NOTE: Ignoring unsupported element SPLINE on line 81718.
+NOTE: Ignoring unsupported element SPLINE on line 81894.
+NOTE: Ignoring unsupported element SPLINE on line 81996.
+NOTE: Ignoring unsupported element SPLINE on line 84264.
+NOTE: Ignoring unsupported element SPLINE on line 84398.
+NOTE: Ignoring unsupported element SPLINE on line 84712.
+NOTE: Ignoring unsupported element SPLINE on line 84814.
+NOTE: Ignoring unsupported element SPLINE on line 85086.
+NOTE: Ignoring unsupported element SPLINE on line 85188.
+NOTE: Ignoring unsupported element SPLINE on line 85290.
+NOTE: Ignoring unsupported element SPLINE on line 85488.
+WARNING: Ignoring zero length segment at (17.6378, 12.2171)
+WARNING: Ignoring zero length segment at (17.7951, 12.3079)
+WARNING: Ignoring zero length segment at (19.0856, 13.0015)
+WARNING: Ignoring zero length segment at (17.7951, 12.2565)
+WARNING: Ignoring zero length segment at (17.6378, 12.1657)
+WARNING: Ignoring zero length segment at (19.0856, 13.0529)
+WARNING: Ignoring zero length segment at (16.7345, 12.9202)
+WARNING: Ignoring zero length segment at (16.5772, 12.8294)
+NOTE: Ignoring unsupported element SPLINE on line 88174.
+NOTE: Ignoring unsupported element SPLINE on line 88728.
+NOTE: Ignoring unsupported element SPLINE on line 89070.
+NOTE: Ignoring unsupported element SPLINE on line 89234.
+NOTE: Ignoring unsupported element SPLINE on line 89366.
+NOTE: Ignoring unsupported element SPLINE on line 89596.
+NOTE: Ignoring unsupported element SPLINE on line 89682.
+NOTE: Ignoring unsupported element SPLINE on line 89784.
+NOTE: Ignoring unsupported element SPLINE on line 90006.
+NOTE: Ignoring unsupported element SPLINE on line 90280.
+NOTE: Ignoring unsupported element SPLINE on line 90478.
+NOTE: Ignoring unsupported element SPLINE on line 90824.
+WARNING: Ignoring zero length segment at (18.0250, 13.6652)
+Layer conversion file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/Doc/603-1129-01 Rev 05 USB Hub ASM 3 Voyager_l.cnv
+DXF file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/Doc/603-1129-01 Rev 05 USB Hub ASM 3 Voyager.DXF
+BRD file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/#Taaaaag10724.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILS
+Design units: MILS
+Design precision: 4
+dxf2a complete.

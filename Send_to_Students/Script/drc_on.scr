@@ -1,0 +1,15 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/CISCO_ODIN_MB/CISCO_ODIN-MB-12Sep08/12Sep08_pair_L11/drc_on_off.scr
+#	start time: Thu Sep 11 23:40:19 2008
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+
+setwindow pcb
+status 
+setwindow form.status
+FORM status drc_on YES 
+FORM status done  
+setwindow pcb
+
+#	stop time: Thu Sep 11 23:40:36 2008

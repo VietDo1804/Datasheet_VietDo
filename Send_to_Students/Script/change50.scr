@@ -1,0 +1,14 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project3/TEGOINC_Helios_test/Board/change50.scr
+#	start time: Fri Aug 22 09:45:14 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 28021
+change 
+setwindow form.mini
+FORM mini line_width 50.0000 
+setwindow pcb
+
+#	stop time: Fri Aug 22 09:45:27 2008

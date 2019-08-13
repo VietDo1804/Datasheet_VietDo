@@ -1,0 +1,18 @@
+setwindow pcb
+# Allegro script
+#	file: E:\Working\Cisco_Adelaide_Rev2\20Feb06\no_probe_off.scr
+#	start time: Sun Feb 19 19:56:08 2006
+#	Version: 15.2 s121 (v15-2-51EN) i86
+version 15.2
+
+trapsize 21652
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Manufacturing 
+FORM cvf_main manufacturing/no_probe_bottom/visible NO 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Sun Feb 19 19:56:23 2006

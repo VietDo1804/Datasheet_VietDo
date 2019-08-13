@@ -1,0 +1,18 @@
+setwindow pcb
+# Allegro script
+#	file: E:\Working\Cisco_Adelaide_Rev2\20Feb06\silkbot.scr
+#	start time: Sun Feb 19 20:32:16 2006
+#	Version: 15.2 s121 (v15-2-51EN) i86
+version 15.2
+
+trapsize 133305
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Geometry 
+FORM cvf_main package_geometry/silkscreen_bottom/visible YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Sun Feb 19 20:32:30 2006

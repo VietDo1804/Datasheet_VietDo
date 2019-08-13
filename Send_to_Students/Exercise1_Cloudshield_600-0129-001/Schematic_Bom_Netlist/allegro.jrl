@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:00:02)     Journal start - Wed Dec 05 15:25:38 2018
+\t (00:00:02)         Host=THINHPHAM-PC User=ThinhPham Pid=9048 CPUs=8
+\t (00:00:02) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 1584
+\i (00:00:05) trapsize 1515
+\i (00:00:05) trapsize 1596
+\i (00:00:07) trapsize 1201
+\i (00:00:07) trapsize 1201
+\i (00:00:07) generaledit 
+\i (00:00:10) open 
+\i (00:00:11) fillin "menu_cancel"
+\i (00:00:11) generaledit 
+\i (00:00:12) new 
+\i (00:00:26) newdrawfillin "NEC_TQFP_48.dra" "Package Symbol (Wizard)"
+\t (00:00:26)     Journal end - Wed Dec 05 15:26:01 2018

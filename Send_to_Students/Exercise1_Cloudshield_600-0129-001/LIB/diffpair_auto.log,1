@@ -1,0 +1,14 @@
+		Auto Differential Pair Results
+
+	Using net suffixes: _P / _N
+	Number generated: 5
+
+
+Diffpair                   Net+                     Net-                    
+---------------------------------------------------------------------
+USB_D4                     USB_D4_P                 USB_D4_N                
+USB_D2                     USB_D2_P                 USB_D2_N                
+USB_D1                     USB_D1_P                 USB_D1_N                
+USB_D3                     USB_D3_P                 USB_D3_N                
+USB_UP                     USB_UP_P                 USB_UP_N                
+

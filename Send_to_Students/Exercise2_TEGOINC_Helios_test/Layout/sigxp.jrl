@@ -1,0 +1,28 @@
+\t (00:00:00) sigxp 16.6-2015 S071 (v16-6-112FS) Windows 32
+\t (00:00:00)     Journal start - Sun Jan 13 15:37:28 2019
+\t (00:00:00)         Host=THINHPHAM-PC User=ThinhPham Pid=14928 CPUs=8
+\t (00:00:00) CmdLine= sigxp -spawn -p F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout C:/Users/THINHP~1/AppData/Local/Temp/#Taaaani16084.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1022
+\i (00:00:00) trapsize 993
+\i (00:00:00) trapsize 1027
+\i (00:00:00) trapsize 1079
+\i (00:00:01) trapsize 1433
+\i (00:00:01) trapsize 7167
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 7167
+\i (00:00:01) trapsize 7167
+\i (00:00:01) trapsize 7167
+   (00:00:01) Loading signal.cxt 
+   (00:00:01) Loading sigxp.cxt 
+   (00:00:01) Loading sxutil.cxt 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Beginning Autoplacement
+   (00:00:01) Finished Autoplacement
+\i (00:00:01) trapsize 21
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:02) exit 
+\t (00:00:02)     Journal end - Sun Jan 13 15:37:30 2019

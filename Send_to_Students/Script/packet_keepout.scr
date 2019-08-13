@@ -1,0 +1,18 @@
+# Allegro script
+#	file: F:/Working/work/8671_MINI_REV6_03Nov11_1620/packet_keepout.scr
+#	start time: Thu Nov 03 21:19:58 2011
+#	Version: 16.2 S041 (v16-2-57CG) i86
+version 16.2
+
+setwindow pcb
+trapsize 23567
+generaledit
+color192 
+generaledit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Areas'
+cvf layers_visible areas package_keepout/all_row TRUE
+cvf okay
+setwindow pcb
+
+#	stop time: Thu Nov 03 21:20:24 2011

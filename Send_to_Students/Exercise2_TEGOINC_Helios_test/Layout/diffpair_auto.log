@@ -1,0 +1,18 @@
+		Auto Differential Pair Results
+
+	Using net suffixes: _P / _N
+	Number generated: 9
+
+
+Diffpair                   Net+                     Net-                    
+---------------------------------------------------------------------
+SMSC_TPI                   SMSC_TPI_P               SMSC_TPI_N              
+SMSC_TPO                   SMSC_TPO_P               SMSC_TPO_N              
+SMSC_TPI_R                 SMSC_TPI_R_P             SMSC_TPI_R_N            
+DDR2_CK_R                  DDR2_CK_R_P              DDR2_CK_R_N             
+DDR2_CK                    DDR2_CK_P                DDR2_CK_N               
+SMSC_RX                    SMSC_RX_P                SMSC_RX_N               
+SMSC_TX                    SMSC_TX_P                SMSC_TX_N               
+DDR1_CK_R                  DDR1_CK_R_P              DDR1_CK_R_N             
+DDR1_CK                    DDR1_CK_P                DDR1_CK_N               
+

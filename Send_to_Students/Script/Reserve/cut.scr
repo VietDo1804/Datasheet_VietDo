@@ -1,0 +1,18 @@
+# Allegro script
+#	file: D:\Allegro\TSC\cut.scr
+#	start time: Thu Apr 24 20:08:57 2003
+version 14.1
+
+setwindow pcb
+trapsize 98
+delete 
+setwindow form.find
+FORM find all_off  
+FORM find clines YES 
+FORM find lines YES 
+FORM find cline_segs YES 
+FORM find other_segs YES 
+setwindow pcb
+pop cut 
+
+#	stop time: Thu Apr 24 20:09:27 2003

@@ -1,0 +1,28 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project3/TEGOINC_Helios_test/Board/invisible_package.scr
+#	start time: Tue Jul 29 17:58:59 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main package_geometry/comp_dim/visible NO 
+FORM cvf_main package_geometry/assembly_top/visible NO 
+FORM cvf_main package_geometry/assembly_bottom/visible NO 
+FORM cvf_main package_geometry/place_bound_top/visible NO 
+FORM cvf_main package_geometry/place_bound_bottom/visible NO 
+FORM cvf_main package_geometry/pin_number/visible NO 
+FORM cvf_main package_geometry/soldermask_top/visible NO 
+FORM cvf_main package_geometry/soldermask_bottom/visible NO 
+FORM cvf_main package_geometry/dfa_bound_top/visible NO 
+FORM cvf_main package_geometry/dfa_bound_bottom/visible NO 
+FORM cvf_main package_geometry/pastemask_top/visible NO 
+FORM cvf_main package_geometry/pastemask_bottom/visible NO 
+FORM cvf_main package_geometry/silkscreen_top/visible NO 
+FORM cvf_main package_geometry/silkscreen_bottom/visible NO 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Tue Jul 29 17:59:16 2008

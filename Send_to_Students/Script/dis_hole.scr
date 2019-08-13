@@ -1,0 +1,25 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/Back_plane/library/dis_hole.scr
+#	start time: Tue Dec 16 20:18:08 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+prmed 
+setwindow form.prmedit
+FORM prmedit display
+FORM prmedit display_plated_holes YES 
+FORM prmedit display_non_plated_holes YES 
+FORM prmedit done  
+setwindow pcb
+
+#setwindow pcb
+#status 
+#setwindow form.status
+#FORM status display  
+#FORM status display_plated_holes YES 
+#FORM status display_non_plated_holes YES 
+#FORM status done  
+#setwindow pcb
+
+#	stop time: Tue Dec 16 20:18:15 2008

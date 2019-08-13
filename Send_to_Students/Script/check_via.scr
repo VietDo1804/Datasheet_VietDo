@@ -1,0 +1,11 @@
+# Allegro script
+#	file: E:/A_CHUONG/Project2/check_via.scr
+#	start time: Sat Jul 12 00:43:59 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 97431
+checkvia 
+
+#	stop time: Sat Jul 12 00:44:15 2008

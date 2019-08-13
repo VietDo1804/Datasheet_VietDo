@@ -1,0 +1,14 @@
+# Allegro script
+#	file: C:\Users\Huy\Allegro\Project\Board\off.scr
+#	start time: Tue Feb 27 00:33:11 2001
+version 13.6
+
+setwindow pcb
+
+add connect 
+setwindow form.mini
+FORM mini bubble_space Off 
+setwindow pcb
+done 
+
+#	stop time: Tue Feb 27 00:33:40 2001

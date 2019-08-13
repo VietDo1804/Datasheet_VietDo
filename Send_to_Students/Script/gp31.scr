@@ -1,0 +1,19 @@
+setwindow pcb
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 31.496
+FORM grid non_etch non_etch_y_grids 31.496
+#FORM grid non_etch non_etch_x_grids 31.5
+#FORM grid non_etch non_etch_y_grids 31.5
+FORM grid non_etch non_etch_x_offset 0
+FORM grid non_etch non_etch_y_offset 0
+#FORM grid all_etch all_etch_x_grids '31.496' 
+#FORM grid all_etch all_etch_y_grids '31.496' 
+FORM grid all_etch all_etch_x_grids '7.87 7.88 7.88 7.87' 
+FORM grid all_etch all_etch_y_grids '7.87 7.88 7.88 7.87' 
+#FORM grid all_etch all_etch_x_grids '15.748 15.748' 
+#FORM grid all_etch all_etch_y_grids '15.748 15.748' 
+FORM grid all_etch all_etch_x_offset 0
+FORM grid all_etch all_etch_y_offset 0
+FORM grid done  
+o

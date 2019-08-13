@@ -1,0 +1,14 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+done.
+Layer conversion file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise2_TEGOINC_Helios_test/Placement/Helios_test_layout_l.cnv
+DXF file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise2_TEGOINC_Helios_test/Placement/Helios_test_layout.dxf
+BRD file: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise2_TEGOINC_Helios_test/Layout/#Taaaaaj08804.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILS
+Design units: MILS
+Design precision: 4
+dxf2a complete.

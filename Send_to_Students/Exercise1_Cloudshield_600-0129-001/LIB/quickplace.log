@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : TNSP_USBHUB3.brd                              )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Mon Dec 10 18:31:56 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  CN2 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091 at (-568.32 1564.89)
+         Placed symbol:  CN3 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091 at (-232.70 1564.89)
+         Placed symbol:  CN4 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091 at (102.92 1564.89)
+
+
+Placed 3 of 3 applicable (3 total) symbols.
+
+-----------------------------------------------------------------------
+

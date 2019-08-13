@@ -1,0 +1,36 @@
+setwindow pcb
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 39.37
+FORM grid non_etch non_etch_y_grids 39.37
+FORM grid non_etch non_etch_x_offset 0
+FORM grid non_etch non_etch_y_offset 0
+
+#FORM grid all_etch all_etch_x_grids '9 10.685 10.685 9' 
+#FORM grid all_etch all_etch_y_grids '9 10.685 10.685 9' 
+
+#FORM grid all_etch all_etch_x_grids '9 10.69 10.68 9' 
+#FORM grid all_etch all_etch_y_grids '9 10.69 10.68 9' 
+
+# 2 traces 4/4/4
+#FORM grid all_etch all_etch_x_grids '11.685 4 8 4 11.685' 
+#FORM grid all_etch all_etch_y_grids '11.685 4 8 4 11.685' 
+
+#FORM grid all_etch all_etch_x_grids '6.711 3.315 5.659 4 4 5.659 3.315 6.711' 
+#FORM grid all_etch all_etch_y_grids '6.711 3.315 5.659 4 4 5.659 3.315 6.711'
+
+#FORM grid all_etch all_etch_x_grids '9.5 4 4 4.37 4 4 9.5' 
+#FORM grid all_etch all_etch_y_grids '9.5 4 4 4.37 4 4 9.5' 
+
+#FORM grid all_etch all_etch_x_grids '19.685 19.685'
+#FORM grid all_etch all_etch_y_grids '19.685 19.685'
+
+FORM grid all_etch all_etch_x_grids '19.68 19.69'
+FORM grid all_etch all_etch_y_grids '19.68 19.69'
+
+ FORM grid all_etch all_etch_x_offset 0
+ FORM grid all_etch all_etch_y_offset 0
+
+FORM grid done  
+skill load("SetOffset.il")
+o

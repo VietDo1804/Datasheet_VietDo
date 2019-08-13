@@ -1,0 +1,17 @@
+# Allegro script
+#	file: F:/WORK/Ured/send/02feb11/fill_pad_off.scr
+#	start time: Thu Mar 03 00:18:28 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 20012
+generaledit
+prmed 
+setwindow form.prmedit
+FORM prmedit display_enhance NO 
+FORM prmedit done  
+setwindow pcb
+generaledit 
+
+#	stop time: Thu Mar 03 00:18:36 2011

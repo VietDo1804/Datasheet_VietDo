@@ -1,0 +1,252 @@
+! Log file started at 19:25:20 1/16/2019 
+INFO (SPGRE-16): Strategy file Date: Oct-28-2015
+INFO (SPGRE-16): Strategy file Version: 16.6
+WARNING (SPGRE-1): No route keepin found.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set PWR: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 6_100OHM_DIFFPAIR: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 5_50OHM_SINGLE: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 4_CLOCK_DIFFPAIR: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set 3_CLOCK_SINGLE: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Min Neck Width on layer BOTTOM is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Min Neck Width on layer L10_SIG_H is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Min Neck Width on layer L9_SIG_V is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Min Neck Width on layer L4_SIG_H is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Min Neck Width on layer L3_SIG_V is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set LAN_XTAL: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer BOTTOM is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer L10_SIG_H is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer L10_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer L9_SIG_V is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer L9_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer L4_SIG_H is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer L4_SIG_H is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer L3_SIG_V is 0. Min Line Width is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer L3_SIG_V is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set ANT: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 7.000
+WARNING (SPGRE-15): Constraint Set ANT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+INFO (SPGRE-16): Status: Routing initialization completed successfully
+
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 488.766 MIL
+INFO (SPGRE-16):   Execution time = 1 seconds
+INFO (SPGRE-16):   Memory currently in use = 114369 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_LDM from Via(4305.000, 2800.000) - Via(4011.803, 2650.602) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R71.2 - U2.G26 : Ideal Range[680.661 MIL, 1678.161 MIL] : Actual 557.166 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 488.766 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 116490 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_LDM from Via(4305.000, 2800.000) - Via(4011.803, 2650.602) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R71.2 - U2.G26 : Ideal Range[680.661 MIL, 1678.161 MIL] : Actual 557.166 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 610.225 MIL
+INFO (SPGRE-16):   Execution time = 1 seconds
+INFO (SPGRE-16):   Memory currently in use = 116496 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ4 from Via(4305.000, 2830.000) - Via(3854.250, 2611.250) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R44.2 - U2.G22 : Ideal Range[769.380 MIL, 1766.880 MIL] : Actual 720.825 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 424.979 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 116500 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ7 from Via(4305.000, 2860.000) - Via(4011.803, 2690.000) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R47.2 - U2.F26 : Ideal Range[697.110 MIL, 1694.610 MIL] : Actual 493.379 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 437.695 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 116487 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ1 from Via(4305.000, 2920.000) - Via(4011.803, 2729.299) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R41.2 - U2.E26 : Ideal Range[867.629 MIL, 1865.129 MIL] : Actual 506.095 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 610.225 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 132991 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ4 from Via(4305.000, 2830.000) - Via(3854.250, 2611.250) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R44.2 - U2.G22 : Ideal Range[769.380 MIL, 1766.880 MIL] : Actual 720.825 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 482.734 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 132772 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_LDM from Via(4305.000, 2800.000) - Via(4011.803, 2650.602) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R71.2 - U2.G26 : Ideal Range[680.661 MIL, 1678.161 MIL] : Actual 551.134 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 647.332 MIL
+INFO (SPGRE-16):   Execution time = 1 seconds
+INFO (SPGRE-16):   Memory currently in use = 132898 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ4 from Via(4305.000, 2830.000) - Via(3854.250, 2611.250) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R44.2 - U2.G22 : Ideal Range[769.380 MIL, 1766.880 MIL] : Actual 757.932 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 429.121 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 132970 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ7 from Via(4305.000, 2860.000) - Via(4011.803, 2690.000) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R47.2 - U2.F26 : Ideal Range[697.110 MIL, 1694.610 MIL] : Actual 497.521 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16): CommandStart AiDT for DeTune *****************************
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status:  Timing Vision Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 1
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 1
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.000 MIL
+INFO (SPGRE-16):   Routed length of scheduled rats = 438.908 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 132863 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 1, Timing violations: 1, Outside ideal range: 1
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net DDR1_DQ1 from Via(4305.000, 2920.000) - Via(4011.803, 2729.299) on L10_SIG_H
+INFO (SPGRE-16):   FAIL: Rat R41.2 - U2.E26 : Ideal Range[867.629 MIL, 1865.129 MIL] : Actual 507.308 MIL
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT for DeTune ******************************
+INFO (SPGRE-16):  
+WARNING (SPGRE-16): Budget goals are unsolvable with existing constraints and existing routed lengths.
+WARNING (SPGRE-16): The following rats should be shortened or have their constraints changed:
+WARNING (SPGRE-16):     Rat R50.2 - U2.J22 : Ideal Range[670.282 MIL, 670.282 MIL] : Actual 670.282 MIL
+WARNING (SPGRE-16):     Rat R56.2 - U8.K7 : Ideal Range[300.522 MIL, 300.522 MIL] : Actual 300.522 MIL
+WARNING (SPGRE-16):     Rat R97.1 - U9.C1 : Ideal Range[380.463 MIL, 380.463 MIL] : Actual 380.463 MIL
+INFO (SPGRE-16):  

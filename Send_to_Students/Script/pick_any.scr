@@ -1,0 +1,11 @@
+# copy via
+
+#pop Temp Group
+
+
+pick        -7995.000 1060.000 
+pick        -8450.000 9200.000 
+pick 	-8241.100 1993.000
+pick 	-7999.990 2044.990
+
+#pop Complete

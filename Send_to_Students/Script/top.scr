@@ -1,0 +1,15 @@
+# Allegro script
+#	file: F:/WORK/Temp/Send/09Mar11/top.scr
+#	start time: Wed Mar 09 22:47:34 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 162654
+generaledit
+setwindow form.vf_vis
+FORM vf_vis colorview_list Film: TOP 
+FORM vf_vis 1 all_colorvisible YES 
+setwindow pcb
+
+#	stop time: Wed Mar 09 22:47:47 2011

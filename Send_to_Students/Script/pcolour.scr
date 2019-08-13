@@ -1,0 +1,202 @@
+Scriptmode +invisible
+setwindow pcb
+padeditdb
+setwindow form.mini
+FORM mini purge All
+setwindow pcb
+set drawing_4mils
+done
+setwindow pcb
+draft param 
+setwindow form.draft_main
+FORM draft_main dim_text  
+setwindow form.draft_dimtext
+FORM draft_dimtext text_block 3 
+FORM draft_dimtext accuracy 4 
+FORM draft_dimtext dual_dimensions YES 
+FORM draft_dimtext second_accuracy 3 
+FORM draft_dimtext second_below YES 
+FORM draft_dimtext done  
+setwindow form.draft_main
+FORM draft_main dim_lines  
+setwindow form.draft_dimline
+FORM draft_dimline arrow_length 0.800 
+FORM draft_dimline arrow_length 0.080 
+FORM draft_dimline arrow_width 0.030 
+FORM draft_dimline bullet_diameter 0.015 
+FORM draft_dimline slash_length 0.015 
+FORM draft_dimline done  
+setwindow form.draft_main
+FORM draft_main dim_extension_lines  
+setwindow form.draft_extline
+FORM draft_extline offset 0.020 
+FORM draft_extline extension 0.020 
+FORM draft_extline done  
+setwindow form.draft_main
+FORM draft_main done  
+setwindow pcb
+define subclass 
+setwindow form.subclass
+FORM subclass package_geometry pick  
+setwindow form.subclass_nonetch
+FORM subclass_nonetch name COMP_DIM 
+FORM subclass_nonetch name PROP 
+FORM subclass_nonetch name REV 
+setwindow form.subclass
+FORM subclass done  
+setwindow pcb
+add line 
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY 
+FORM mini line_width 0 
+setwindow pcb
+done 
+add line 
+setwindow form.mini
+FORM mini subclass SILKSCREEN_TOP 
+FORM mini line_width 0 
+setwindow pcb
+done 
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main read_palette Read Global 
+
+FORM cvf_main class_list Geometry
+FORM cvf_main color3 2 
+FORM cvf_main board_geometry/outline/color 3 
+FORM cvf_main board_geometry/plating_bar/color 3 
+FORM cvf_main board_geometry/assembly_notes/color 3 
+FORM cvf_main board_geometry/tooling_corners/color 3 
+FORM cvf_main board_geometry/dimension/color 3 
+FORM cvf_main board_geometry/place_grid_top/color 3 
+FORM cvf_main board_geometry/place_grid_bottom/color 3 
+FORM cvf_main board_geometry/top_room/color 3 
+FORM cvf_main board_geometry/bottom_room/color 3 
+FORM cvf_main board_geometry/both_rooms/color 3 
+FORM cvf_main board_geometry/switch_area_top/color 3 
+FORM cvf_main board_geometry/switch_area_bottom/color 3 
+FORM cvf_main board_geometry/silkscreen_top/color 3 
+FORM cvf_main board_geometry/silkscreen_bottom/color 3 
+FORM cvf_main board_geometry/assembly_detail/color 3 
+FORM cvf_main board_geometry/soldermask_top/color 3 
+FORM cvf_main board_geometry/soldermask_bottom/color 3 
+FORM cvf_main board_geometry/off_grid_area/color 3 
+FORM cvf_main board_geometry/constraint_area/color 3 
+FORM cvf_main color10 9 
+FORM cvf_main package_geometry/comp_dim/color 10 
+FORM cvf_main color7 6 
+FORM cvf_main package_geometry/prop/color 7 
+FORM cvf_main color18 17 
+FORM cvf_main package_geometry/assembly_top/color 18 
+FORM cvf_main color3 2 
+FORM cvf_main package_geometry/assembly_bottom/color 3 
+FORM cvf_main color16 15 
+FORM cvf_main package_geometry/place_bound_top/color 16 
+FORM cvf_main color3 2 
+FORM cvf_main package_geometry/place_bound_bottom/color 3 
+FORM cvf_main color4 3 
+FORM cvf_main package_geometry/pin_number/color 4 
+FORM cvf_main color3 2 
+FORM cvf_main package_geometry/pad_stack_name/color 3 
+FORM cvf_main color12 11 
+FORM cvf_main package_geometry/silkscreen_top/color 12 
+FORM cvf_main color16 15 
+FORM cvf_main package_geometry/silkscreen_bottom/color 16
+FORM cvf_main color3 2 
+FORM cvf_main package_geometry/body_center/color 3 
+FORM cvf_main package_geometry/soldermask_top/color 3 
+FORM cvf_main package_geometry/soldermask_bottom/color 3 
+FORM cvf_main package_geometry/display_top/color 3 
+FORM cvf_main package_geometry/display_bottom/color 3 
+
+FORM cvf_main class_list Manufacturing 
+FORM cvf_main color3 2 
+FORM cvf_main manufacturing/photoplot_outline/color 3 
+FORM cvf_main manufacturing/no_gloss_all/color 3 
+FORM cvf_main manufacturing/no_gloss_top/color 3 
+FORM cvf_main manufacturing/no_gloss_bottom/color 3 
+FORM cvf_main manufacturing/no_gloss_internal/color 3 
+FORM cvf_main manufacturing/ncdrill_legend/color 3 
+FORM cvf_main manufacturing/ncdrill_figure/color 3 
+FORM cvf_main manufacturing/probe_top/color 3 
+FORM cvf_main manufacturing/probe_bottom/color 3 
+FORM cvf_main manufacturing/autosilk_top/color 3 
+FORM cvf_main manufacturing/autosilk_bottom/color 3 
+FORM cvf_main color20 19 
+FORM cvf_main manufacturing/no_probe_top/color 20
+FORM cvf_main color3 2 
+FORM cvf_main manufacturing/no_probe_bottom/color 3 
+FORM cvf_main drawing_format/outline/color 3 
+FORM cvf_main drawing_format/title_block/color 3 
+FORM cvf_main drawing_format/title_data/color 3 
+FORM cvf_main drawing_format/revision_block/color 3 
+FORM cvf_main drawing_format/revision_data/color 3 
+
+FORM cvf_main class_list Stack-Up 
+FORM cvf_main color3 2 
+FORM cvf_main pin/top/color 3 
+FORM cvf_main pin/bottom/color 3 
+FORM cvf_main pin/soldermask_top/color 3 
+FORM cvf_main pin/soldermask_bottom/color 3 
+FORM cvf_main pin/pastemask_top/color 3 
+FORM cvf_main pin/pastemask_bottom/color 3 
+FORM cvf_main pin/filmmasktop/color 3 
+FORM cvf_main pin/filmmaskbottom/color 3 
+FORM cvf_main via_class/top/color 3 
+FORM cvf_main via_class/bottom/color 3 
+FORM cvf_main via_class/soldermask_top/color 3 
+FORM cvf_main via_class/soldermask_bottom/color 3 
+FORM cvf_main via_class/pastemask_top/color 3 
+FORM cvf_main via_class/pastemask_bottom/color 3 
+FORM cvf_main via_class/filmmasktop/color 3 
+FORM cvf_main via_class/filmmaskbottom/color 3 
+FORM cvf_main drc_error_class/top/color 3 
+FORM cvf_main drc_error_class/bottom/color 3 
+FORM cvf_main drc_error_class/all/color 3 
+FORM cvf_main drc_error_class/package_top/color 3 
+FORM cvf_main drc_error_class/package_bottom/color 3 
+FORM cvf_main etch/top/color 3 
+FORM cvf_main etch/bottom/color 3 
+FORM cvf_main anti_etch/top/color 3 
+FORM cvf_main anti_etch/bottom/color 3 
+FORM cvf_main anti_etch/all/color 3 
+
+FORM cvf_main class_list Components 
+FORM cvf_main color8 7 
+FORM cvf_main ref_des/assembly_top/color 8 
+FORM cvf_main color3 2 
+FORM cvf_main ref_des/assembly_bottom/color 3 
+FORM cvf_main color12 11 
+FORM cvf_main ref_des/silkscreen_top/color 12 
+FORM cvf_main color16 15 
+FORM cvf_main ref_des/silkscreen_bottom/color 16 
+FORM cvf_main color3 2 
+FORM cvf_main ref_des/display_top/color 3 
+FORM cvf_main ref_des/display_bottom/color 3 
+
+FORM cvf_main class_list Areas
+FORM cvf_main color3 2 
+FORM cvf_main route_keepout/top/color 3 
+FORM cvf_main route_keepout/bottom/color 3 
+FORM cvf_main route_keepout/all/color 3 
+FORM cvf_main via_keepout/top/color 3 
+FORM cvf_main via_keepout/bottom/color 3 
+FORM cvf_main via_keepout/all/color 3 
+FORM cvf_main package_keepout/top/color 3 
+FORM cvf_main package_keepout/bottom/color 3 
+FORM cvf_main package_keepout/all/color 3 
+FORM cvf_main package_keepin/all/color 3 
+FORM cvf_main route_keepin/all/color 3 
+
+FORM cvf_main class_list Display 
+FORM cvf_main color1 0 
+FORM cvf_main grid_col 1 
+FORM cvf_main hilite_col 1 
+FORM cvf_main perm_hilite_col 1
+FORM cvf_main color3 2 
+FORM cvf_main ratsnest_col 3 
+
+
+FORM cvf_main ok  
+setwindow pcb

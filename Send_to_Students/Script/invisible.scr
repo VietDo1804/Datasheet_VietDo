@@ -1,0 +1,17 @@
+# Allegro script
+#	file: E:/Working/Sang/checked/invisible.scr
+#	start time: Wed Aug 22 19:44:20 2007
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 38777
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main global_vis All Invisible 
+fillin yes 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Wed Aug 22 19:44:30 2007

@@ -1,0 +1,14 @@
+# Allegro script
+#	file: F:/WORK/RGB_NPM2_TEST_200-0106-01_110419/RGB/library.scr
+#	start time: Wed Apr 20 04:33:37 2011
+#	Version: 16.2 S040 (v16-2-57CE) i86
+version 16.2
+
+setwindow pcb
+trapsize 748786
+etchedit
+skill 'load("Library.eil")' 
+library 
+etchedit 
+
+#	stop time: Wed Apr 20 04:33:57 2011

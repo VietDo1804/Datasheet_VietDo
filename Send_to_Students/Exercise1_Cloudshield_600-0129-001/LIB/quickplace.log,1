@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : TNSP_USBHUB3.brd                              )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Wed Dec 05 19:26:56 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Cannot place symbol:  U4 / IC_TPS74801_SON10_3X3_ADJ_REG_T / TI_SON_10
+         due to ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+ERROR:   Could not find symbol:  CN3 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091
+ERROR:   Could not find symbol:  CN2 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091
+ERROR:   Could not find symbol:  CN4 / 3000-1394_USB_A_VERT_RECP_MOLEX / MOLEX_672983091
+
+
+Placed 0 of 4 applicable (4 total) symbols.
+
+-----------------------------------------------------------------------
+

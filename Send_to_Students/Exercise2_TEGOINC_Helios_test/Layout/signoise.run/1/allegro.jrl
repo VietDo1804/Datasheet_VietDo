@@ -1,0 +1,54 @@
+\t (00:37:52) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:37:52)     Journal start - Mon Dec 31 22:25:53 2018
+\t (00:37:52)         Host=THINHPHAM-PC User=ThinhPham Pid=9916 CPUs=8
+\t (00:37:52) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:37:52) 
+\t (00:37:52) Starting new design...
+\t (00:37:52) Grids are drawn 162.5600, 162.5600 apart for enhanced viewability.
+\i (00:37:52) trapsize 265233
+\i (00:37:52) trapsize 265233
+\i (00:37:52) generaledit 
+\i (00:37:55) dxf in 
+\i (00:37:55) generaledit 
+\i (00:37:56) setwindow form.dxfInMain
+\i (00:37:56) FORM dxfInMain browsedxf  
+\i (00:38:22) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Placement\Helios_test_layout.dxf"
+\i (00:38:24) FORM dxfInMain editcnvprofile  
+\i (00:38:26) setwindow form.dxfInMapping
+\i (00:38:26) FORM dxfInMapping selectall YES 
+\i (00:38:28) FORM dxfInMapping done  
+\i (00:38:29) setwindow form.dxfInMain
+\i (00:38:29) FORM dxfInMain import  
+\t (00:38:29) Starting dxf2a...
+\t (00:38:30) Opening existing design...
+\i (00:38:30) setwindow pcb
+\i (00:38:30) trapsize 1290055
+\w (00:38:31) Incremental option off, existing design was replaced. Re-open design to restore.
+\i (00:38:32) prepopup -516.0221 3741.1603
+\i (00:38:33) pop dyn_option_select 'Quick Utilities@:@Grids...' 
+\i (00:38:33) define grid 
+\t (00:38:33) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:38:34) generaledit 
+\i (00:38:35) setwindow form.grid
+\i (00:38:35) FORM grid display YES 
+\i (00:38:36) FORM grid done  
+\t (00:38:36) Grids are drawn 162.5600, 162.5600 apart for enhanced viewability.
+\i (00:38:37) setwindow form.dxfInMain
+\i (00:38:37) FORM dxfInMain cancel  
+\i (00:38:37) setwindow pcb
+\i (00:38:37) generaledit 
+\i (00:38:41) netin 
+\i (00:38:43) setwindow form.niparams
+\i (00:38:43) FORM niparams browse  
+\i (00:39:34) fillin "menu_cancel"
+\i (00:39:35) FORM niparams cancel  
+\i (00:39:35) setwindow pcb
+\i (00:39:35) generaledit 
+\i (00:39:37) open 
+\e (00:39:37) Do you want to save the changes you made to Helios_24Oct18.brd?
+\i (00:39:38) fillin no 
+\i (00:39:40) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout\Helios_24Oct18.brd"
+\i (00:39:40) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout"
+\t (00:39:40) Opening existing design...
+\i (00:39:40) trapsize 2072
+\t (00:39:40)     Journal end - Mon Dec 31 22:27:42 2018

@@ -1,0 +1,14 @@
+# Allegro script
+version 13.6
+
+setwindow pcb
+
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 3.00 
+FORM grid non_etch non_etch_y_grids 3.00 
+FORM grid all_etch all_etch_x_grids 3 
+FORM grid all_etch all_etch_y_grids 3 
+FORM grid done  
+
+

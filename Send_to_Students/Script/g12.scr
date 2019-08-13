@@ -1,0 +1,16 @@
+# Allegro script
+#	file: D:\Huy\Allegro\Project\Board\g12.scr
+#	start time: Tue May 15 01:06:09 2001
+version 13.6
+
+setwindow pcb
+
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 12.000 
+FORM grid non_etch non_etch_y_grids 12.000 
+FORM grid all_etch all_etch_x_grids 12 
+FORM grid all_etch all_etch_y_grids 12 
+FORM grid done  
+
+#	stop time: Tue May 15 01:06:26 2001

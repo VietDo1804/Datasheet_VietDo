@@ -1,0 +1,14 @@
+# Allegro script
+#	file: F:/TOA/02aug11/1/gbga.scr
+#	start time: Tue Aug 02 17:46:45 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 1085
+placementedit
+g 9.8425 
+placementedit 
+o 
+
+#	stop time: Tue Aug 02 17:47:02 2011

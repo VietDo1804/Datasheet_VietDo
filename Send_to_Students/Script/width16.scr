@@ -1,0 +1,10 @@
+# Allegro script
+# Written by Huynh Van Noi
+# Date: Tuesday, December 12, 2000
+version 13.6
+scriptmode +invisible
+
+setwindow pcb
+
+setwindow form.mini
+FORM mini line_width 16.00 

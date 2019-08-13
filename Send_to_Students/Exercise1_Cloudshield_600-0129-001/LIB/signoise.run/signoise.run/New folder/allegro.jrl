@@ -1,0 +1,64 @@
+\t (00:45:28) allegro 16.6-2015 S071 (v16-6-112FT) Windows 32
+\t (00:45:28)     Journal start - Mon Dec 31 22:33:29 2018
+\t (00:45:28)         Host=THINHPHAM-PC User=ThinhPham Pid=9916 CPUs=8
+\t (00:45:28) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:45:28) 
+\d (00:45:28) Design opened: F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB/signoise.run/signoise.run/New folder/TNSP_USBHUB3.brd
+\i (00:45:28) generaledit 
+\i (00:45:32) define subclass 
+\i (00:45:35) setwindow form.subclass
+\i (00:45:35) FORM subclass drawing_format pick  
+\i (00:45:38) FORM subclass done  
+\i (00:45:38) setwindow pcb
+\i (00:45:38) generaledit 
+\i (00:45:39) pick grid -589.07 1230.21
+\t (00:45:39) last pick:  -590.00 1230.00
+\i (00:45:39) drag_start grid -519.75 1738.58
+\i (00:45:39) drag_stop -411.15 1209.41
+\i (00:45:39) drag_start grid -542.86 1847.18
+\i (00:45:40) drag_stop -346.45 1177.06
+\i (00:45:40) drag_start grid -492.02 1745.51
+\i (00:45:40) drag_stop -309.47 675.63
+\i (00:45:40) drag_start grid -616.80 1842.56
+\i (00:45:40) drag_stop -468.92 848.93
+\i (00:45:41) drag_start grid -535.93 1380.41
+\i (00:45:41) drag_stop -533.62 795.79
+\i (00:45:41) drag_start grid -676.88 2205.35
+\i (00:45:41) drag_stop
+\i (00:45:41) prepopup -632.98 1805.59
+\i (00:45:41) prepopup -628.36 1960.41
+\i (00:45:48) cancel 
+\i (00:45:48) generaledit 
+\i (00:45:48) cancel 
+\i (00:45:48) generaledit 
+\i (00:45:48) cancel 
+\i (00:45:48) generaledit 
+\i (00:45:48) cancel 
+\i (00:45:48) generaledit 
+\i (00:45:49) cancel 
+\i (00:45:49) generaledit 
+\i (00:45:49) cancel 
+\i (00:45:49) generaledit 
+\i (00:45:49) cancel 
+\i (00:45:49) generaledit 
+\i (00:46:54) xhilite 
+\i (00:46:54) xname_flush 
+\i (00:46:54) done 
+\i (00:46:54) generaledit 
+\i (01:49:01) xhilite 
+\i (01:49:01) xname_flush 
+\i (01:49:01) done 
+\i (01:49:01) generaledit 
+\i (01:50:52) xhilite 
+\i (01:50:52) xname_flush 
+\i (01:50:52) done 
+\i (01:50:52) generaledit 
+\i (01:56:50) open 
+\e (01:56:50) Do you want to save the changes you made to TNSP_USBHUB3.brd?
+\i (01:56:51) fillin no 
+\i (01:57:00) fillin "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout\Helios_24Oct18.brd"
+\i (01:57:00) cd "F:\Learning\PCB\PCB - thay Toa\PCB_class\Send_to_Students\Exercise2_TEGOINC_Helios_test\Layout"
+\t (01:57:00) Opening existing design...
+\t (01:57:00) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (01:57:00) trapsize 5146
+\t (01:57:00)     Journal end - Mon Dec 31 23:45:01 2018

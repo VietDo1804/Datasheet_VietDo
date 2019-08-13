@@ -1,0 +1,23 @@
+# Allegro script
+#	file: E:/A_CHUONG/working/CISCO_27Aug08/invisible_color.scr
+#	start time: Wed Aug 27 01:36:46 2008
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main global_vis All Invisible 
+fillin yes
+FORM cvf_main class_list Stack-Up
+FORM cvf_main all_visible3 YES 
+FORM cvf_main drc_error_class/package_top/visible		NO
+FORM cvf_main drc_error_class/package_bottom/visible	NO
+
+FORM cvf_main class_list Geometry
+FORM cvf_main board_geometry/outline/visible YES 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Wed Aug 27 01:37:48 2008
+

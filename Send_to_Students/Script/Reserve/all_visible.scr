@@ -1,0 +1,16 @@
+# Allegro script
+#	file: D:\Allegro\t3\all_visible.scr
+#	start time: Mon Dec 29 11:58:29 2003
+version 14.2
+
+setwindow pcb
+trapsize 4441
+Color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main global_vis All Visible 
+fillin yes 
+FORM cvf_main apply  
+FORM cvf_main ok  
+
+#	stop time: Mon Dec 29 11:58:43 2003

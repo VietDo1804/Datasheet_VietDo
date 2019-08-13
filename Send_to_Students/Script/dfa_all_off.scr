@@ -1,0 +1,22 @@
+# Allegro script
+#	file: C:/SPB_Data/work/Mustang/ref/dfa_all_on.scr
+#	start time: Fri Nov 09 17:03:59 2012
+#	Version: 16.3 p006 (v16-3-85F) i86
+version 16.3
+
+setwindow pcb
+trapsize 8202
+placementedit
+color192 
+placementedit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Stack-Up'
+cvf layers_visible stack-up drc/package_top FALSE
+cvf layers_visible stack-up drc/package_bottom FALSE
+cvf layer_tree_item 'Package Geometry'
+cvf layers_visible package_geometry/dfa_bound_bottom FALSE
+cvf layers_visible package_geometry/dfa_bound_top FALSE
+cvf okay
+setwindow pcb
+
+#	stop time: Fri Nov 09 17:04:20 2012

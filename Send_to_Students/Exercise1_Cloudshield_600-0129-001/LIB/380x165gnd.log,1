@@ -1,0 +1,43 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 380x165GND.dra                                )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Wed Dec 05 19:39:20 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = F:/Learning/PCB/PCB - thay Toa/PCB_class/Send_to_Students/Exercise1_Cloudshield_600-0129-001/LIB
+    Name      = 380x165gnd.ssm
+    User      = ThinhPham
+    Machine   = THINHPHAM-PC
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-3): Shape symbol cannot have a void in a shape. 74513496 
+SHAPE        @74513496
+1)  mask              = 40
+2)  class             = 6 = ETCH
+3)  subclass          = 0 = TOP
+4)  branch_link       = 74513472
+5)  branch_ptr        = 74513472
+6)  symbol_ins_link   = 0
+7)  first_connection       = 0
+8)  first_void        = 74514816
+9)  first_outline_seg = 74513568
+10) first_patch_set   = 0
+11) shape_fill        = 1
+12) first_text        = 0
+13) first_relation    = 0
+14) extents.min       = (-19000, -8250)
+15) extents.max       = (19000, 8250)
+16) prev_branch_item  = 74513472
+
+ ERROR(SPMHCS-3): Shape symbol cannot have a void in a shape. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

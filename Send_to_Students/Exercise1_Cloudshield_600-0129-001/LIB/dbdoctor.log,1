@@ -1,0 +1,31 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : MOLEX_672983091.dra                           )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Mon Dec 10 18:26:37 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN ATTRIBUTE 
+  POINTER TO ATTRIBUTE INVALID
+   Error was fixed, object was deleted.
+
+ERROR IN SHAPE (no segment)
+  class = ROUTE KEEPOUT
+  subclass = TOP 
+  WARNING(SPMHA1-62): Illegal parent identifier.
+   Error was fixed, object was deleted.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:00
+
+0 warnings, 2 errors detected, 2 errors  fixed.

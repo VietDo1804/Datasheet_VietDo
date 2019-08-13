@@ -1,0 +1,26 @@
+# Allegro script
+#	file: Z:/working/mustang/21.scr
+#	start time: Thu Jan 24 10:06:22 2013
+#	Version: 16.3 S038 (v16-3-85CK) i86
+version 16.3
+
+setwindow pcb
+trapsize 66109
+generaledit
+color192 
+setwindow cvf.dialog
+cvf layer_mode
+setwindow pcb
+generaledit 
+setwindow cvf.dialog
+cvf layer_tree_item 'Package Geometry'
+cvf global_invisible
+cvf layers_visible package_geometry/place_bound_bottom TRUE
+cvf okay
+setwindow form.vf_vis
+FORM vf_vis 10 all_colorvisible YES 
+setwindow form.mini
+FORM mini subcolor 1 
+setwindow pcb
+
+#	stop time: Thu Jan 24 10:06:58 2013

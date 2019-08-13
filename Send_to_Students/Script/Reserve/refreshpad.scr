@@ -1,0 +1,17 @@
+# Allegro script
+#	file: D:\Allegro\t3\refreshpad.scr
+#	start time: Mon Dec 29 12:01:52 2003
+version 14.2
+
+setwindow pcb
+trapsize 2220
+refresh padstack 
+setwindow form.rf_pad
+FORM rf_pad all_padstacks YES 
+FORM rf_pad execute  
+setwindow pcb
+trapsize 2220
+setwindow form.rf_pad
+FORM rf_pad cancel  
+
+#	stop time: Mon Dec 29 12:02:12 2003

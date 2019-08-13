@@ -1,0 +1,16 @@
+# Allegro script
+#	file: C:\Users\thanhtung\design\I0124-06\g15.scr
+#	start time: Thu Oct 19 20:49:18 2000
+version 13.6
+
+setwindow pcb
+
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 15.00 
+FORM grid non_etch non_etch_y_grids 15.00 
+FORM grid all_etch all_etch_x_grids 15 
+FORM grid all_etch all_etch_y_grids 15 
+FORM grid done  
+
+#	stop time: Thu Oct 19 20:49:29 2000

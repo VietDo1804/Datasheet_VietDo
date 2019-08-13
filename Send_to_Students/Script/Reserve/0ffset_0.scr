@@ -1,0 +1,16 @@
+# Allegro script
+#	file: D:/Working/Infinera/working/06Nov06/0ffset_0.scr
+#	start time: Sun Nov 05 19:55:25 2006
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 3963
+define grid 
+setwindow form.grid
+FORM grid all_etch all_etch_x_offset 0.000 
+FORM grid all_etch all_etch_y_offset 0.000 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Sun Nov 05 19:55:39 2006

@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : TNSP_USBHUB3.brd                              )
+(    Software Version : 16.6-2015S071                                 )
+(    Date/Time        : Fri Dec 14 15:35:33 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN SHAPE (no segment)
+  class = BOARD GEOMETRY
+  subclass = OUTLINE 
+  WARNING(SPMHA1-62): Illegal parent identifier.
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+1 warnings, 1 errors detected, 0 errors could be fixed.

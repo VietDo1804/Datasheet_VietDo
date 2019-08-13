@@ -1,0 +1,15 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/CISCO_27Aug08/note.scr
+#	start time: Thu Aug 28 02:00:45 2008
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Geometry
+FORM cvf_main board_geometry/note/visible NO 
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Thu Aug 28 02:01:16 2008

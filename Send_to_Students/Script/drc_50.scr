@@ -1,0 +1,24 @@
+# Allegro script
+#	Version: 15.7 p007 (v15-7-42E) i86
+version 15.7
+
+
+setwindow pcb
+done
+prmed 
+setwindow form.prmedit
+FORM prmedit display
+FORM prmedit drc_marker_size 50.000 
+FORM prmedit done  
+setwindow pcb
+
+#setwindow pcb
+#done
+#status 
+#setwindow form.status
+#FORM status display
+#FORM status drc_marker_size 50.000 
+#FORM status done  
+#setwindow pcb
+
+#	stop time: Wed Sep 24 22:04:20 2008

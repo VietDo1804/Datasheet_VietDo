@@ -1,0 +1,16 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/OPTICAL/10NOV08/visible_no_prope.scr
+#	start time: Sun Nov 09 19:18:51 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Manufacturing 
+#FORM cvf_main manufacturing/no_probe_top/visible YES 
+FORM cvf_main manufacturing/no_probe_bottom/visible YES
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Sun Nov 09 19:19:21 2008

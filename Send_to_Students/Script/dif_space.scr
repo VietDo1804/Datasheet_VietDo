@@ -1,0 +1,11 @@
+# Allegro script
+#	file: F:/Working/work/28-10608-01_1108/board_ref/dif_space.scr
+#	start time: Thu Nov 17 22:03:35 2011
+#	Version: 16.3 S030 (v16-3-85BY) i86
+version 16.3
+
+setwindow pcb
+trapsize 27762
+resize_respace_dp 
+
+#	stop time: Thu Nov 17 22:04:01 2011

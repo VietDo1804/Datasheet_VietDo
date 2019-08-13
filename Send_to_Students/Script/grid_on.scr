@@ -1,0 +1,13 @@
+# Allegro script
+#	file: D:\Allegro\TSC\grid_on.scr
+#	start time: Tue Apr 22 19:07:04 2003
+version 14.1
+
+setwindow pcb
+trapsize 12483
+define grid 
+setwindow form.grid
+FORM grid display YES 
+FORM grid done  
+
+#	stop time: Tue Apr 22 19:07:17 2003

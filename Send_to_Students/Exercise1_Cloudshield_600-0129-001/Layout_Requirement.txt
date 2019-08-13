@@ -1,0 +1,80 @@
+
+**Exercise1**
+Below is Database from Customer, Please read through all. 
+- Datasheets
+- Doc: requirement and rules + DXF + Stackup
+- Schematic: netlist + Schema + BOM (use for footprints checking)
+- LIB: libary of some standard symbols
+- Fabnote + Logo 
+
+Requirements:
+1. Import netlist + DXF/PDF into a board. According to customer's request on "tnsp_usbhub3_routing_rules", Board name is TNSP_USBHUB3. 
+
+2. Build all missing footprints. If you need more information for footprints, please see "Creating and Checking Footprint Procedure" file in the Checklist_Document.
+
+3. Add more layers as Stackup file "	 4 LAYERS_600-1129-01_stackup"
+
+4. Add Artwork film by importing FILM_SETUP file
+
+5. Phy constraint: 
+Please set all rules as customer's requirement: Diff 90Ohm, power, 50 Ohm single ended traces....
+
+6. Spacing constraint: 
+GND to Mics. signals (50 Ohm) = 6 mils
+GND to Sensetive analog signals (AVDD_2V5 AVSS_GND RREF XTAL1 XTAL2 XTAL2_R) = 15 mils
+90 Ohm to GND = 20 mils
+90Ohm to 90Ohm = 30 mils
+90 Ohm to Power nets (except for GND)= 25 mils
+
+7. Do placement:
+Place some symbols based on DXF file
+Use TextPad to place Symbols in each group together into Board
+Place and Complete fanout for all symbols Within group(You should ratnet main symbol after that you will place other symbols easier).
+Place all decoupling caps close to each corresponding pin
+Led should be placed on TOP.
+
+8. Do routing:
+Make CHASSIS_GND shape along board outline with the spacing as below:
+	Board outline to CHASSIS_GND  25-50 mils
+	CHASSIS_GND to GND 25-50 mils
+Add more CHASSIS_GND vias along with board outline with via to via spacing 200-400 mils
+Complete all rat nets
+Clean up DRCs
+Implement lengh matching for all 90Ohm nets USB (5 mils tolorance)
+Pour GND on Top and Bottom
+
+
+9. Do silkscreen + Assembly both Top and Bottom. We will use Text block 2 (width height line_Space Photo_Width Char_Space --> 23 31 39 6 8) to do Silk + Assy or use text block that someone can see easily 
+
+10. You can ignore requirement #10 if you don't want use Logo. 
+Import fabnote with TEXT_BLOCK# 13 as below
+
+TEXT_BLOCK# 13
+  font:            ANSI
+  height:          200.000
+  width:           150.000
+  photoplot width: 0.000
+  spacing:         50.000
+  line spacing:    250.000
+ after that place Logo into Board.
+11. Drill legend:
+	a. Manufacture/NC/Drill customeization to check +/- tolerance of drill. According to normal standard we will have +/-3mils for plated and +/-2mils for non_plated, vias
+	b. Run Drill legend at Manufacture/NC/Drill Legend to show Drill chart table on fab film 
+  
+12. Implement all section on PCB_Checklist and QC 
+
+13. Check database and update DRCs
+
+14. Generate Gerber files (ODB++ or manual), please see ODB++ Exporting_20Sep18 for guideline
+
+15. Check short open with Cam350
+	a. File/Import/ODB++ to import ODB file into Cam350
+	b. Check all film to sure they are fine/OK
+	c. Check Short and Open
+		Tables/Layers to make sure that all layers are assigned correctly
+		Go to Tools and run Netlist Extract to export the nets of ODB++ file, you can see the extracted nets on Design Data/Nets
+		Go to Tools and run Compare External Nets to compare Nets with External nets. Cam350 will show you short or Open Nets. Recheck and correct them on Allegro.
+
+The End.
+	
+

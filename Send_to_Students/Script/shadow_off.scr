@@ -1,0 +1,18 @@
+# Allegro script
+#	file: E:/Working/Cisco_Catalunya_Rev3/02Nov06/display_off.scr
+#	start time: Wed Nov 01 19:38:38 2006
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+trapsize 2134
+color 
+setwindow form.cvf_main
+FORM cvf_main class_list Stack-Up
+FORM cvf_main class_list Display 
+FORM cvf_main shadow_off YES 
+FORM cvf_main apply  
+FORM cvf_main ok  
+setwindow pcb
+
+#	stop time: Wed Nov 01 19:38:49 2006

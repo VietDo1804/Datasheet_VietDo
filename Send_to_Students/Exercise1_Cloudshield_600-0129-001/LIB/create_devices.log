@@ -1,0 +1,43 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : S-Port USB Hurb_review.brd                    )
+(    Software Version : 16.6S020                                      )
+(    Date/Time        : Sun Nov 05 23:17:52 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_12pf_0402_50v_5p_1500-1206_04.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_1uf_0402_6v3_10p_1500-1146_04.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_22uf_1206_6v3_10p_1500-1097_1.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_4u7f_0603_6v3_15p_1500-1207_0.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_100uf_1210_6v3_20p_1500-1194_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_10uf_0603_6v3_20p_1500-1141_0.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_0u1f_0402_16v_10p_1500-1135_0.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/c_0402_16v_20p_x7r_1n0f_0402c_d.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/3000-1393_usb_b_recp_molex_6706.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/3000-1394_usb_a_vert_recp_molex.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/led_0603_grn_3100-1045_smtled_0.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/fuse_2a_125v_nano_2300-1027_fus.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/fb_0603_60ohm_1a_2100-1019_0603.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/mh_129x220_pth_mh_129x220_pth_d.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_33r2_0402_1p_1000-1380_0402r_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_2k43_0402_1p_1000-1503_0402r_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_10k_0402_1p_1000-1234_0402r_1.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_510k_0402_5p_1000-1504_0402r_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_3k57_0402_1p_1000-1344_0402r_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_1k15_0402_1p_1000-1345_0402r_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_0_0402_5p_1000-1377_0402r_0.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_15k_0402_5p_1000-1505_0402r_1.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_0_0402_5p_1000-1377_0402r_dnl.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/r_470_0402_5p_1000-1506_0402r_4.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/4000-1384_upd720114_tqfp48_nec_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/4000-1385_ap1212l_sol8l_diodes_.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/ic_tps74801_son10_3x3_adj_reg_t.txt': written successfully.
+Device file 'E:/Document/Allegro_trainning/Exercise1_Cloudshield_600-0129-001/LIB/xtal_30mhz_4p_vxm5_1900-1069_xt.txt': written successfully.
+
+  Created device files: 28
+

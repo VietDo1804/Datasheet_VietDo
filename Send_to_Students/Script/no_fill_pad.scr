@@ -1,0 +1,24 @@
+# Allegro script
+#	file: E:/A_CHUONG/WORKING/RGB_SQAM/21Oct08/fill_pad.scr
+#	start time: Tue Oct 21 20:25:54 2008
+#	Version: 15.51 p006 (v15-5.1-43E) i86
+version 15.51
+
+setwindow pcb
+prmed 
+setwindow form.prmedit
+FORM prmedit display
+FORM prmedit display_enhance NO 
+FORM prmedit done  
+setwindow pcb
+
+
+#setwindow pcb
+#status 
+#setwindow form.status
+#FORM status display  
+#FORM status display_enhance NO 
+#FORM status done  
+#setwindow pcb
+
+#	stop time: Tue Oct 21 20:26:06 2008
